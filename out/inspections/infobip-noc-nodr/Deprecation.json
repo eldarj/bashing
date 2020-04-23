@@ -1,0 +1,124 @@
+{
+  "problems": [
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-nodr-service/src/main/java/org/infobip/noc/nodr/service/stages/publish/AlertPublish.java",
+      "line": 188,
+      "offset": 18,
+      "length": 22,
+      "module": "infobip-noc-nodr-service",
+      "package": "org.infobip.noc.nodr.service.stages.publish",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.nodr.service.stages.publish.AlertPublish org.infobip.noc.common.models.alerting.data.CorrelationKey getCorrelationKey(org.infobip.noc.common.models.alerting.data.nodr.NodrAlert alert)"
+      },
+      "highlighted_element": "CorrelationKeyResponse",
+      "description": "'org.infobip.noc.core.connector.model.CorrelationKeyResponse' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-nodr-service/src/main/java/org/infobip/noc/nodr/service/stages/publish/AlertPublish.java",
+      "line": 188,
+      "offset": 79,
+      "length": 22,
+      "module": "infobip-noc-nodr-service",
+      "package": "org.infobip.noc.nodr.service.stages.publish",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.nodr.service.stages.publish.AlertPublish org.infobip.noc.common.models.alerting.data.CorrelationKey getCorrelationKey(org.infobip.noc.common.models.alerting.data.nodr.NodrAlert alert)"
+      },
+      "highlighted_element": "generateCorrelationKey",
+      "description": "'generateCorrelationKey(java.lang.String, java.lang.Class<? extends org.infobip.noc.common.models.alerting.data.Alert>)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-nodr-service/src/main/java/org/infobip/noc/nodr/service/stages/publish/AlertPublish.java",
+      "line": 188,
+      "offset": 102,
+      "length": 15,
+      "module": "infobip-noc-nodr-service",
+      "package": "org.infobip.noc.nodr.service.stages.publish",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.nodr.service.stages.publish.AlertPublish org.infobip.noc.common.models.alerting.data.CorrelationKey getCorrelationKey(org.infobip.noc.common.models.alerting.data.nodr.NodrAlert alert)"
+      },
+      "highlighted_element": "AlertJsonMapper",
+      "description": "'org.infobip.noc.common.models.alerting.data.AlertJsonMapper' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-nodr-service/src/main/java/org/infobip/noc/nodr/service/stages/publish/AlertPublish.java",
+      "line": 191,
+      "offset": 33,
+      "length": 24,
+      "module": "infobip-noc-nodr-service",
+      "package": "org.infobip.noc.nodr.service.stages.publish",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.nodr.service.stages.publish.AlertPublish org.infobip.noc.common.models.alerting.data.CorrelationKey getCorrelationKey(org.infobip.noc.common.models.alerting.data.nodr.NodrAlert alert)"
+      },
+      "highlighted_element": "CorrelationKeyJsonMapper",
+      "description": "'org.infobip.noc.common.models.alerting.data.CorrelationKeyJsonMapper' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-nodr-service/src/main/java/org/infobip/noc/nodr/service/stages/filter/RunFilter.java",
+      "line": 146,
+      "offset": 50,
+      "length": 8,
+      "module": "infobip-noc-nodr-service",
+      "package": "org.infobip.noc.nodr.service.stages.filter",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.nodr.service.stages.filter.RunFilter double getPendingPercent(int pending, int total)"
+      },
+      "highlighted_element": "setScale",
+      "description": "'setScale(int, int)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-nodr-service/src/main/java/org/infobip/noc/nodr/service/stages/filter/RunFilter.java",
+      "line": 146,
+      "offset": 73,
+      "length": 13,
+      "module": "infobip-noc-nodr-service",
+      "package": "org.infobip.noc.nodr.service.stages.filter",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.nodr.service.stages.filter.RunFilter double getPendingPercent(int pending, int total)"
+      },
+      "highlighted_element": "ROUND_HALF_UP",
+      "description": "'ROUND_HALF_UP' is deprecated"
+    }
+  ]
+}

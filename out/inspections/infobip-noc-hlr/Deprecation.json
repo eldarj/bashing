@@ -1,0 +1,1484 @@
+{
+  "problems": [
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/config/HlrServiceStatusProvider.java",
+      "line": 30,
+      "offset": 19,
+      "length": 5,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.config",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.config.HlrServiceStatusProvider boolean ready()"
+      },
+      "highlighted_element": "ready",
+      "description": "Overrides deprecated method in 'org.infobip.common.remoting.modules.servicestatus.ServiceStatusProvider'"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/stages/publish/AlertPublish.java",
+      "line": 201,
+      "offset": 102,
+      "length": 15,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.stages.publish",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.stages.publish.AlertPublish org.infobip.noc.common.models.alerting.data.CorrelationKey getCorrelationKey(org.infobip.noc.common.models.alerting.data.hlr.HlrAlert alert)"
+      },
+      "highlighted_element": "AlertJsonMapper",
+      "description": "'org.infobip.noc.common.models.alerting.data.AlertJsonMapper' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/stages/publish/AlertPublish.java",
+      "line": 204,
+      "offset": 33,
+      "length": 24,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.stages.publish",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.stages.publish.AlertPublish org.infobip.noc.common.models.alerting.data.CorrelationKey getCorrelationKey(org.infobip.noc.common.models.alerting.data.hlr.HlrAlert alert)"
+      },
+      "highlighted_element": "CorrelationKeyJsonMapper",
+      "description": "'org.infobip.noc.common.models.alerting.data.CorrelationKeyJsonMapper' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/stages/prefixgateway/PrefixGateway.java",
+      "line": 89,
+      "offset": 73,
+      "length": 12,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.stages.prefixgateway",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.stages.prefixgateway.PrefixGateway void handleRequest(org.infobip.noc.hlr.service.stages.prefixgateway.PrefixGatewayRequest prefixGatewayRequest)"
+      },
+      "highlighted_element": "publishAlert",
+      "description": "'publishAlert(java.lang.String, java.lang.Class<? extends org.infobip.noc.common.models.alerting.data.Alert>)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/stages/prefixgateway/PrefixGateway.java",
+      "line": 89,
+      "offset": 86,
+      "length": 15,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.stages.prefixgateway",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.stages.prefixgateway.PrefixGateway void handleRequest(org.infobip.noc.hlr.service.stages.prefixgateway.PrefixGatewayRequest prefixGatewayRequest)"
+      },
+      "highlighted_element": "AlertJsonMapper",
+      "description": "'org.infobip.noc.common.models.alerting.data.AlertJsonMapper' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/DCGatewayFlagPhase.java",
+      "line": 44,
+      "offset": 78,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.DCGatewayFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/DCGatewayFlagPhase.java",
+      "line": 44,
+      "offset": 158,
+      "length": 14,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.DCGatewayFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/DCGatewayFlagPhase.java",
+      "line": 46,
+      "offset": 92,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.DCGatewayFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/DCGatewayFlagPhase.java",
+      "line": 53,
+      "offset": 88,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.DCGatewayFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/DCGatewayFlagPhase.java",
+      "line": 53,
+      "offset": 183,
+      "length": 14,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.DCGatewayFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/DCGatewayFlagPhase.java",
+      "line": 56,
+      "offset": 76,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.DCGatewayFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/DCGatewayFlagPhase.java",
+      "line": 57,
+      "offset": 76,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.DCGatewayFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/MnpPlusHlrFlagPhase.java",
+      "line": 47,
+      "offset": 78,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.MnpPlusHlrFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/MnpPlusHlrFlagPhase.java",
+      "line": 47,
+      "offset": 158,
+      "length": 14,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.MnpPlusHlrFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/stages/networkfiltering/NetworkFiltering.java",
+      "line": 98,
+      "offset": 73,
+      "length": 12,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.stages.networkfiltering",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.stages.networkfiltering.NetworkFiltering void handleRequest(org.infobip.noc.hlr.service.stages.networkfiltering.NetworkFilteringRequest networkFilteringRequest)"
+      },
+      "highlighted_element": "publishAlert",
+      "description": "'publishAlert(java.lang.String, java.lang.Class<? extends org.infobip.noc.common.models.alerting.data.Alert>)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/MnpPlusHlrFlagPhase.java",
+      "line": 49,
+      "offset": 92,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.MnpPlusHlrFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/stages/networkfiltering/NetworkFiltering.java",
+      "line": 98,
+      "offset": 86,
+      "length": 15,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.stages.networkfiltering",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.stages.networkfiltering.NetworkFiltering void handleRequest(org.infobip.noc.hlr.service.stages.networkfiltering.NetworkFilteringRequest networkFilteringRequest)"
+      },
+      "highlighted_element": "AlertJsonMapper",
+      "description": "'org.infobip.noc.common.models.alerting.data.AlertJsonMapper' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/MnpPlusHlrFlagPhase.java",
+      "line": 60,
+      "offset": 88,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.MnpPlusHlrFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/MnpPlusHlrFlagPhase.java",
+      "line": 60,
+      "offset": 180,
+      "length": 14,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.MnpPlusHlrFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/MnpPlusHlrFlagPhase.java",
+      "line": 63,
+      "offset": 76,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.MnpPlusHlrFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/MnpPlusHlrFlagPhase.java",
+      "line": 64,
+      "offset": 76,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.MnpPlusHlrFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/SpamDiagnosticFlagPhase.java",
+      "line": 64,
+      "offset": 78,
+      "length": 14,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.SpamDiagnosticFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/SpamDiagnosticFlagPhase.java",
+      "line": 64,
+      "offset": 174,
+      "length": 14,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.SpamDiagnosticFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/SpamDiagnosticFlagPhase.java",
+      "line": 67,
+      "offset": 80,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.SpamDiagnosticFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/SpamDiagnosticFlagPhase.java",
+      "line": 68,
+      "offset": 80,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.SpamDiagnosticFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/SpamDiagnosticFlagPhase.java",
+      "line": 71,
+      "offset": 113,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.SpamDiagnosticFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/ImportantNetworkFlagPhase.java",
+      "line": 45,
+      "offset": 78,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.ImportantNetworkFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/ImportantNetworkFlagPhase.java",
+      "line": 45,
+      "offset": 158,
+      "length": 14,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.ImportantNetworkFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/ImportantNetworkFlagPhase.java",
+      "line": 47,
+      "offset": 92,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.ImportantNetworkFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/ImportantNetworkFlagPhase.java",
+      "line": 54,
+      "offset": 88,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.ImportantNetworkFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/ImportantNetworkFlagPhase.java",
+      "line": 54,
+      "offset": 190,
+      "length": 14,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.ImportantNetworkFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/ImportantNetworkFlagPhase.java",
+      "line": 57,
+      "offset": 76,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.ImportantNetworkFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/ImportantNetworkFlagPhase.java",
+      "line": 58,
+      "offset": 76,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.ImportantNetworkFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/PossibleReasonFlagPhase.java",
+      "line": 54,
+      "offset": 90,
+      "length": 14,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.PossibleReasonFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "getAlertReason",
+      "description": "'getAlertReason()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/PossibleReasonFlagPhase.java",
+      "line": 67,
+      "offset": 84,
+      "length": 14,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.PossibleReasonFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/PossibleReasonFlagPhase.java",
+      "line": 67,
+      "offset": 180,
+      "length": 14,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.PossibleReasonFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/PossibleReasonFlagPhase.java",
+      "line": 69,
+      "offset": 92,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.PossibleReasonFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/PossibleReasonFlagPhase.java",
+      "line": 70,
+      "offset": 92,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.PossibleReasonFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/PossibleReasonFlagPhase.java",
+      "line": 72,
+      "offset": 125,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.PossibleReasonFlagPhase void run(org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/DeliveryForClientsUnderRiskPhase.java",
+      "line": 96,
+      "offset": 76,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.DeliveryForClientsUnderRiskPhase void updateClientsUnderRiskDeliveries(java.util.Map<java.lang.Integer,org.infobip.noc.common.models.alerting.data.ClientUnderRisk> clientUnderRisk, java.util.Map<org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag> diagnosticFlags, java.util.Map<org.infobip.noc.common.models.alerting.data.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.diagnostics.DiagnosticFlag> flags, org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request, int requestTypeId, java.lang.Integer networkId, java.lang.Integer gatewayId)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/DeliveryForClientsUnderRiskPhase.java",
+      "line": 96,
+      "offset": 156,
+      "length": 14,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.DeliveryForClientsUnderRiskPhase void updateClientsUnderRiskDeliveries(java.util.Map<java.lang.Integer,org.infobip.noc.common.models.alerting.data.ClientUnderRisk> clientUnderRisk, java.util.Map<org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag> diagnosticFlags, java.util.Map<org.infobip.noc.common.models.alerting.data.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.diagnostics.DiagnosticFlag> flags, org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request, int requestTypeId, java.lang.Integer networkId, java.lang.Integer gatewayId)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/DeliveryForClientsUnderRiskPhase.java",
+      "line": 124,
+      "offset": 96,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.DeliveryForClientsUnderRiskPhase void updateClientsUnderRiskDeliveries(java.util.Map<java.lang.Integer,org.infobip.noc.common.models.alerting.data.ClientUnderRisk> clientUnderRisk, java.util.Map<org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag> diagnosticFlags, java.util.Map<org.infobip.noc.common.models.alerting.data.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.diagnostics.DiagnosticFlag> flags, org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request, int requestTypeId, java.lang.Integer networkId, java.lang.Integer gatewayId)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/DeliveryForClientsUnderRiskPhase.java",
+      "line": 124,
+      "offset": 199,
+      "length": 14,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.DeliveryForClientsUnderRiskPhase void updateClientsUnderRiskDeliveries(java.util.Map<java.lang.Integer,org.infobip.noc.common.models.alerting.data.ClientUnderRisk> clientUnderRisk, java.util.Map<org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag> diagnosticFlags, java.util.Map<org.infobip.noc.common.models.alerting.data.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.diagnostics.DiagnosticFlag> flags, org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request, int requestTypeId, java.lang.Integer networkId, java.lang.Integer gatewayId)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/DeliveryForClientsUnderRiskPhase.java",
+      "line": 127,
+      "offset": 84,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.DeliveryForClientsUnderRiskPhase void updateClientsUnderRiskDeliveries(java.util.Map<java.lang.Integer,org.infobip.noc.common.models.alerting.data.ClientUnderRisk> clientUnderRisk, java.util.Map<org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag> diagnosticFlags, java.util.Map<org.infobip.noc.common.models.alerting.data.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.diagnostics.DiagnosticFlag> flags, org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request, int requestTypeId, java.lang.Integer networkId, java.lang.Integer gatewayId)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/DeliveryForClientsUnderRiskPhase.java",
+      "line": 128,
+      "offset": 84,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.DeliveryForClientsUnderRiskPhase void updateClientsUnderRiskDeliveries(java.util.Map<java.lang.Integer,org.infobip.noc.common.models.alerting.data.ClientUnderRisk> clientUnderRisk, java.util.Map<org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag> diagnosticFlags, java.util.Map<org.infobip.noc.common.models.alerting.data.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.diagnostics.DiagnosticFlag> flags, org.infobip.noc.hlr.service.diagnostics.DiagnosticsRequest request, int requestTypeId, java.lang.Integer networkId, java.lang.Integer gatewayId)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/StatusReasonErrorCodeSmsCountsPhase.java",
+      "line": 99,
+      "offset": 78,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.StatusReasonErrorCodeSmsCountsPhase void setMissingDiagnosticsFlags(org.infobip.noc.common.models.alerting.data.hlr.BaseHlrAlertDiagnostic alertDiagnostic, java.util.List<org.infobip.noc.common.models.alerting.data.diagnostics.StatusReasonErrorCodeSmsCount> statusReasonErrorCodeSmsCounts, int undelivered)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/StatusReasonErrorCodeSmsCountsPhase.java",
+      "line": 99,
+      "offset": 158,
+      "length": 14,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.StatusReasonErrorCodeSmsCountsPhase void setMissingDiagnosticsFlags(org.infobip.noc.common.models.alerting.data.hlr.BaseHlrAlertDiagnostic alertDiagnostic, java.util.List<org.infobip.noc.common.models.alerting.data.diagnostics.StatusReasonErrorCodeSmsCount> statusReasonErrorCodeSmsCounts, int undelivered)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/StatusReasonErrorCodeSmsCountsPhase.java",
+      "line": 125,
+      "offset": 76,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.StatusReasonErrorCodeSmsCountsPhase java.util.Map<org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag> getOldRelatedDiagnosticFlags(java.util.List<org.infobip.noc.common.models.alerting.data.diagnostics.StatusReasonErrorCodeSmsCount> statusReasonErrorCodeSmsCounts, int undelivered)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/StatusReasonErrorCodeSmsCountsPhase.java",
+      "line": 125,
+      "offset": 156,
+      "length": 14,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.StatusReasonErrorCodeSmsCountsPhase java.util.Map<org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag> getOldRelatedDiagnosticFlags(java.util.List<org.infobip.noc.common.models.alerting.data.diagnostics.StatusReasonErrorCodeSmsCount> statusReasonErrorCodeSmsCounts, int undelivered)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/StatusReasonErrorCodeSmsCountsPhase.java",
+      "line": 126,
+      "offset": 78,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.StatusReasonErrorCodeSmsCountsPhase java.util.Map<org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag> getOldRelatedDiagnosticFlags(java.util.List<org.infobip.noc.common.models.alerting.data.diagnostics.StatusReasonErrorCodeSmsCount> statusReasonErrorCodeSmsCounts, int undelivered)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/StatusReasonErrorCodeSmsCountsPhase.java",
+      "line": 126,
+      "offset": 158,
+      "length": 14,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.StatusReasonErrorCodeSmsCountsPhase java.util.Map<org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag> getOldRelatedDiagnosticFlags(java.util.List<org.infobip.noc.common.models.alerting.data.diagnostics.StatusReasonErrorCodeSmsCount> statusReasonErrorCodeSmsCounts, int undelivered)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/StatusReasonErrorCodeSmsCountsPhase.java",
+      "line": 130,
+      "offset": 119,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.StatusReasonErrorCodeSmsCountsPhase java.util.Map<org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag> getOldRelatedDiagnosticFlags(java.util.List<org.infobip.noc.common.models.alerting.data.diagnostics.StatusReasonErrorCodeSmsCount> statusReasonErrorCodeSmsCounts, int undelivered)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/StatusReasonErrorCodeSmsCountsPhase.java",
+      "line": 132,
+      "offset": 119,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.StatusReasonErrorCodeSmsCountsPhase java.util.Map<org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag> getOldRelatedDiagnosticFlags(java.util.List<org.infobip.noc.common.models.alerting.data.diagnostics.StatusReasonErrorCodeSmsCount> statusReasonErrorCodeSmsCounts, int undelivered)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/StatusReasonErrorCodeSmsCountsPhase.java",
+      "line": 134,
+      "offset": 119,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.StatusReasonErrorCodeSmsCountsPhase java.util.Map<org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag> getOldRelatedDiagnosticFlags(java.util.List<org.infobip.noc.common.models.alerting.data.diagnostics.StatusReasonErrorCodeSmsCount> statusReasonErrorCodeSmsCounts, int undelivered)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/StatusReasonErrorCodeSmsCountsPhase.java",
+      "line": 136,
+      "offset": 119,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.StatusReasonErrorCodeSmsCountsPhase java.util.Map<org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag> getOldRelatedDiagnosticFlags(java.util.List<org.infobip.noc.common.models.alerting.data.diagnostics.StatusReasonErrorCodeSmsCount> statusReasonErrorCodeSmsCounts, int undelivered)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/StatusReasonErrorCodeSmsCountsPhase.java",
+      "line": 138,
+      "offset": 119,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.StatusReasonErrorCodeSmsCountsPhase java.util.Map<org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag> getOldRelatedDiagnosticFlags(java.util.List<org.infobip.noc.common.models.alerting.data.diagnostics.StatusReasonErrorCodeSmsCount> statusReasonErrorCodeSmsCounts, int undelivered)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/StatusReasonErrorCodeSmsCountsPhase.java",
+      "line": 140,
+      "offset": 119,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.StatusReasonErrorCodeSmsCountsPhase java.util.Map<org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag> getOldRelatedDiagnosticFlags(java.util.List<org.infobip.noc.common.models.alerting.data.diagnostics.StatusReasonErrorCodeSmsCount> statusReasonErrorCodeSmsCounts, int undelivered)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/StatusReasonErrorCodeSmsCountsPhase.java",
+      "line": 173,
+      "offset": 76,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.StatusReasonErrorCodeSmsCountsPhase void putOldDiagnosticFlagIfCountExists(java.util.Map<org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag> diagnosticFlags, org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType diagnosticFlagType, java.lang.Integer count, int undelivered)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/StatusReasonErrorCodeSmsCountsPhase.java",
+      "line": 173,
+      "offset": 156,
+      "length": 14,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.StatusReasonErrorCodeSmsCountsPhase void putOldDiagnosticFlagIfCountExists(java.util.Map<org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag> diagnosticFlags, org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType diagnosticFlagType, java.lang.Integer count, int undelivered)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/StatusReasonErrorCodeSmsCountsPhase.java",
+      "line": 174,
+      "offset": 72,
+      "length": 18,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.StatusReasonErrorCodeSmsCountsPhase void putOldDiagnosticFlagIfCountExists(java.util.Map<org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag> diagnosticFlags, org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType diagnosticFlagType, java.lang.Integer count, int undelivered)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/StatusReasonErrorCodeSmsCountsPhase.java",
+      "line": 178,
+      "offset": 78,
+      "length": 14,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.StatusReasonErrorCodeSmsCountsPhase void putOldDiagnosticFlagIfCountExists(java.util.Map<org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag> diagnosticFlags, org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType diagnosticFlagType, java.lang.Integer count, int undelivered)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/main/java/org/infobip/noc/hlr/service/diagnostics/phases/StatusReasonErrorCodeSmsCountsPhase.java",
+      "line": 178,
+      "offset": 174,
+      "length": 14,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.diagnostics.phases.StatusReasonErrorCodeSmsCountsPhase void putOldDiagnosticFlagIfCountExists(java.util.Map<org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag> diagnosticFlags, org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType diagnosticFlagType, java.lang.Integer count, int undelivered)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/test/java/org/infobip/noc/hlr/service/impl/AlertFinisherServiceImplTest.java",
+      "line": 25,
+      "offset": 58,
+      "length": 10,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.impl",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.impl.AlertFinisherServiceImplTest void successfulTermination()"
+      },
+      "highlighted_element": "deactivate",
+      "description": "'deactivate(java.lang.@org.jetbrains.annotations.NotNull String, org.infobip.noc.common.models.alerting.data.AlertResolution)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/test/java/org/infobip/noc/hlr/service/impl/AlertFinisherServiceImplTest.java",
+      "line": 27,
+      "offset": 32,
+      "length": 9,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.impl",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.impl.AlertFinisherServiceImplTest void successfulTermination()"
+      },
+      "highlighted_element": "terminate",
+      "description": "'terminate(java.lang.String, org.infobip.noc.common.models.alerting.data.AlertResolution)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/test/java/org/infobip/noc/hlr/service/impl/AlertFinisherServiceImplTest.java",
+      "line": 29,
+      "offset": 66,
+      "length": 10,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.impl",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.impl.AlertFinisherServiceImplTest void successfulTermination()"
+      },
+      "highlighted_element": "deactivate",
+      "description": "'deactivate(java.lang.@org.jetbrains.annotations.NotNull String, org.infobip.noc.common.models.alerting.data.AlertResolution)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/test/java/org/infobip/noc/hlr/service/impl/AlertFinisherServiceImplTest.java",
+      "line": 36,
+      "offset": 71,
+      "length": 10,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.impl",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.impl.AlertFinisherServiceImplTest void unsuccessfulTerminationThrowsException()"
+      },
+      "highlighted_element": "deactivate",
+      "description": "'deactivate(java.lang.@org.jetbrains.annotations.NotNull String, org.infobip.noc.common.models.alerting.data.AlertResolution)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/test/java/org/infobip/noc/hlr/service/impl/AlertFinisherServiceImplTest.java",
+      "line": 38,
+      "offset": 32,
+      "length": 9,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.impl",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.impl.AlertFinisherServiceImplTest void unsuccessfulTerminationThrowsException()"
+      },
+      "highlighted_element": "terminate",
+      "description": "'terminate(java.lang.String, org.infobip.noc.common.models.alerting.data.AlertResolution)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/test/java/org/infobip/noc/hlr/service/impl/AlertFinisherServiceImplTest.java",
+      "line": 40,
+      "offset": 66,
+      "length": 10,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.impl",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.impl.AlertFinisherServiceImplTest void unsuccessfulTerminationThrowsException()"
+      },
+      "highlighted_element": "deactivate",
+      "description": "'deactivate(java.lang.@org.jetbrains.annotations.NotNull String, org.infobip.noc.common.models.alerting.data.AlertResolution)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/test/java/org/infobip/noc/hlr/service/stages/prefixgateway/PrefixGatewayTest.java",
+      "line": 72,
+      "offset": 36,
+      "length": 12,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.stages.prefixgateway",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.stages.prefixgateway.PrefixGatewayTest void alertIsPublishedSavedAndActivatedWhenEnoughTraffic()"
+      },
+      "highlighted_element": "publishAlert",
+      "description": "'publishAlert(java.lang.String, java.lang.Class<? extends org.infobip.noc.common.models.alerting.data.Alert>)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/test/java/org/infobip/noc/hlr/service/stages/prefixgateway/PrefixGatewayTest.java",
+      "line": 77,
+      "offset": 57,
+      "length": 12,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.stages.prefixgateway",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.stages.prefixgateway.PrefixGatewayTest void alertIsPublishedSavedAndActivatedWhenEnoughTraffic()"
+      },
+      "highlighted_element": "publishAlert",
+      "description": "'publishAlert(java.lang.String, java.lang.Class<? extends org.infobip.noc.common.models.alerting.data.Alert>)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/test/java/org/infobip/noc/hlr/service/stages/prefixgateway/PrefixGatewayTest.java",
+      "line": 88,
+      "offset": 56,
+      "length": 12,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.stages.prefixgateway",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.stages.prefixgateway.PrefixGatewayTest void alertIsNotPublishedWhenNotEnoughTraffic()"
+      },
+      "highlighted_element": "publishAlert",
+      "description": "'publishAlert(java.lang.String, java.lang.Class<? extends org.infobip.noc.common.models.alerting.data.Alert>)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/test/java/org/infobip/noc/hlr/service/stages/prefixgateway/PrefixGatewayTest.java",
+      "line": 140,
+      "offset": 15,
+      "length": 15,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service.stages.prefixgateway",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.stages.prefixgateway.PrefixGatewayTest java.lang.String mockAlertJson()"
+      },
+      "highlighted_element": "AlertJsonMapper",
+      "description": "'org.infobip.noc.common.models.alerting.data.AlertJsonMapper' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/test/java/org/infobip/noc/hlr/service/RankingServiceTestDataGenerator.java",
+      "line": 67,
+      "offset": 33,
+      "length": 11,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.RankingServiceTestDataGenerator org.mongodb.morphia.Datastore getDatastore(java.lang.String username, java.lang.String password)"
+      },
+      "highlighted_element": "MongoClient",
+      "description": "'MongoClient(java.util.List<com.mongodb.ServerAddress>, java.util.List<com.mongodb.MongoCredential>)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-hlr-service/src/test/java/org/infobip/noc/hlr/service/RankingServiceTest.java",
+      "line": 81,
+      "offset": 35,
+      "length": 12,
+      "module": "infobip-noc-hlr-service",
+      "package": "org.infobip.noc.hlr.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.hlr.service.RankingServiceTest void initMocks()"
+      },
+      "highlighted_element": "isAccessible",
+      "description": "'isAccessible()' is deprecated"
+    }
+  ]
+}

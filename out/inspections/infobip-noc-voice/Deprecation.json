@@ -1,0 +1,644 @@
+{
+  "problems": [
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/main/java/org/infobip/noc/voice/service/stages/publish/CongestionAlertPublish.java",
+      "line": 169,
+      "offset": 92,
+      "length": 15,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.service.stages.publish",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voice.service.stages.publish.CongestionAlertPublish org.infobip.noc.common.models.alerting.data.CorrelationKey getCorrelationKey(org.infobip.noc.common.models.alerting.data.voice.VoiceCongestionAlert alert)"
+      },
+      "highlighted_element": "AlertJsonMapper",
+      "description": "'org.infobip.noc.common.models.alerting.data.AlertJsonMapper' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/main/java/org/infobip/noc/voice/service/stages/diagnostic/CongestionDiagnosticsRun.java",
+      "line": 91,
+      "offset": 66,
+      "length": 13,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.service.stages.diagnostic",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voice.service.stages.diagnostic.CongestionDiagnosticsRun void updateAlert(org.infobip.noc.voice.service.stages.diagnostic.DiagnosticsRunRequest request)"
+      },
+      "highlighted_element": "getCongestion",
+      "description": "'getCongestion()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/main/java/org/infobip/noc/voice/service/stages/publish/CongestionAlertPublish.java",
+      "line": 172,
+      "offset": 29,
+      "length": 24,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.service.stages.publish",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voice.service.stages.publish.CongestionAlertPublish org.infobip.noc.common.models.alerting.data.CorrelationKey getCorrelationKey(org.infobip.noc.common.models.alerting.data.voice.VoiceCongestionAlert alert)"
+      },
+      "highlighted_element": "CorrelationKeyJsonMapper",
+      "description": "'org.infobip.noc.common.models.alerting.data.CorrelationKeyJsonMapper' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/main/java/org/infobip/noc/voice/service/stages/diagnostic/CongestionDiagnosticsRun.java",
+      "line": 91,
+      "offset": 116,
+      "length": 13,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.service.stages.diagnostic",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voice.service.stages.diagnostic.CongestionDiagnosticsRun void updateAlert(org.infobip.noc.voice.service.stages.diagnostic.DiagnosticsRunRequest request)"
+      },
+      "highlighted_element": "getCongestion",
+      "description": "'getCongestion()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/main/java/org/infobip/noc/voice/service/diagnostic/phase/ClientCongestionPhase.java",
+      "line": 66,
+      "offset": 80,
+      "length": 19,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.service.diagnostic.phase",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voice.service.diagnostic.phase.ClientCongestionPhase void run(org.infobip.noc.voice.service.diagnostic.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "setClientCongestion",
+      "description": "'setClientCongestion(org.infobip.noc.common.models.alerting.data.Congestion)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/main/java/org/infobip/noc/voice/service/diagnostic/phase/ClientCongestionPhase.java",
+      "line": 68,
+      "offset": 80,
+      "length": 19,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.service.diagnostic.phase",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voice.service.diagnostic.phase.ClientCongestionPhase void run(org.infobip.noc.voice.service.diagnostic.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "setClientCongestion",
+      "description": "'setClientCongestion(org.infobip.noc.common.models.alerting.data.Congestion)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/main/java/org/infobip/noc/voice/service/diagnostic/phase/ClientCongestionPhase.java",
+      "line": 84,
+      "offset": 80,
+      "length": 19,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.service.diagnostic.phase",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voice.service.diagnostic.phase.ClientCongestionPhase boolean isAlreadyRan(org.infobip.noc.common.models.alerting.data.voice.BaseVoiceCongestionAlertDiagnostic alertDiagnostic)"
+      },
+      "highlighted_element": "getClientCongestion",
+      "description": "'getClientCongestion()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/main/java/org/infobip/noc/voice/service/diagnostic/phase/ClientCongestionPhase.java",
+      "line": 86,
+      "offset": 80,
+      "length": 19,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.service.diagnostic.phase",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voice.service.diagnostic.phase.ClientCongestionPhase boolean isAlreadyRan(org.infobip.noc.common.models.alerting.data.voice.BaseVoiceCongestionAlertDiagnostic alertDiagnostic)"
+      },
+      "highlighted_element": "getClientCongestion",
+      "description": "'getClientCongestion()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/main/java/org/infobip/noc/voice/service/diagnostic/phase/GatewayCongestionPhase.java",
+      "line": 43,
+      "offset": 80,
+      "length": 20,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.service.diagnostic.phase",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voice.service.diagnostic.phase.GatewayCongestionPhase void run(org.infobip.noc.voice.service.diagnostic.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "getGatewayCongestion",
+      "description": "'getGatewayCongestion()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/main/java/org/infobip/noc/voice/service/diagnostic/phase/GatewayCongestionPhase.java",
+      "line": 47,
+      "offset": 81,
+      "length": 20,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.service.diagnostic.phase",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voice.service.diagnostic.phase.GatewayCongestionPhase void run(org.infobip.noc.voice.service.diagnostic.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "getGatewayCongestion",
+      "description": "'getGatewayCongestion()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/main/java/org/infobip/noc/voice/service/diagnostic/phase/NetworkCongestionPhase.java",
+      "line": 44,
+      "offset": 80,
+      "length": 20,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.service.diagnostic.phase",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voice.service.diagnostic.phase.NetworkCongestionPhase void run(org.infobip.noc.voice.service.diagnostic.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "getNetworkCongestion",
+      "description": "'getNetworkCongestion()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/main/java/org/infobip/noc/voice/service/diagnostic/phase/NetworkCongestionPhase.java",
+      "line": 48,
+      "offset": 74,
+      "length": 20,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.service.diagnostic.phase",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voice.service.diagnostic.phase.NetworkCongestionPhase void run(org.infobip.noc.voice.service.diagnostic.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "getNetworkCongestion",
+      "description": "'getNetworkCongestion()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/main/java/org/infobip/noc/voice/service/diagnostic/phase/NetworkCongestionPhase.java",
+      "line": 52,
+      "offset": 81,
+      "length": 20,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.service.diagnostic.phase",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voice.service.diagnostic.phase.NetworkCongestionPhase void run(org.infobip.noc.voice.service.diagnostic.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "getNetworkCongestion",
+      "description": "'getNetworkCongestion()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/main/java/org/infobip/noc/voice/service/HazelcastService.java",
+      "line": 26,
+      "offset": 33,
+      "length": 13,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voice.service.HazelcastService com.hazelcast.core.IAtomicLong getActiveAggregationPeriodEndTime()"
+      },
+      "highlighted_element": "getAtomicLong",
+      "description": "'getAtomicLong(java.lang.String)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/main/java/org/infobip/noc/voice/service/HazelcastService.java",
+      "line": 37,
+      "offset": 11,
+      "length": 5,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voice.service.HazelcastService com.hazelcast.core.ILock getSlowProcessingCheckLock()"
+      },
+      "highlighted_element": "ILock",
+      "description": "'com.hazelcast.core.ILock' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/main/java/org/infobip/noc/voice/service/HazelcastService.java",
+      "line": 38,
+      "offset": 33,
+      "length": 7,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voice.service.HazelcastService com.hazelcast.core.ILock getSlowProcessingCheckLock()"
+      },
+      "highlighted_element": "getLock",
+      "description": "'getLock(java.lang.String)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/main/java/org/infobip/noc/voice/service/HazelcastService.java",
+      "line": 41,
+      "offset": 11,
+      "length": 5,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voice.service.HazelcastService com.hazelcast.core.ILock getInitAggregationPeriodLock()"
+      },
+      "highlighted_element": "ILock",
+      "description": "'com.hazelcast.core.ILock' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/main/java/org/infobip/noc/voice/service/HazelcastService.java",
+      "line": 42,
+      "offset": 33,
+      "length": 7,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voice.service.HazelcastService com.hazelcast.core.ILock getInitAggregationPeriodLock()"
+      },
+      "highlighted_element": "getLock",
+      "description": "'getLock(java.lang.String)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/main/java/org/infobip/noc/voice/service/diagnostic/DiagnosticsExecutor.java",
+      "line": 91,
+      "offset": 43,
+      "length": 13,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.service.diagnostic",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voice.service.diagnostic.DiagnosticsExecutor void createAlertDiagnostic(org.infobip.noc.common.models.alerting.data.voice.CongestionAnomaly anomaly)"
+      },
+      "highlighted_element": "setCongestion",
+      "description": "'setCongestion(org.infobip.noc.common.models.alerting.data.Congestion)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/main/java/org/infobip/noc/voice/service/AggregationPeriodHazelcastService.java",
+      "line": 39,
+      "offset": 18,
+      "length": 5,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.voice.service.AggregationPeriodHazelcastService slowProcessingCheckLock"
+      },
+      "highlighted_element": "ILock",
+      "description": "'com.hazelcast.core.ILock' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/main/java/org/infobip/noc/voice/service/AggregationPeriodHazelcastService.java",
+      "line": 41,
+      "offset": 18,
+      "length": 5,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.voice.service.AggregationPeriodHazelcastService initAggregationPeriodLock"
+      },
+      "highlighted_element": "ILock",
+      "description": "'com.hazelcast.core.ILock' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/main/java/org/infobip/noc/voice/scheduling/MainRunScheduler.java",
+      "line": 38,
+      "offset": 14,
+      "length": 5,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.scheduling",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voice.scheduling.MainRunScheduler void run()"
+      },
+      "highlighted_element": "ILock",
+      "description": "'com.hazelcast.core.ILock' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/main/java/org/infobip/noc/voice/scheduling/AnomaliesAndDataPointsDeletionScheduler.java",
+      "line": 46,
+      "offset": 8,
+      "length": 5,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.scheduling",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voice.scheduling.AnomaliesAndDataPointsDeletionScheduler void runAnomaliesAndDataPointsDeletion()"
+      },
+      "highlighted_element": "ILock",
+      "description": "'com.hazelcast.core.ILock' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/main/java/org/infobip/noc/voice/scheduling/AnomaliesAndDataPointsDeletionScheduler.java",
+      "line": 46,
+      "offset": 39,
+      "length": 7,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.scheduling",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voice.scheduling.AnomaliesAndDataPointsDeletionScheduler void runAnomaliesAndDataPointsDeletion()"
+      },
+      "highlighted_element": "getLock",
+      "description": "'getLock(java.lang.String)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/main/java/org/infobip/noc/voice/scheduling/AnomaliesAndDataPointsDeletionScheduler.java",
+      "line": 92,
+      "offset": 33,
+      "length": 7,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.scheduling",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voice.scheduling.AnomaliesAndDataPointsDeletionScheduler long remainingLeaseTime()"
+      },
+      "highlighted_element": "getLock",
+      "description": "'getLock(java.lang.String)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/main/java/org/infobip/noc/voice/persistence/elasticsearch/RelevantDataPointsElasticsearchDataProvider.java",
+      "line": 129,
+      "offset": 33,
+      "length": 8,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.persistence.elasticsearch",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voice.persistence.elasticsearch.RelevantDataPointsElasticsearchDataProvider org.elasticsearch.search.builder.SearchSourceBuilder getSearchSourceBuilder(long startTime, long endTime, java.lang.Integer requestTypeId, java.lang.Integer channelId, java.lang.Integer gatewayId, java.lang.Integer networkId, org.infobip.noc.common.models.alerting.data.AlertType alertType)"
+      },
+      "highlighted_element": "interval",
+      "description": "'interval(long)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/test/java/org/infobip/noc/voice/service/stages/publish/CongestionAlertPublishTest.java",
+      "line": 79,
+      "offset": 59,
+      "length": 13,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.service.stages.publish",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voice.service.stages.publish.CongestionAlertPublishTest void before()"
+      },
+      "highlighted_element": "getAtomicLong",
+      "description": "'getAtomicLong(java.lang.String)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/test/java/org/infobip/noc/voice/service/diagnostic/phase/ClientCongestionPhaseTest.java",
+      "line": 102,
+      "offset": 101,
+      "length": 19,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.service.diagnostic.phase",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voice.service.diagnostic.phase.ClientCongestionPhaseTest org.infobip.noc.voice.service.diagnostic.DiagnosticsExecutor mockAlertDiagnosticAfterRun(org.infobip.noc.common.models.alerting.data.AggregateType aggregateType, java.lang.Integer networkId, java.lang.Integer gatewayId)"
+      },
+      "highlighted_element": "setClientCongestion",
+      "description": "'setClientCongestion(org.infobip.noc.common.models.alerting.data.Congestion)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/test/java/org/infobip/noc/voice/service/diagnostic/phase/ClientCongestionPhaseTest.java",
+      "line": 104,
+      "offset": 101,
+      "length": 19,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.service.diagnostic.phase",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voice.service.diagnostic.phase.ClientCongestionPhaseTest org.infobip.noc.voice.service.diagnostic.DiagnosticsExecutor mockAlertDiagnosticAfterRun(org.infobip.noc.common.models.alerting.data.AggregateType aggregateType, java.lang.Integer networkId, java.lang.Integer gatewayId)"
+      },
+      "highlighted_element": "setClientCongestion",
+      "description": "'setClientCongestion(org.infobip.noc.common.models.alerting.data.Congestion)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/test/java/org/infobip/noc/voice/service/AggregationPeriodHazelcastServiceTest.java",
+      "line": 57,
+      "offset": 38,
+      "length": 13,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voice.service.AggregationPeriodHazelcastServiceTest void before()"
+      },
+      "highlighted_element": "getAtomicLong",
+      "description": "'getAtomicLong(java.lang.String)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/test/java/org/infobip/noc/voice/scheduling/MainRunSchedulerTest.java",
+      "line": 34,
+      "offset": 12,
+      "length": 5,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.scheduling",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.voice.scheduling.MainRunSchedulerTest lock"
+      },
+      "highlighted_element": "ILock",
+      "description": "'com.hazelcast.core.ILock' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voice-service/src/test/java/org/infobip/noc/voice/TestUtils/AlertMockUtils.java",
+      "line": 157,
+      "offset": 32,
+      "length": 10,
+      "module": "infobip-noc-voice-service",
+      "package": "org.infobip.noc.voice.TestUtils",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voice.TestUtils.AlertMockUtils org.infobip.noc.common.models.alerting.data.diagnostics.AlertTargetStats mockAlertTargetStats(org.infobip.noc.common.models.alerting.data.Country country)"
+      },
+      "highlighted_element": "ofVoiceDlr",
+      "description": "'ofVoiceDlr(org.infobip.noc.common.models.alerting.data.diagnostics.AlertTargetType, int, java.lang.String, org.infobip.noc.common.models.alerting.data.Country, boolean, boolean, org.infobip.noc.common.models.alerting.data.Delivery)' is deprecated"
+    }
+  ]
+}

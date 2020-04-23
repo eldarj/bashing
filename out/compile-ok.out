@@ -1,0 +1,13 @@
+projects/infobip-noc-common-parent
+projects/infobip-noc-cr
+projects/infobip-noc-dlr
+projects/infobip-noc-gw-connectivity
+projects/infobip-noc-hlr
+projects/infobip-noc-nodr
+projects/infobip-noc-reports
+projects/infobip-noc-smpp
+projects/infobip-noc-streams
+projects/infobip-noc-submit-delay
+projects/infobip-noc-voice
+projects/infobip-noc-voicedlr
+projects/infobip-noc-voicesbc

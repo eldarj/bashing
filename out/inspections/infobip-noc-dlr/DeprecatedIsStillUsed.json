@@ -1,0 +1,24 @@
+{
+  "problems": [
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-dlr-service/src/main/java/org/infobip/noc/dlr/service/diagnostics/phases/StatusReasonErrorCodeSmsCountsPhase.java",
+      "line": 125,
+      "offset": 172,
+      "length": 28,
+      "module": "infobip-noc-dlr-service",
+      "package": "org.infobip.noc.dlr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated member is still used",
+        "id": "DeprecatedIsStillUsed",
+        "severity": "WARNING",
+        "attribute_key": "WARNING_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.dlr.service.diagnostics.phases.StatusReasonErrorCodeSmsCountsPhase java.util.Map<org.infobip.noc.common.models.alerting.data.dlr.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.dlr.diagnostics.DiagnosticFlag> getOldRelatedDiagnosticFlags(java.util.List<org.infobip.noc.common.models.alerting.data.diagnostics.StatusReasonErrorCodeSmsCount> statusReasonErrorCodeSmsCounts, int undelivered)"
+      },
+      "highlighted_element": "getOldRelatedDiagnosticFlags",
+      "description": "Deprecated member 'getOldRelatedDiagnosticFlags' is still used"
+    }
+  ]
+}

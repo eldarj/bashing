@@ -1,0 +1,67 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.infobip.noc:infobip-noc-voicedlr-service:jar:4.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.version' for org.jetbrains:annotations:jar is either LATEST or RELEASE (both of them are being deprecated) @ org.infobip.noc:infobip-noc-voicedlr-service:[unknown-version], /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-voicedlr/infobip-noc-voicedlr-service/pom.xml, line 202, column 22
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] infobip-noc-voicedlr                                               [pom]
+[INFO] infobip-noc-voicedlr-connector                                     [jar]
+[INFO] infobip-noc-voicedlr-service                                       [jar]
+[INFO] 
+[INFO] ----------------< org.infobip.noc:infobip-noc-voicedlr >----------------
+[INFO] Building infobip-noc-voicedlr 4.0.1-SNAPSHOT                       [1/3]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.3.31:compile (compile) @ infobip-noc-voicedlr ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (java-compile) @ infobip-noc-voicedlr ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] -----------< org.infobip.noc:infobip-noc-voicedlr-connector >-----------
+[INFO] Building infobip-noc-voicedlr-connector 4.0.1-SNAPSHOT             [2/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ infobip-noc-voicedlr-connector ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-voicedlr/infobip-noc-voicedlr-connector/src/main/resources
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.3.31:compile (compile) @ infobip-noc-voicedlr-connector ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (java-compile) @ infobip-noc-voicedlr-connector ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] ------------< org.infobip.noc:infobip-noc-voicedlr-service >------------
+[INFO] Building infobip-noc-voicedlr-service 4.0.1-SNAPSHOT               [3/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for com.sun.xml.bind:jaxb-core:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.sun.xml.bind:jaxb-impl:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ infobip-noc-voicedlr-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 90 resources
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.3.31:compile (compile) @ infobip-noc-voicedlr-service ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (java-compile) @ infobip-noc-voicedlr-service ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for infobip-noc-voicedlr 4.0.1-SNAPSHOT:
+[INFO] 
+[INFO] infobip-noc-voicedlr ............................... SUCCESS [  0.985 s]
+[INFO] infobip-noc-voicedlr-connector ..................... SUCCESS [  0.428 s]
+[INFO] infobip-noc-voicedlr-service ....................... SUCCESS [  1.479 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.258 s
+[INFO] Finished at: 2020-04-23T14:20:48+02:00
+[INFO] ------------------------------------------------------------------------

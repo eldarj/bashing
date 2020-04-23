@@ -1,0 +1,464 @@
+{
+  "problems": [
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-gw-connectivity-service/src/main/java/org/infobip/noc/gw/connectivity/service/AlertPublisherService.java",
+      "line": 50,
+      "offset": 18,
+      "length": 22,
+      "module": "infobip-noc-gw-connectivity-service",
+      "package": "org.infobip.noc.gw.connectivity.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.gw.connectivity.service.AlertPublisherService org.infobip.noc.common.models.alerting.data.CorrelationKey getCorrelationKey(org.infobip.noc.common.models.alerting.data.gwconnectivity.GwConnectivityAlert gwConnectivityAlert)"
+      },
+      "highlighted_element": "CorrelationKeyResponse",
+      "description": "'org.infobip.noc.core.connector.model.CorrelationKeyResponse' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-gw-connectivity-service/src/main/java/org/infobip/noc/gw/connectivity/service/AlertPublisherService.java",
+      "line": 50,
+      "offset": 79,
+      "length": 22,
+      "module": "infobip-noc-gw-connectivity-service",
+      "package": "org.infobip.noc.gw.connectivity.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.gw.connectivity.service.AlertPublisherService org.infobip.noc.common.models.alerting.data.CorrelationKey getCorrelationKey(org.infobip.noc.common.models.alerting.data.gwconnectivity.GwConnectivityAlert gwConnectivityAlert)"
+      },
+      "highlighted_element": "generateCorrelationKey",
+      "description": "'generateCorrelationKey(java.lang.String, java.lang.Class<? extends org.infobip.noc.common.models.alerting.data.Alert>)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-gw-connectivity-service/src/main/java/org/infobip/noc/gw/connectivity/service/AlertPublisherService.java",
+      "line": 50,
+      "offset": 102,
+      "length": 15,
+      "module": "infobip-noc-gw-connectivity-service",
+      "package": "org.infobip.noc.gw.connectivity.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.gw.connectivity.service.AlertPublisherService org.infobip.noc.common.models.alerting.data.CorrelationKey getCorrelationKey(org.infobip.noc.common.models.alerting.data.gwconnectivity.GwConnectivityAlert gwConnectivityAlert)"
+      },
+      "highlighted_element": "AlertJsonMapper",
+      "description": "'org.infobip.noc.common.models.alerting.data.AlertJsonMapper' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-gw-connectivity-service/src/main/java/org/infobip/noc/gw/connectivity/service/AlertPublisherService.java",
+      "line": 52,
+      "offset": 33,
+      "length": 24,
+      "module": "infobip-noc-gw-connectivity-service",
+      "package": "org.infobip.noc.gw.connectivity.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.gw.connectivity.service.AlertPublisherService org.infobip.noc.common.models.alerting.data.CorrelationKey getCorrelationKey(org.infobip.noc.common.models.alerting.data.gwconnectivity.GwConnectivityAlert gwConnectivityAlert)"
+      },
+      "highlighted_element": "CorrelationKeyJsonMapper",
+      "description": "'org.infobip.noc.common.models.alerting.data.CorrelationKeyJsonMapper' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-gw-connectivity-service/src/main/java/org/infobip/noc/gw/connectivity/scheduling/main/ExternalHttpScheduler.java",
+      "line": 35,
+      "offset": 14,
+      "length": 5,
+      "module": "infobip-noc-gw-connectivity-service",
+      "package": "org.infobip.noc.gw.connectivity.scheduling.main",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.gw.connectivity.scheduling.main.ExternalHttpScheduler void run()"
+      },
+      "highlighted_element": "ILock",
+      "description": "'com.hazelcast.core.ILock' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-gw-connectivity-service/src/main/java/org/infobip/noc/gw/connectivity/scheduling/main/ExternalSmppScheduler.java",
+      "line": 36,
+      "offset": 14,
+      "length": 5,
+      "module": "infobip-noc-gw-connectivity-service",
+      "package": "org.infobip.noc.gw.connectivity.scheduling.main",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.gw.connectivity.scheduling.main.ExternalSmppScheduler void run()"
+      },
+      "highlighted_element": "ILock",
+      "description": "'com.hazelcast.core.ILock' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-gw-connectivity-service/src/main/java/org/infobip/noc/gw/connectivity/scheduling/DbModelsScheduler.java",
+      "line": 38,
+      "offset": 14,
+      "length": 5,
+      "module": "infobip-noc-gw-connectivity-service",
+      "package": "org.infobip.noc.gw.connectivity.scheduling",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.gw.connectivity.scheduling.DbModelsScheduler void run()"
+      },
+      "highlighted_element": "ILock",
+      "description": "'com.hazelcast.core.ILock' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-gw-connectivity-service/src/main/java/org/infobip/noc/gw/connectivity/scheduling/GatewayInfoScheduler.java",
+      "line": 29,
+      "offset": 14,
+      "length": 5,
+      "module": "infobip-noc-gw-connectivity-service",
+      "package": "org.infobip.noc.gw.connectivity.scheduling",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.gw.connectivity.scheduling.GatewayInfoScheduler void gatewayProxiesAndClusterZonesRun()"
+      },
+      "highlighted_element": "ILock",
+      "description": "'com.hazelcast.core.ILock' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-gw-connectivity-service/src/main/java/org/infobip/noc/gw/connectivity/scheduling/GatewayInfoScheduler.java",
+      "line": 69,
+      "offset": 14,
+      "length": 5,
+      "module": "infobip-noc-gw-connectivity-service",
+      "package": "org.infobip.noc.gw.connectivity.scheduling",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.gw.connectivity.scheduling.GatewayInfoScheduler void supportedProxiesAndTunnelsRun()"
+      },
+      "highlighted_element": "ILock",
+      "description": "'com.hazelcast.core.ILock' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-gw-connectivity-service/src/main/java/org/infobip/noc/gw/connectivity/service/HazelcastService.java",
+      "line": 106,
+      "offset": 18,
+      "length": 5,
+      "module": "infobip-noc-gw-connectivity-service",
+      "package": "org.infobip.noc.gw.connectivity.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.gw.connectivity.service.HazelcastService smppSchedulerLock"
+      },
+      "highlighted_element": "ILock",
+      "description": "'com.hazelcast.core.ILock' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-gw-connectivity-service/src/main/java/org/infobip/noc/gw/connectivity/service/HazelcastService.java",
+      "line": 108,
+      "offset": 18,
+      "length": 5,
+      "module": "infobip-noc-gw-connectivity-service",
+      "package": "org.infobip.noc.gw.connectivity.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.gw.connectivity.service.HazelcastService httpSchedulerLock"
+      },
+      "highlighted_element": "ILock",
+      "description": "'com.hazelcast.core.ILock' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-gw-connectivity-service/src/main/java/org/infobip/noc/gw/connectivity/service/HazelcastService.java",
+      "line": 110,
+      "offset": 18,
+      "length": 5,
+      "module": "infobip-noc-gw-connectivity-service",
+      "package": "org.infobip.noc.gw.connectivity.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.gw.connectivity.service.HazelcastService dbModelsSchedulerLock"
+      },
+      "highlighted_element": "ILock",
+      "description": "'com.hazelcast.core.ILock' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-gw-connectivity-service/src/main/java/org/infobip/noc/gw/connectivity/service/HazelcastService.java",
+      "line": 112,
+      "offset": 18,
+      "length": 5,
+      "module": "infobip-noc-gw-connectivity-service",
+      "package": "org.infobip.noc.gw.connectivity.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.gw.connectivity.service.HazelcastService sgpEventCleanupLock"
+      },
+      "highlighted_element": "ILock",
+      "description": "'com.hazelcast.core.ILock' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-gw-connectivity-service/src/main/java/org/infobip/noc/gw/connectivity/service/HazelcastService.java",
+      "line": 114,
+      "offset": 18,
+      "length": 5,
+      "module": "infobip-noc-gw-connectivity-service",
+      "package": "org.infobip.noc.gw.connectivity.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.gw.connectivity.service.HazelcastService cleanupSchedulerLock"
+      },
+      "highlighted_element": "ILock",
+      "description": "'com.hazelcast.core.ILock' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-gw-connectivity-service/src/main/java/org/infobip/noc/gw/connectivity/service/HazelcastService.java",
+      "line": 116,
+      "offset": 18,
+      "length": 5,
+      "module": "infobip-noc-gw-connectivity-service",
+      "package": "org.infobip.noc.gw.connectivity.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.gw.connectivity.service.HazelcastService gatewayProxiesAndClusterZonesLock"
+      },
+      "highlighted_element": "ILock",
+      "description": "'com.hazelcast.core.ILock' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-gw-connectivity-service/src/main/java/org/infobip/noc/gw/connectivity/service/HazelcastService.java",
+      "line": 118,
+      "offset": 18,
+      "length": 5,
+      "module": "infobip-noc-gw-connectivity-service",
+      "package": "org.infobip.noc.gw.connectivity.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.gw.connectivity.service.HazelcastService supportedProxiesAndTunnelsLock"
+      },
+      "highlighted_element": "ILock",
+      "description": "'com.hazelcast.core.ILock' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-gw-connectivity-service/src/main/java/org/infobip/noc/gw/connectivity/service/HazelcastService.java",
+      "line": 132,
+      "offset": 51,
+      "length": 7,
+      "module": "infobip-noc-gw-connectivity-service",
+      "package": "org.infobip.noc.gw.connectivity.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.gw.connectivity.service.HazelcastService HazelcastService(com.hazelcast.core.HazelcastInstance hazelcastInstance, org.infobip.noc.gw.connectivity.service.DbModelsProvider dbModelsProvider, org.infobip.ipcore.admin.connector.service.GatewayProxyService gatewayProxyService, org.infobip.ipcore.admin.connector.service.ClusteringZoneLocationService clusteringZoneLocationService, com.infobip.gateman.connector.service.GatewayInfoService gatewayInfoService, org.infobip.ipcore.admin.connector.service.InternetServiceProviderService internetServiceProviderService)"
+      },
+      "highlighted_element": "getLock",
+      "description": "'getLock(java.lang.String)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-gw-connectivity-service/src/main/java/org/infobip/noc/gw/connectivity/service/HazelcastService.java",
+      "line": 133,
+      "offset": 51,
+      "length": 7,
+      "module": "infobip-noc-gw-connectivity-service",
+      "package": "org.infobip.noc.gw.connectivity.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.gw.connectivity.service.HazelcastService HazelcastService(com.hazelcast.core.HazelcastInstance hazelcastInstance, org.infobip.noc.gw.connectivity.service.DbModelsProvider dbModelsProvider, org.infobip.ipcore.admin.connector.service.GatewayProxyService gatewayProxyService, org.infobip.ipcore.admin.connector.service.ClusteringZoneLocationService clusteringZoneLocationService, com.infobip.gateman.connector.service.GatewayInfoService gatewayInfoService, org.infobip.ipcore.admin.connector.service.InternetServiceProviderService internetServiceProviderService)"
+      },
+      "highlighted_element": "getLock",
+      "description": "'getLock(java.lang.String)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-gw-connectivity-service/src/main/java/org/infobip/noc/gw/connectivity/service/HazelcastService.java",
+      "line": 134,
+      "offset": 55,
+      "length": 7,
+      "module": "infobip-noc-gw-connectivity-service",
+      "package": "org.infobip.noc.gw.connectivity.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.gw.connectivity.service.HazelcastService HazelcastService(com.hazelcast.core.HazelcastInstance hazelcastInstance, org.infobip.noc.gw.connectivity.service.DbModelsProvider dbModelsProvider, org.infobip.ipcore.admin.connector.service.GatewayProxyService gatewayProxyService, org.infobip.ipcore.admin.connector.service.ClusteringZoneLocationService clusteringZoneLocationService, com.infobip.gateman.connector.service.GatewayInfoService gatewayInfoService, org.infobip.ipcore.admin.connector.service.InternetServiceProviderService internetServiceProviderService)"
+      },
+      "highlighted_element": "getLock",
+      "description": "'getLock(java.lang.String)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-gw-connectivity-service/src/main/java/org/infobip/noc/gw/connectivity/service/HazelcastService.java",
+      "line": 135,
+      "offset": 53,
+      "length": 7,
+      "module": "infobip-noc-gw-connectivity-service",
+      "package": "org.infobip.noc.gw.connectivity.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.gw.connectivity.service.HazelcastService HazelcastService(com.hazelcast.core.HazelcastInstance hazelcastInstance, org.infobip.noc.gw.connectivity.service.DbModelsProvider dbModelsProvider, org.infobip.ipcore.admin.connector.service.GatewayProxyService gatewayProxyService, org.infobip.ipcore.admin.connector.service.ClusteringZoneLocationService clusteringZoneLocationService, com.infobip.gateman.connector.service.GatewayInfoService gatewayInfoService, org.infobip.ipcore.admin.connector.service.InternetServiceProviderService internetServiceProviderService)"
+      },
+      "highlighted_element": "getLock",
+      "description": "'getLock(java.lang.String)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-gw-connectivity-service/src/main/java/org/infobip/noc/gw/connectivity/service/HazelcastService.java",
+      "line": 136,
+      "offset": 54,
+      "length": 7,
+      "module": "infobip-noc-gw-connectivity-service",
+      "package": "org.infobip.noc.gw.connectivity.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.gw.connectivity.service.HazelcastService HazelcastService(com.hazelcast.core.HazelcastInstance hazelcastInstance, org.infobip.noc.gw.connectivity.service.DbModelsProvider dbModelsProvider, org.infobip.ipcore.admin.connector.service.GatewayProxyService gatewayProxyService, org.infobip.ipcore.admin.connector.service.ClusteringZoneLocationService clusteringZoneLocationService, com.infobip.gateman.connector.service.GatewayInfoService gatewayInfoService, org.infobip.ipcore.admin.connector.service.InternetServiceProviderService internetServiceProviderService)"
+      },
+      "highlighted_element": "getLock",
+      "description": "'getLock(java.lang.String)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-gw-connectivity-service/src/main/java/org/infobip/noc/gw/connectivity/service/HazelcastService.java",
+      "line": 137,
+      "offset": 64,
+      "length": 7,
+      "module": "infobip-noc-gw-connectivity-service",
+      "package": "org.infobip.noc.gw.connectivity.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.gw.connectivity.service.HazelcastService HazelcastService(com.hazelcast.core.HazelcastInstance hazelcastInstance, org.infobip.noc.gw.connectivity.service.DbModelsProvider dbModelsProvider, org.infobip.ipcore.admin.connector.service.GatewayProxyService gatewayProxyService, org.infobip.ipcore.admin.connector.service.ClusteringZoneLocationService clusteringZoneLocationService, com.infobip.gateman.connector.service.GatewayInfoService gatewayInfoService, org.infobip.ipcore.admin.connector.service.InternetServiceProviderService internetServiceProviderService)"
+      },
+      "highlighted_element": "getLock",
+      "description": "'getLock(java.lang.String)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-gw-connectivity-service/src/main/java/org/infobip/noc/gw/connectivity/service/HazelcastService.java",
+      "line": 138,
+      "offset": 67,
+      "length": 7,
+      "module": "infobip-noc-gw-connectivity-service",
+      "package": "org.infobip.noc.gw.connectivity.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.gw.connectivity.service.HazelcastService HazelcastService(com.hazelcast.core.HazelcastInstance hazelcastInstance, org.infobip.noc.gw.connectivity.service.DbModelsProvider dbModelsProvider, org.infobip.ipcore.admin.connector.service.GatewayProxyService gatewayProxyService, org.infobip.ipcore.admin.connector.service.ClusteringZoneLocationService clusteringZoneLocationService, com.infobip.gateman.connector.service.GatewayInfoService gatewayInfoService, org.infobip.ipcore.admin.connector.service.InternetServiceProviderService internetServiceProviderService)"
+      },
+      "highlighted_element": "getLock",
+      "description": "'getLock(java.lang.String)' is deprecated"
+    }
+  ]
+}

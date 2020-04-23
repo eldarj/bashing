@@ -1,0 +1,484 @@
+{
+  "problems": [
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-smpp-service/src/main/java/org/infobip/noc/smpp/config/ElasticsearchConfigurationProperties.java",
+      "line": 17,
+      "offset": 5,
+      "length": 8,
+      "module": "infobip-noc-smpp-service",
+      "package": "org.infobip.noc.smpp.config",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.smpp.config.ElasticsearchConfigurationProperties clusterName"
+      },
+      "highlighted_element": "NotEmpty",
+      "description": "'org.hibernate.validator.constraints.NotEmpty' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-smpp-service/src/main/java/org/infobip/noc/smpp/config/SmppServiceStatusProvider.java",
+      "line": 26,
+      "offset": 19,
+      "length": 5,
+      "module": "infobip-noc-smpp-service",
+      "package": "org.infobip.noc.smpp.config",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.smpp.config.SmppServiceStatusProvider boolean ready()"
+      },
+      "highlighted_element": "ready",
+      "description": "Overrides deprecated method in 'org.infobip.common.remoting.modules.servicestatus.ServiceStatusProvider'"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-smpp-service/src/main/java/org/infobip/noc/smpp/config/ElasticsearchConfigurationProperties.java",
+      "line": 21,
+      "offset": 5,
+      "length": 8,
+      "module": "infobip-noc-smpp-service",
+      "package": "org.infobip.noc.smpp.config",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.smpp.config.ElasticsearchConfigurationProperties clusterNodes"
+      },
+      "highlighted_element": "NotEmpty",
+      "description": "'org.hibernate.validator.constraints.NotEmpty' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-smpp-service/src/main/java/org/infobip/noc/smpp/service/diagnostics/phases/PossibleReasonFlagPhase.java",
+      "line": 52,
+      "offset": 90,
+      "length": 14,
+      "module": "infobip-noc-smpp-service",
+      "package": "org.infobip.noc.smpp.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.smpp.service.diagnostics.phases.PossibleReasonFlagPhase void run(org.infobip.noc.smpp.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "getAlertReason",
+      "description": "'getAlertReason()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-smpp-service/src/main/java/org/infobip/noc/smpp/service/diagnostics/phases/PossibleReasonFlagPhase.java",
+      "line": 65,
+      "offset": 85,
+      "length": 14,
+      "module": "infobip-noc-smpp-service",
+      "package": "org.infobip.noc.smpp.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.smpp.service.diagnostics.phases.PossibleReasonFlagPhase void run(org.infobip.noc.smpp.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.smpp.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-smpp-service/src/main/java/org/infobip/noc/smpp/service/diagnostics/phases/PossibleReasonFlagPhase.java",
+      "line": 65,
+      "offset": 182,
+      "length": 14,
+      "module": "infobip-noc-smpp-service",
+      "package": "org.infobip.noc.smpp.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.smpp.service.diagnostics.phases.PossibleReasonFlagPhase void run(org.infobip.noc.smpp.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.smpp.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-smpp-service/src/main/java/org/infobip/noc/smpp/service/diagnostics/phases/PossibleReasonFlagPhase.java",
+      "line": 67,
+      "offset": 93,
+      "length": 18,
+      "module": "infobip-noc-smpp-service",
+      "package": "org.infobip.noc.smpp.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.smpp.service.diagnostics.phases.PossibleReasonFlagPhase void run(org.infobip.noc.smpp.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.smpp.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-smpp-service/src/main/java/org/infobip/noc/smpp/service/diagnostics/phases/PossibleReasonFlagPhase.java",
+      "line": 68,
+      "offset": 93,
+      "length": 18,
+      "module": "infobip-noc-smpp-service",
+      "package": "org.infobip.noc.smpp.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.smpp.service.diagnostics.phases.PossibleReasonFlagPhase void run(org.infobip.noc.smpp.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.smpp.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-smpp-service/src/main/java/org/infobip/noc/smpp/service/diagnostics/phases/PossibleReasonFlagPhase.java",
+      "line": 70,
+      "offset": 126,
+      "length": 18,
+      "module": "infobip-noc-smpp-service",
+      "package": "org.infobip.noc.smpp.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.smpp.service.diagnostics.phases.PossibleReasonFlagPhase void run(org.infobip.noc.smpp.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.smpp.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-smpp-service/src/main/java/org/infobip/noc/smpp/service/api/IgnoredAnomalyServiceImpl.java",
+      "line": 33,
+      "offset": 38,
+      "length": 11,
+      "module": "infobip-noc-smpp-service",
+      "package": "org.infobip.noc.smpp.service.api",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.smpp.service.api.IgnoredAnomalyServiceImpl org.infobip.noc.common.models.paging.Page<org.infobip.noc.smpp.connector.model.IgnoredAnomaly> getPageByFilter(org.infobip.noc.smpp.connector.model.IgnoredAnomalyFilter ignoredAnomalyFilter)"
+      },
+      "highlighted_element": "PageRequest",
+      "description": "'PageRequest(int, int)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-smpp-service/src/main/java/org/infobip/noc/smpp/service/api/IgnoredAnomalyServiceImpl.java",
+      "line": 38,
+      "offset": 60,
+      "length": 14,
+      "module": "infobip-noc-smpp-service",
+      "package": "org.infobip.noc.smpp.service.api",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.smpp.service.api.IgnoredAnomalyServiceImpl org.infobip.noc.common.models.paging.Page<org.infobip.noc.smpp.connector.model.IgnoredAnomaly> getPageByFilter(org.infobip.noc.smpp.connector.model.IgnoredAnomalyFilter ignoredAnomalyFilter)"
+      },
+      "highlighted_element": "Specifications",
+      "description": "'org.springframework.data.jpa.domain.Specifications' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-smpp-service/src/main/java/org/infobip/noc/smpp/service/api/IgnoredAnomalyServiceImpl.java",
+      "line": 39,
+      "offset": 17,
+      "length": 5,
+      "module": "infobip-noc-smpp-service",
+      "package": "org.infobip.noc.smpp.service.api",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.smpp.service.api.IgnoredAnomalyServiceImpl org.infobip.noc.common.models.paging.Page<org.infobip.noc.smpp.connector.model.IgnoredAnomaly> getPageByFilter(org.infobip.noc.smpp.connector.model.IgnoredAnomalyFilter ignoredAnomalyFilter)"
+      },
+      "highlighted_element": "where",
+      "description": "'where(org.springframework.data.jpa.domain.Specification<T>)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-smpp-service/src/main/java/org/infobip/noc/smpp/service/api/IgnoredAnomalyServiceImpl.java",
+      "line": 42,
+      "offset": 17,
+      "length": 3,
+      "module": "infobip-noc-smpp-service",
+      "package": "org.infobip.noc.smpp.service.api",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.smpp.service.api.IgnoredAnomalyServiceImpl org.infobip.noc.common.models.paging.Page<org.infobip.noc.smpp.connector.model.IgnoredAnomaly> getPageByFilter(org.infobip.noc.smpp.connector.model.IgnoredAnomalyFilter ignoredAnomalyFilter)"
+      },
+      "highlighted_element": "and",
+      "description": "'and(org.springframework.data.jpa.domain.Specification<T>)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-smpp-service/src/main/java/org/infobip/noc/smpp/service/api/IgnoredAnomalyServiceImpl.java",
+      "line": 45,
+      "offset": 17,
+      "length": 3,
+      "module": "infobip-noc-smpp-service",
+      "package": "org.infobip.noc.smpp.service.api",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.smpp.service.api.IgnoredAnomalyServiceImpl org.infobip.noc.common.models.paging.Page<org.infobip.noc.smpp.connector.model.IgnoredAnomaly> getPageByFilter(org.infobip.noc.smpp.connector.model.IgnoredAnomalyFilter ignoredAnomalyFilter)"
+      },
+      "highlighted_element": "and",
+      "description": "'and(org.springframework.data.jpa.domain.Specification<T>)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-smpp-service/src/main/java/org/infobip/noc/smpp/service/api/IgnoredAnomalyServiceImpl.java",
+      "line": 48,
+      "offset": 17,
+      "length": 3,
+      "module": "infobip-noc-smpp-service",
+      "package": "org.infobip.noc.smpp.service.api",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.smpp.service.api.IgnoredAnomalyServiceImpl org.infobip.noc.common.models.paging.Page<org.infobip.noc.smpp.connector.model.IgnoredAnomaly> getPageByFilter(org.infobip.noc.smpp.connector.model.IgnoredAnomalyFilter ignoredAnomalyFilter)"
+      },
+      "highlighted_element": "and",
+      "description": "'and(org.springframework.data.jpa.domain.Specification<T>)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-smpp-service/src/main/java/org/infobip/noc/smpp/service/api/IgnoredAnomalyServiceImpl.java",
+      "line": 51,
+      "offset": 17,
+      "length": 3,
+      "module": "infobip-noc-smpp-service",
+      "package": "org.infobip.noc.smpp.service.api",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.smpp.service.api.IgnoredAnomalyServiceImpl org.infobip.noc.common.models.paging.Page<org.infobip.noc.smpp.connector.model.IgnoredAnomaly> getPageByFilter(org.infobip.noc.smpp.connector.model.IgnoredAnomalyFilter ignoredAnomalyFilter)"
+      },
+      "highlighted_element": "and",
+      "description": "'and(org.springframework.data.jpa.domain.Specification<T>)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-smpp-service/src/main/java/org/infobip/noc/smpp/service/api/IgnoredAnomalyServiceImpl.java",
+      "line": 54,
+      "offset": 17,
+      "length": 3,
+      "module": "infobip-noc-smpp-service",
+      "package": "org.infobip.noc.smpp.service.api",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.smpp.service.api.IgnoredAnomalyServiceImpl org.infobip.noc.common.models.paging.Page<org.infobip.noc.smpp.connector.model.IgnoredAnomaly> getPageByFilter(org.infobip.noc.smpp.connector.model.IgnoredAnomalyFilter ignoredAnomalyFilter)"
+      },
+      "highlighted_element": "and",
+      "description": "'and(org.springframework.data.jpa.domain.Specification<T>)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-smpp-service/src/main/java/org/infobip/noc/smpp/service/api/IgnoredAnomalyServiceImpl.java",
+      "line": 57,
+      "offset": 17,
+      "length": 3,
+      "module": "infobip-noc-smpp-service",
+      "package": "org.infobip.noc.smpp.service.api",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.smpp.service.api.IgnoredAnomalyServiceImpl org.infobip.noc.common.models.paging.Page<org.infobip.noc.smpp.connector.model.IgnoredAnomaly> getPageByFilter(org.infobip.noc.smpp.connector.model.IgnoredAnomalyFilter ignoredAnomalyFilter)"
+      },
+      "highlighted_element": "and",
+      "description": "'and(org.springframework.data.jpa.domain.Specification<T>)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-smpp-service/src/main/java/org/infobip/noc/smpp/service/api/IgnoredAnomalyServiceImpl.java",
+      "line": 60,
+      "offset": 17,
+      "length": 3,
+      "module": "infobip-noc-smpp-service",
+      "package": "org.infobip.noc.smpp.service.api",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.smpp.service.api.IgnoredAnomalyServiceImpl org.infobip.noc.common.models.paging.Page<org.infobip.noc.smpp.connector.model.IgnoredAnomaly> getPageByFilter(org.infobip.noc.smpp.connector.model.IgnoredAnomalyFilter ignoredAnomalyFilter)"
+      },
+      "highlighted_element": "and",
+      "description": "'and(org.springframework.data.jpa.domain.Specification<T>)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-smpp-service/src/main/java/org/infobip/noc/smpp/service/api/IgnoredAnomalyServiceImpl.java",
+      "line": 62,
+      "offset": 18,
+      "length": 3,
+      "module": "infobip-noc-smpp-service",
+      "package": "org.infobip.noc.smpp.service.api",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.smpp.service.api.IgnoredAnomalyServiceImpl org.infobip.noc.common.models.paging.Page<org.infobip.noc.smpp.connector.model.IgnoredAnomaly> getPageByFilter(org.infobip.noc.smpp.connector.model.IgnoredAnomalyFilter ignoredAnomalyFilter)"
+      },
+      "highlighted_element": "and",
+      "description": "'and(org.springframework.data.jpa.domain.Specification<T>)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-smpp-service/src/main/java/org/infobip/noc/smpp/service/AlertProducer.java",
+      "line": 64,
+      "offset": 61,
+      "length": 12,
+      "module": "infobip-noc-smpp-service",
+      "package": "org.infobip.noc.smpp.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.smpp.service.AlertProducer void produceAsync(org.infobip.noc.smpp.models.entities.AnomalyEntity anomaly, long metricTimestamp, int anomalyDurationThresholdSeconds, org.infobip.noc.smpp.connector.model.SmppEvent lastSmppEvent)"
+      },
+      "highlighted_element": "publishAlert",
+      "description": "'publishAlert(java.lang.String, java.lang.Class<? extends org.infobip.noc.common.models.alerting.data.Alert>)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-smpp-service/src/main/java/org/infobip/noc/smpp/service/AlertProducer.java",
+      "line": 64,
+      "offset": 74,
+      "length": 15,
+      "module": "infobip-noc-smpp-service",
+      "package": "org.infobip.noc.smpp.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.smpp.service.AlertProducer void produceAsync(org.infobip.noc.smpp.models.entities.AnomalyEntity anomaly, long metricTimestamp, int anomalyDurationThresholdSeconds, org.infobip.noc.smpp.connector.model.SmppEvent lastSmppEvent)"
+      },
+      "highlighted_element": "AlertJsonMapper",
+      "description": "'org.infobip.noc.common.models.alerting.data.AlertJsonMapper' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-smpp-service/src/main/java/org/infobip/noc/smpp/persistence/elasticsearch/ElasticsearchClientFactory.java",
+      "line": 31,
+      "offset": 8,
+      "length": 15,
+      "module": "infobip-noc-smpp-service",
+      "package": "org.infobip.noc.smpp.persistence.elasticsearch",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.smpp.persistence.elasticsearch.ElasticsearchClientFactory org.elasticsearch.client.Client createClient(java.lang.String clusterName, java.lang.String clusterNodes)"
+      },
+      "highlighted_element": "TransportClient",
+      "description": "'org.elasticsearch.client.transport.TransportClient' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-smpp-service/src/main/java/org/infobip/noc/smpp/persistence/elasticsearch/ElasticsearchClientFactory.java",
+      "line": 31,
+      "offset": 46,
+      "length": 23,
+      "module": "infobip-noc-smpp-service",
+      "package": "org.infobip.noc.smpp.persistence.elasticsearch",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.smpp.persistence.elasticsearch.ElasticsearchClientFactory org.elasticsearch.client.Client createClient(java.lang.String clusterName, java.lang.String clusterNodes)"
+      },
+      "highlighted_element": "PreBuiltTransportClient",
+      "description": "'org.elasticsearch.transport.client.PreBuiltTransportClient' is deprecated"
+    }
+  ]
+}

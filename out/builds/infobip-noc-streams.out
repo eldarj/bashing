@@ -1,0 +1,59 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] infobip-noc-streams                                                [pom]
+[INFO] infobip-noc-streams-connector                                      [jar]
+[INFO] infobip-noc-streams-service                                        [jar]
+[INFO] 
+[INFO] ----------------< org.infobip.noc:infobip-noc-streams >-----------------
+[INFO] Building infobip-noc-streams 1.0.10-SNAPSHOT                       [1/3]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.1.60:compile (compile) @ infobip-noc-streams ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (java-compile) @ infobip-noc-streams ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] -----------< org.infobip.noc:infobip-noc-streams-connector >------------
+[INFO] Building infobip-noc-streams-connector 1.0.10-SNAPSHOT             [2/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ infobip-noc-streams-connector ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-streams/infobip-noc-streams-connector/src/main/resources
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.1.60:compile (compile) @ infobip-noc-streams-connector ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (java-compile) @ infobip-noc-streams-connector ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-streams/infobip-noc-streams-connector/target/classes
+[INFO] 
+[INFO] ------------< org.infobip.noc:infobip-noc-streams-service >-------------
+[INFO] Building infobip-noc-streams-service 1.0.10-SNAPSHOT               [3/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for com.google.guava:guava:jar:19.0.20150826 is missing, no dependency information available
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ infobip-noc-streams-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.1.60:compile (compile) @ infobip-noc-streams-service ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (java-compile) @ infobip-noc-streams-service ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for infobip-noc-streams 1.0.10-SNAPSHOT:
+[INFO] 
+[INFO] infobip-noc-streams ................................ SUCCESS [  0.938 s]
+[INFO] infobip-noc-streams-connector ...................... SUCCESS [  1.315 s]
+[INFO] infobip-noc-streams-service ........................ SUCCESS [  1.343 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.920 s
+[INFO] Finished at: 2020-04-23T14:20:26+02:00
+[INFO] ------------------------------------------------------------------------

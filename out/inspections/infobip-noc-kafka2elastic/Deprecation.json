@@ -1,0 +1,104 @@
+{
+  "problems": [
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-kafka2elastic-service/src/main/java/org/infobip/noc/kafka2elastic/config/ElasticsearchConfigurationProperties.java",
+      "line": 18,
+      "offset": 5,
+      "length": 8,
+      "module": "infobip-noc-kafka2elastic-service",
+      "package": "org.infobip.noc.kafka2elastic.config",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.kafka2elastic.config.ElasticsearchConfigurationProperties clusterName"
+      },
+      "highlighted_element": "NotEmpty",
+      "description": "'org.hibernate.validator.constraints.NotEmpty' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-kafka2elastic-service/src/main/java/org/infobip/noc/kafka2elastic/config/ElasticsearchConfigurationProperties.java",
+      "line": 22,
+      "offset": 5,
+      "length": 8,
+      "module": "infobip-noc-kafka2elastic-service",
+      "package": "org.infobip.noc.kafka2elastic.config",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.kafka2elastic.config.ElasticsearchConfigurationProperties clusterNodes"
+      },
+      "highlighted_element": "NotEmpty",
+      "description": "'org.hibernate.validator.constraints.NotEmpty' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-kafka2elastic-service/src/main/java/org/infobip/noc/kafka2elastic/elastic/ElasticsearchClientFactory.java",
+      "line": 40,
+      "offset": 8,
+      "length": 15,
+      "module": "infobip-noc-kafka2elastic-service",
+      "package": "org.infobip.noc.kafka2elastic.elastic",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.kafka2elastic.elastic.ElasticsearchClientFactory org.elasticsearch.client.Client createClient(java.lang.String clusterName, java.lang.String clusterNodes)"
+      },
+      "highlighted_element": "TransportClient",
+      "description": "'org.elasticsearch.client.transport.TransportClient' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-kafka2elastic-service/src/main/java/org/infobip/noc/kafka2elastic/elastic/ElasticsearchClientFactory.java",
+      "line": 40,
+      "offset": 46,
+      "length": 23,
+      "module": "infobip-noc-kafka2elastic-service",
+      "package": "org.infobip.noc.kafka2elastic.elastic",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.kafka2elastic.elastic.ElasticsearchClientFactory org.elasticsearch.client.Client createClient(java.lang.String clusterName, java.lang.String clusterNodes)"
+      },
+      "highlighted_element": "PreBuiltTransportClient",
+      "description": "'org.elasticsearch.transport.client.PreBuiltTransportClient' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-kafka2elastic-service/src/main/java/org/infobip/noc/kafka2elastic/service/TrafficStreamConfigServiceImpl.java",
+      "line": 62,
+      "offset": 36,
+      "length": 7,
+      "module": "infobip-noc-kafka2elastic-service",
+      "package": "org.infobip.noc.kafka2elastic.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.kafka2elastic.service.TrafficStreamConfigServiceImpl void remove(org.infobip.noc.kafka2elastic.model.TrafficStreamConfig trafficStreamConfig)"
+      },
+      "highlighted_element": "Integer",
+      "description": "'Integer(int)' is deprecated"
+    }
+  ]
+}

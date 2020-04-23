@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <parent>
+        <groupId>com.infobip</groupId>
+        <artifactId>infobip-master</artifactId>
+        <version>5.0.0</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.infobip.noc</groupId>
+    <artifactId>infobip-noc-action-log</artifactId>
+    <version>2.0.3-SNAPSHOT</version>
+
+    <packaging>pom</packaging>
+
+    <scm>
+        <developerConnection>scm:git:ssh://git@git.ib-ci.com:7999/noc/infobip-noc-action-log.git
+        </developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <properties>
+        <spring-boot.version>2.0.5.RELEASE</spring-boot.version>
+        <infobip-remoting.version>4.3.2</infobip-remoting.version>
+        <infobip-noc-common.version>4.4.2</infobip-noc-common.version>
+        <mongo-java-driver.version>3.5.0</mongo-java-driver.version>
+        <morphia.version>1.3.2</morphia.version>
+        <mail.version>1.4.7</mail.version>
+        <logback.version>1.1.8</logback.version>
+        <logback-gelf.version>0.12</logback-gelf.version>
+        <whisper.version>1.0.4</whisper.version>
+        <jaxb.version>2.2.11</jaxb.version>
+        <activation.version>1.1.1</activation.version>
+        <lombok.version>1.18.0</lombok.version>
+        <junit.version>4.12</junit.version>
+        <mockito.version>1.10.19</mockito.version>
+        <assertj.version>3.8.0</assertj.version>
+    </properties>
+
+  <modules>
+    <module>infobip-noc-action-log-service</module>
+    <module>infobip-noc-action-log-connector</module>
+  </modules>
+</project>

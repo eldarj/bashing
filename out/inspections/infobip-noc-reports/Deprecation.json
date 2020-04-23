@@ -1,0 +1,1644 @@
+{
+  "problems": [
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/export/ExportReport.java",
+      "line": 62,
+      "offset": 246,
+      "length": 14,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.export",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.export.ExportReport java.lang.String getContent(org.mongodb.morphia.Datastore datastore)"
+      },
+      "highlighted_element": "getAlertReason",
+      "description": "'getAlertReason()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/trafficincrease/TrafficIncreasePresent.java",
+      "line": 144,
+      "offset": 35,
+      "length": 24,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.trafficincrease",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.trafficincrease.TrafficIncreasePresent boolean decision(org.infobip.noc.common.models.alerting.data.AlertResolution alertResolution)"
+      },
+      "highlighted_element": "getAlertResolutionAction",
+      "description": "'getAlertResolutionAction()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/trafficincrease/TrafficIncreasePresent.java",
+      "line": 145,
+      "offset": 69,
+      "length": 24,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.trafficincrease",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.trafficincrease.TrafficIncreasePresent boolean decision(org.infobip.noc.common.models.alerting.data.AlertResolution alertResolution)"
+      },
+      "highlighted_element": "getAlertResolutionAction",
+      "description": "'getAlertResolutionAction()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/export/ExportReport.java",
+      "line": 63,
+      "offset": 266,
+      "length": 24,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.export",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.export.ExportReport java.lang.String getContent(org.mongodb.morphia.Datastore datastore)"
+      },
+      "highlighted_element": "getAlertResolutionAction",
+      "description": "'getAlertResolutionAction()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 168,
+      "offset": 85,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processDlrAlert(org.infobip.noc.common.models.alerting.data.dlr.DlrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.dlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 170,
+      "offset": 92,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processDlrAlert(org.infobip.noc.common.models.alerting.data.dlr.DlrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.dlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 179,
+      "offset": 46,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processDlrAlert(org.infobip.noc.common.models.alerting.data.dlr.DlrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.dlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 186,
+      "offset": 90,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processDlrAlert(org.infobip.noc.common.models.alerting.data.dlr.DlrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.dlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 218,
+      "offset": 46,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processDlrAlert(org.infobip.noc.common.models.alerting.data.dlr.DlrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.dlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 233,
+      "offset": 90,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processDlrAlert(org.infobip.noc.common.models.alerting.data.dlr.DlrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.dlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 257,
+      "offset": 50,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processDlrAlert(org.infobip.noc.common.models.alerting.data.dlr.DlrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.dlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 273,
+      "offset": 92,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processDlrAlert(org.infobip.noc.common.models.alerting.data.dlr.DlrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.dlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 299,
+      "offset": 50,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processDlrAlert(org.infobip.noc.common.models.alerting.data.dlr.DlrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.dlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 315,
+      "offset": 92,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processDlrAlert(org.infobip.noc.common.models.alerting.data.dlr.DlrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.dlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 332,
+      "offset": 121,
+      "length": 14,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport boolean matches(org.infobip.noc.common.models.alerting.data.AlertResolution alertResolution, org.infobip.noc.common.models.alerting.data.dlr.diagnostics.DiagnosticFlag diagnosticFlag)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.dlr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 333,
+      "offset": 55,
+      "length": 14,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport boolean matches(org.infobip.noc.common.models.alerting.data.AlertResolution alertResolution, org.infobip.noc.common.models.alerting.data.dlr.diagnostics.DiagnosticFlag diagnosticFlag)"
+      },
+      "highlighted_element": "getAlertReason",
+      "description": "'getAlertReason()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 336,
+      "offset": 47,
+      "length": 14,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport boolean matches(org.infobip.noc.common.models.alerting.data.AlertResolution alertResolution, org.infobip.noc.common.models.alerting.data.dlr.diagnostics.DiagnosticFlag diagnosticFlag)"
+      },
+      "highlighted_element": "getAlertReason",
+      "description": "'getAlertReason()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 366,
+      "offset": 144,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processCrAlert(org.infobip.noc.common.models.alerting.data.cr.CrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 368,
+      "offset": 151,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processCrAlert(org.infobip.noc.common.models.alerting.data.cr.CrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 377,
+      "offset": 105,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processCrAlert(org.infobip.noc.common.models.alerting.data.cr.CrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 384,
+      "offset": 149,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processCrAlert(org.infobip.noc.common.models.alerting.data.cr.CrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 416,
+      "offset": 105,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processCrAlert(org.infobip.noc.common.models.alerting.data.cr.CrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 431,
+      "offset": 149,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processCrAlert(org.infobip.noc.common.models.alerting.data.cr.CrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 455,
+      "offset": 109,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processCrAlert(org.infobip.noc.common.models.alerting.data.cr.CrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 471,
+      "offset": 151,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processCrAlert(org.infobip.noc.common.models.alerting.data.cr.CrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 497,
+      "offset": 109,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processCrAlert(org.infobip.noc.common.models.alerting.data.cr.CrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 513,
+      "offset": 151,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processCrAlert(org.infobip.noc.common.models.alerting.data.cr.CrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 552,
+      "offset": 150,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processVoiceDlrAlert(org.infobip.noc.common.models.alerting.data.voicedlr.VoiceDlrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.voicedlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 554,
+      "offset": 157,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processVoiceDlrAlert(org.infobip.noc.common.models.alerting.data.voicedlr.VoiceDlrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.voicedlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 563,
+      "offset": 111,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processVoiceDlrAlert(org.infobip.noc.common.models.alerting.data.voicedlr.VoiceDlrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.voicedlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 570,
+      "offset": 155,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processVoiceDlrAlert(org.infobip.noc.common.models.alerting.data.voicedlr.VoiceDlrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.voicedlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 602,
+      "offset": 111,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processVoiceDlrAlert(org.infobip.noc.common.models.alerting.data.voicedlr.VoiceDlrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.voicedlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 617,
+      "offset": 155,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processVoiceDlrAlert(org.infobip.noc.common.models.alerting.data.voicedlr.VoiceDlrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.voicedlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 641,
+      "offset": 115,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processVoiceDlrAlert(org.infobip.noc.common.models.alerting.data.voicedlr.VoiceDlrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.voicedlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 657,
+      "offset": 157,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processVoiceDlrAlert(org.infobip.noc.common.models.alerting.data.voicedlr.VoiceDlrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.voicedlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 683,
+      "offset": 115,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processVoiceDlrAlert(org.infobip.noc.common.models.alerting.data.voicedlr.VoiceDlrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.voicedlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 699,
+      "offset": 157,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processVoiceDlrAlert(org.infobip.noc.common.models.alerting.data.voicedlr.VoiceDlrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.voicedlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 738,
+      "offset": 153,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processSubmitDelayAlert(org.infobip.noc.common.models.alerting.data.submitdelay.SubmitDelayAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.submitdelay.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 740,
+      "offset": 160,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processSubmitDelayAlert(org.infobip.noc.common.models.alerting.data.submitdelay.SubmitDelayAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.submitdelay.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 749,
+      "offset": 114,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processSubmitDelayAlert(org.infobip.noc.common.models.alerting.data.submitdelay.SubmitDelayAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.submitdelay.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 756,
+      "offset": 158,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processSubmitDelayAlert(org.infobip.noc.common.models.alerting.data.submitdelay.SubmitDelayAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.submitdelay.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 788,
+      "offset": 114,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processSubmitDelayAlert(org.infobip.noc.common.models.alerting.data.submitdelay.SubmitDelayAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.submitdelay.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 803,
+      "offset": 158,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processSubmitDelayAlert(org.infobip.noc.common.models.alerting.data.submitdelay.SubmitDelayAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.submitdelay.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 827,
+      "offset": 118,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processSubmitDelayAlert(org.infobip.noc.common.models.alerting.data.submitdelay.SubmitDelayAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.submitdelay.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 843,
+      "offset": 160,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processSubmitDelayAlert(org.infobip.noc.common.models.alerting.data.submitdelay.SubmitDelayAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.submitdelay.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 869,
+      "offset": 118,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processSubmitDelayAlert(org.infobip.noc.common.models.alerting.data.submitdelay.SubmitDelayAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.submitdelay.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 885,
+      "offset": 160,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processSubmitDelayAlert(org.infobip.noc.common.models.alerting.data.submitdelay.SubmitDelayAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.submitdelay.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 924,
+      "offset": 144,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processNoTrafficAlert(org.infobip.noc.common.models.alerting.data.notraffic.NoTrafficAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 926,
+      "offset": 151,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processNoTrafficAlert(org.infobip.noc.common.models.alerting.data.notraffic.NoTrafficAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 935,
+      "offset": 105,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processNoTrafficAlert(org.infobip.noc.common.models.alerting.data.notraffic.NoTrafficAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 942,
+      "offset": 149,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processNoTrafficAlert(org.infobip.noc.common.models.alerting.data.notraffic.NoTrafficAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 974,
+      "offset": 105,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processNoTrafficAlert(org.infobip.noc.common.models.alerting.data.notraffic.NoTrafficAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 989,
+      "offset": 149,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processNoTrafficAlert(org.infobip.noc.common.models.alerting.data.notraffic.NoTrafficAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 1013,
+      "offset": 109,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processNoTrafficAlert(org.infobip.noc.common.models.alerting.data.notraffic.NoTrafficAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 1029,
+      "offset": 151,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processNoTrafficAlert(org.infobip.noc.common.models.alerting.data.notraffic.NoTrafficAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 1055,
+      "offset": 109,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processNoTrafficAlert(org.infobip.noc.common.models.alerting.data.notraffic.NoTrafficAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 1071,
+      "offset": 151,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processNoTrafficAlert(org.infobip.noc.common.models.alerting.data.notraffic.NoTrafficAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 1110,
+      "offset": 145,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processHlrAlert(org.infobip.noc.common.models.alerting.data.hlr.HlrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 1112,
+      "offset": 152,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processHlrAlert(org.infobip.noc.common.models.alerting.data.hlr.HlrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 1121,
+      "offset": 106,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processHlrAlert(org.infobip.noc.common.models.alerting.data.hlr.HlrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 1128,
+      "offset": 150,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processHlrAlert(org.infobip.noc.common.models.alerting.data.hlr.HlrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 1160,
+      "offset": 106,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processHlrAlert(org.infobip.noc.common.models.alerting.data.hlr.HlrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 1175,
+      "offset": 150,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processHlrAlert(org.infobip.noc.common.models.alerting.data.hlr.HlrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 1199,
+      "offset": 110,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processHlrAlert(org.infobip.noc.common.models.alerting.data.hlr.HlrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 1215,
+      "offset": 152,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processHlrAlert(org.infobip.noc.common.models.alerting.data.hlr.HlrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 1241,
+      "offset": 110,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processHlrAlert(org.infobip.noc.common.models.alerting.data.hlr.HlrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 1257,
+      "offset": 152,
+      "length": 18,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport void processHlrAlert(org.infobip.noc.common.models.alerting.data.hlr.HlrAlert alert)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 1274,
+      "offset": 120,
+      "length": 14,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport boolean matches(org.infobip.noc.common.models.alerting.data.AlertResolution alertResolution, org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlag diagnosticFlag)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 1275,
+      "offset": 55,
+      "length": 14,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport boolean matches(org.infobip.noc.common.models.alerting.data.AlertResolution alertResolution, org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlag diagnosticFlag)"
+      },
+      "highlighted_element": "getAlertReason",
+      "description": "'getAlertReason()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 1278,
+      "offset": 47,
+      "length": 14,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport boolean matches(org.infobip.noc.common.models.alerting.data.AlertResolution alertResolution, org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlag diagnosticFlag)"
+      },
+      "highlighted_element": "getAlertReason",
+      "description": "'getAlertReason()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 1284,
+      "offset": 126,
+      "length": 14,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport boolean matches(org.infobip.noc.common.models.alerting.data.AlertResolution alertResolution, org.infobip.noc.common.models.alerting.data.voicedlr.diagnostics.DiagnosticFlag diagnosticFlag)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.voicedlr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 1285,
+      "offset": 55,
+      "length": 14,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport boolean matches(org.infobip.noc.common.models.alerting.data.AlertResolution alertResolution, org.infobip.noc.common.models.alerting.data.voicedlr.diagnostics.DiagnosticFlag diagnosticFlag)"
+      },
+      "highlighted_element": "getAlertReason",
+      "description": "'getAlertReason()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 1288,
+      "offset": 47,
+      "length": 14,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport boolean matches(org.infobip.noc.common.models.alerting.data.AlertResolution alertResolution, org.infobip.noc.common.models.alerting.data.voicedlr.diagnostics.DiagnosticFlag diagnosticFlag)"
+      },
+      "highlighted_element": "getAlertReason",
+      "description": "'getAlertReason()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 1294,
+      "offset": 127,
+      "length": 14,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport boolean matches(org.infobip.noc.common.models.alerting.data.AlertResolution alertResolution, org.infobip.noc.common.models.alerting.data.notraffic.diagnostics.DiagnosticFlag diagnosticFlag)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.notraffic.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 1295,
+      "offset": 55,
+      "length": 14,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport boolean matches(org.infobip.noc.common.models.alerting.data.AlertResolution alertResolution, org.infobip.noc.common.models.alerting.data.notraffic.diagnostics.DiagnosticFlag diagnosticFlag)"
+      },
+      "highlighted_element": "getAlertReason",
+      "description": "'getAlertReason()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 1298,
+      "offset": 47,
+      "length": 14,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport boolean matches(org.infobip.noc.common.models.alerting.data.AlertResolution alertResolution, org.infobip.noc.common.models.alerting.data.notraffic.diagnostics.DiagnosticFlag diagnosticFlag)"
+      },
+      "highlighted_element": "getAlertReason",
+      "description": "'getAlertReason()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 1304,
+      "offset": 129,
+      "length": 14,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport boolean matches(org.infobip.noc.common.models.alerting.data.AlertResolution alertResolution, org.infobip.noc.common.models.alerting.data.submitdelay.diagnostics.DiagnosticFlag diagnosticFlag)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.submitdelay.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 1305,
+      "offset": 55,
+      "length": 14,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport boolean matches(org.infobip.noc.common.models.alerting.data.AlertResolution alertResolution, org.infobip.noc.common.models.alerting.data.submitdelay.diagnostics.DiagnosticFlag diagnosticFlag)"
+      },
+      "highlighted_element": "getAlertReason",
+      "description": "'getAlertReason()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 1308,
+      "offset": 47,
+      "length": 14,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport boolean matches(org.infobip.noc.common.models.alerting.data.AlertResolution alertResolution, org.infobip.noc.common.models.alerting.data.submitdelay.diagnostics.DiagnosticFlag diagnosticFlag)"
+      },
+      "highlighted_element": "getAlertReason",
+      "description": "'getAlertReason()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 1314,
+      "offset": 121,
+      "length": 14,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport boolean matches(org.infobip.noc.common.models.alerting.data.AlertResolution alertResolution, org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag diagnosticFlag)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 1315,
+      "offset": 55,
+      "length": 14,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport boolean matches(org.infobip.noc.common.models.alerting.data.AlertResolution alertResolution, org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag diagnosticFlag)"
+      },
+      "highlighted_element": "getAlertReason",
+      "description": "'getAlertReason()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/src/main/java/org/infobip/noc/reports/possiblevsselected/PossibleVsSelectedReport.java",
+      "line": 1318,
+      "offset": 47,
+      "length": 14,
+      "module": "infobip-noc-reports",
+      "package": "org.infobip.noc.reports.possiblevsselected",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.reports.possiblevsselected.PossibleVsSelectedReport boolean matches(org.infobip.noc.common.models.alerting.data.AlertResolution alertResolution, org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag diagnosticFlag)"
+      },
+      "highlighted_element": "getAlertReason",
+      "description": "'getAlertReason()' is deprecated"
+    }
+  ]
+}

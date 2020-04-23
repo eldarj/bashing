@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <parent>
+        <groupId>com.infobip</groupId>
+        <artifactId>infobip-master</artifactId>
+        <version>9.0.2</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.infobip.noc</groupId>
+    <artifactId>infobip-noc-dlr</artifactId>
+    <version>3.0.2-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <scm>
+        <developerConnection>scm:git:ssh://git@git.ib-ci.com:7999/noc/infobip-noc-dlr.git
+        </developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <properties>
+        <spring-boot.version>2.2.6.RELEASE</spring-boot.version>
+        <infobip-remoting.version>RELEASE</infobip-remoting.version>
+        <infobip-noc-core-connector.version>2.12.0</infobip-noc-core-connector.version>
+        <infobip-noc-cr-connector.version>1.18.0</infobip-noc-cr-connector.version>
+        <infobip-noc-common.version>4.7.6</infobip-noc-common.version>
+        <infobip-db-gateway-connector.version>1.15.3</infobip-db-gateway-connector.version>
+        <infobip-ipcore-common.version>5.1.5</infobip-ipcore-common.version>
+        <infobip-sms-service-connector.version>7.5.2</infobip-sms-service-connector.version>
+        <infobip-process-tracking-new-connector.version>1.0.12</infobip-process-tracking-new-connector.version>
+        <lombok.version>1.18.12</lombok.version>
+        <mssql-jdbc.version>8.2.2.jre13</mssql-jdbc.version>
+        <elasticsearch-rest.version>7.6.2</elasticsearch-rest.version>
+        <commons-lang3.version>3.6</commons-lang3.version>
+        <reactor.version>3.1.0.RELEASE</reactor.version>
+        <hibernate.version>5.0.12.Final</hibernate.version>
+        <commons-collections4.version>4.1</commons-collections4.version>
+        <hazelcast.version>3.12</hazelcast.version>
+        <morphia.version>1.3.2</morphia.version>
+        <metrics-spring.version>3.1.3</metrics-spring.version>
+        <infobip-mail-service.version>1.0.10</infobip-mail-service.version>
+        <mail.version>1.4.7</mail.version>
+        <logback.version>1.1.8</logback.version>
+        <logback-gelf.version>0.12</logback-gelf.version>
+        <whisper.version>1.0.4</whisper.version>
+        <metrics.version>4.0.2</metrics.version>
+        <jaxb.version>2.2.11</jaxb.version>
+        <activation.version>1.1.1</activation.version>
+        <junit.version>4.12</junit.version>
+        <mockito.version>1.10.19</mockito.version>
+        <assertj.version>3.8.0</assertj.version>
+    </properties>
+
+    <modules>
+        <module>infobip-noc-dlr-service</module>
+        <module>infobip-noc-dlr-connector</module>
+        <module>infobip-noc-dlr-smoke-test</module>
+    </modules>
+</project>

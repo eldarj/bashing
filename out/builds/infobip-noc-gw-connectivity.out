@@ -1,0 +1,62 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] infobip-noc-gw-connectivity                                        [pom]
+[INFO] infobip-noc-gw-connectivity-connector                              [jar]
+[INFO] infobip-noc-gw-connectivity-service                                [jar]
+[INFO] 
+[INFO] ------------< org.infobip.noc:infobip-noc-gw-connectivity >-------------
+[INFO] Building infobip-noc-gw-connectivity 2.0.2-SNAPSHOT                [1/3]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.1.60:compile (compile) @ infobip-noc-gw-connectivity ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (java-compile) @ infobip-noc-gw-connectivity ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] -------< org.infobip.noc:infobip-noc-gw-connectivity-connector >--------
+[INFO] Building infobip-noc-gw-connectivity-connector 2.0.2-SNAPSHOT      [2/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ infobip-noc-gw-connectivity-connector ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-gw-connectivity/infobip-noc-gw-connectivity-connector/src/main/resources
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.1.60:compile (compile) @ infobip-noc-gw-connectivity-connector ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (java-compile) @ infobip-noc-gw-connectivity-connector ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --------< org.infobip.noc:infobip-noc-gw-connectivity-service >---------
+[INFO] Building infobip-noc-gw-connectivity-service 2.0.2-SNAPSHOT        [3/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://artifactory.ib-ci.com/artifactory/libs-release/org/infobip/common/remoting/infobip-remoting-core/1.4.12.RELEASE/infobip-remoting-core-1.4.12.RELEASE.pom
+[INFO] Downloading from snapshots: https://artifactory.ib-ci.com/artifactory/libs-snapshot/org/infobip/common/remoting/infobip-remoting-core/1.4.12.RELEASE/infobip-remoting-core-1.4.12.RELEASE.pom
+[WARNING] The POM for org.infobip.common.remoting:infobip-remoting-core:jar:1.4.12.RELEASE is missing, no dependency information available
+[WARNING] The POM for com.sun.xml.bind:jaxb-core:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.sun.xml.bind:jaxb-impl:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ infobip-noc-gw-connectivity-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 16 resources
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.1.60:compile (compile) @ infobip-noc-gw-connectivity-service ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (java-compile) @ infobip-noc-gw-connectivity-service ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for infobip-noc-gw-connectivity 2.0.2-SNAPSHOT:
+[INFO] 
+[INFO] infobip-noc-gw-connectivity ........................ SUCCESS [  0.903 s]
+[INFO] infobip-noc-gw-connectivity-connector .............. SUCCESS [  0.169 s]
+[INFO] infobip-noc-gw-connectivity-service ................ SUCCESS [  4.088 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.497 s
+[INFO] Finished at: 2020-04-23T14:19:58+02:00
+[INFO] ------------------------------------------------------------------------

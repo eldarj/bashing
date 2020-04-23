@@ -1,0 +1,24 @@
+{
+  "problems": [
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/submitdelay/SubmitDelay.java",
+      "line": 16,
+      "offset": 13,
+      "length": 11,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.submitdelay",
+      "problem_class": {
+        "name": "Deprecated member is still used",
+        "id": "DeprecatedIsStillUsed",
+        "severity": "WARNING",
+        "attribute_key": "WARNING_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "class",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.submitdelay.SubmitDelay"
+      },
+      "highlighted_element": "SubmitDelay",
+      "description": "Deprecated member 'SubmitDelay' is still used"
+    }
+  ]
+}

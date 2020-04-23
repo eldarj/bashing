@@ -1,0 +1,90 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.infobip.noc:infobip-noc-cr-service:jar:3.0.3-SNAPSHOT
+[WARNING] 'dependencies.dependency.version' for org.jetbrains:annotations:jar is either LATEST or RELEASE (both of them are being deprecated) @ org.infobip.noc:infobip-noc-cr-service:[unknown-version], /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-cr/infobip-noc-cr-service/pom.xml, line 202, column 22
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.infobip.noc:infobip-noc-cr-connector:jar:3.0.3-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.infobip.noc:infobip-noc-cr-connector:[unknown-version], /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-cr/infobip-noc-cr-connector/pom.xml, line 33, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] infobip-noc-cr                                                     [pom]
+[INFO] infobip-noc-cr-connector                                           [jar]
+[INFO] infobip-noc-cr-service                                             [jar]
+[INFO] 
+[INFO] -------------------< org.infobip.noc:infobip-noc-cr >-------------------
+[INFO] Building infobip-noc-cr 3.0.3-SNAPSHOT                             [1/3]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.3.31:compile (compile) @ infobip-noc-cr ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (java-compile) @ infobip-noc-cr ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --------------< org.infobip.noc:infobip-noc-cr-connector >--------------
+[INFO] Building infobip-noc-cr-connector 3.0.3-SNAPSHOT                   [2/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://artifactory.ib-ci.com/artifactory/plugins-release/org/apache/maven/plugins/maven-javadoc-plugin/maven-metadata.xml
+[INFO] Downloading from snapshots: https://artifactory.ib-ci.com/artifactory/plugins-release/org/apache/maven/plugins/maven-javadoc-plugin/maven-metadata.xml
+[INFO] Downloaded from central: https://artifactory.ib-ci.com/artifactory/plugins-release/org/apache/maven/plugins/maven-javadoc-plugin/maven-metadata.xml (1.2 kB at 623 B/s)
+[INFO] Downloaded from snapshots: https://artifactory.ib-ci.com/artifactory/plugins-release/org/apache/maven/plugins/maven-javadoc-plugin/maven-metadata.xml (1.2 kB at 507 B/s)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ infobip-noc-cr-connector ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-cr/infobip-noc-cr-connector/src/main/resources
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.3.31:compile (compile) @ infobip-noc-cr-connector ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (java-compile) @ infobip-noc-cr-connector ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] ---------------< org.infobip.noc:infobip-noc-cr-service >---------------
+[INFO] Building infobip-noc-cr-service 3.0.3-SNAPSHOT                     [3/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from snapshots: https://artifactory.ib-ci.com/artifactory/libs-snapshot/org/infobip/common/remoting/infobip-remoting-spring-boot-starter/maven-metadata.xml
+[INFO] Downloading from central: https://artifactory.ib-ci.com/artifactory/libs-release/org/infobip/common/remoting/infobip-remoting-spring-boot-starter/maven-metadata.xml
+[INFO] Downloaded from central: https://artifactory.ib-ci.com/artifactory/libs-release/org/infobip/common/remoting/infobip-remoting-spring-boot-starter/maven-metadata.xml (9.6 kB at 20 kB/s)
+[INFO] Downloaded from snapshots: https://artifactory.ib-ci.com/artifactory/libs-snapshot/org/infobip/common/remoting/infobip-remoting-spring-boot-starter/maven-metadata.xml (6.0 kB at 9.7 kB/s)
+[INFO] Downloading from snapshots: https://artifactory.ib-ci.com/artifactory/libs-snapshot/io/grpc/grpc-api/maven-metadata.xml
+[INFO] Downloading from central: https://artifactory.ib-ci.com/artifactory/libs-release/io/grpc/grpc-api/maven-metadata.xml
+[INFO] Downloaded from snapshots: https://artifactory.ib-ci.com/artifactory/libs-snapshot/io/grpc/grpc-api/maven-metadata.xml (961 B at 1.3 kB/s)
+[INFO] Downloaded from central: https://artifactory.ib-ci.com/artifactory/libs-release/io/grpc/grpc-api/maven-metadata.xml (961 B at 1.1 kB/s)
+[INFO] Downloading from snapshots: https://artifactory.ib-ci.com/artifactory/libs-snapshot/org/infobip/common/remoting/infobip-remoting-api/maven-metadata.xml
+[INFO] Downloading from central: https://artifactory.ib-ci.com/artifactory/libs-release/org/infobip/common/remoting/infobip-remoting-api/maven-metadata.xml
+[INFO] Downloaded from central: https://artifactory.ib-ci.com/artifactory/libs-release/org/infobip/common/remoting/infobip-remoting-api/maven-metadata.xml (9.6 kB at 12 kB/s)
+[INFO] Downloaded from snapshots: https://artifactory.ib-ci.com/artifactory/libs-snapshot/org/infobip/common/remoting/infobip-remoting-api/maven-metadata.xml (6.0 kB at 5.6 kB/s)
+[INFO] Downloading from central: https://artifactory.ib-ci.com/artifactory/libs-release/org/jetbrains/annotations/maven-metadata.xml
+[INFO] Downloading from snapshots: https://artifactory.ib-ci.com/artifactory/libs-snapshot/org/jetbrains/annotations/maven-metadata.xml
+[INFO] Downloaded from snapshots: https://artifactory.ib-ci.com/artifactory/libs-snapshot/org/jetbrains/annotations/maven-metadata.xml (614 B at 1.1 kB/s)
+[INFO] Downloaded from central: https://artifactory.ib-ci.com/artifactory/libs-release/org/jetbrains/annotations/maven-metadata.xml (614 B at 957 B/s)
+[WARNING] The POM for com.sun.xml.bind:jaxb-core:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.sun.xml.bind:jaxb-impl:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ infobip-noc-cr-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 61 resources
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.3.31:compile (compile) @ infobip-noc-cr-service ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (java-compile) @ infobip-noc-cr-service ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for infobip-noc-cr 3.0.3-SNAPSHOT:
+[INFO] 
+[INFO] infobip-noc-cr ..................................... SUCCESS [  1.009 s]
+[INFO] infobip-noc-cr-connector ........................... SUCCESS [  3.162 s]
+[INFO] infobip-noc-cr-service ............................. SUCCESS [  4.928 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.494 s
+[INFO] Finished at: 2020-04-23T14:19:45+02:00
+[INFO] ------------------------------------------------------------------------

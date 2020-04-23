@@ -1,0 +1,664 @@
+{
+  "problems": [
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/config/CrServiceStatusProvider.java",
+      "line": 30,
+      "offset": 19,
+      "length": 5,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.config",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.config.CrServiceStatusProvider boolean ready()"
+      },
+      "highlighted_element": "ready",
+      "description": "Overrides deprecated method in 'org.infobip.common.remoting.modules.servicestatus.ServiceStatusProvider'"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/service/stages/publish/AlertPublish.java",
+      "line": 176,
+      "offset": 102,
+      "length": 15,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service.stages.publish",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.stages.publish.AlertPublish org.infobip.noc.common.models.alerting.data.CorrelationKey getCorrelationKey(org.infobip.noc.common.models.alerting.data.cr.CrAlert alert)"
+      },
+      "highlighted_element": "AlertJsonMapper",
+      "description": "'org.infobip.noc.common.models.alerting.data.AlertJsonMapper' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/service/stages/publish/AlertPublish.java",
+      "line": 179,
+      "offset": 33,
+      "length": 24,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service.stages.publish",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.stages.publish.AlertPublish org.infobip.noc.common.models.alerting.data.CorrelationKey getCorrelationKey(org.infobip.noc.common.models.alerting.data.cr.CrAlert alert)"
+      },
+      "highlighted_element": "CorrelationKeyJsonMapper",
+      "description": "'org.infobip.noc.common.models.alerting.data.CorrelationKeyJsonMapper' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/service/diagnostics/phases/DCGatewayFlagPhase.java",
+      "line": 45,
+      "offset": 77,
+      "length": 18,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.diagnostics.phases.DCGatewayFlagPhase void run(org.infobip.noc.cr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/service/diagnostics/phases/DCGatewayFlagPhase.java",
+      "line": 45,
+      "offset": 156,
+      "length": 14,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.diagnostics.phases.DCGatewayFlagPhase void run(org.infobip.noc.cr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/service/diagnostics/phases/DCGatewayFlagPhase.java",
+      "line": 47,
+      "offset": 91,
+      "length": 18,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.diagnostics.phases.DCGatewayFlagPhase void run(org.infobip.noc.cr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/service/diagnostics/phases/DCGatewayFlagPhase.java",
+      "line": 54,
+      "offset": 87,
+      "length": 18,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.diagnostics.phases.DCGatewayFlagPhase void run(org.infobip.noc.cr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/service/diagnostics/phases/DCGatewayFlagPhase.java",
+      "line": 54,
+      "offset": 181,
+      "length": 14,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.diagnostics.phases.DCGatewayFlagPhase void run(org.infobip.noc.cr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/service/diagnostics/phases/DCGatewayFlagPhase.java",
+      "line": 57,
+      "offset": 75,
+      "length": 18,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.diagnostics.phases.DCGatewayFlagPhase void run(org.infobip.noc.cr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/service/diagnostics/phases/DCGatewayFlagPhase.java",
+      "line": 58,
+      "offset": 75,
+      "length": 18,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.diagnostics.phases.DCGatewayFlagPhase void run(org.infobip.noc.cr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/service/diagnostics/phases/PossibleReasonFlagPhase.java",
+      "line": 53,
+      "offset": 90,
+      "length": 14,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.diagnostics.phases.PossibleReasonFlagPhase void run(org.infobip.noc.cr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "getAlertReason",
+      "description": "'getAlertReason()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/service/diagnostics/phases/PossibleReasonFlagPhase.java",
+      "line": 66,
+      "offset": 83,
+      "length": 14,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.diagnostics.phases.PossibleReasonFlagPhase void run(org.infobip.noc.cr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/service/diagnostics/phases/PossibleReasonFlagPhase.java",
+      "line": 66,
+      "offset": 178,
+      "length": 14,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.diagnostics.phases.PossibleReasonFlagPhase void run(org.infobip.noc.cr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/service/diagnostics/phases/PossibleReasonFlagPhase.java",
+      "line": 68,
+      "offset": 91,
+      "length": 18,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.diagnostics.phases.PossibleReasonFlagPhase void run(org.infobip.noc.cr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/service/diagnostics/phases/PossibleReasonFlagPhase.java",
+      "line": 69,
+      "offset": 91,
+      "length": 18,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.diagnostics.phases.PossibleReasonFlagPhase void run(org.infobip.noc.cr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/service/diagnostics/phases/PossibleReasonFlagPhase.java",
+      "line": 71,
+      "offset": 124,
+      "length": 18,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.diagnostics.phases.PossibleReasonFlagPhase void run(org.infobip.noc.cr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/service/diagnostics/phases/ImportantNetworkFlagPhase.java",
+      "line": 45,
+      "offset": 77,
+      "length": 18,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.diagnostics.phases.ImportantNetworkFlagPhase void run(org.infobip.noc.cr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/service/diagnostics/phases/ImportantNetworkFlagPhase.java",
+      "line": 45,
+      "offset": 156,
+      "length": 14,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.diagnostics.phases.ImportantNetworkFlagPhase void run(org.infobip.noc.cr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/service/diagnostics/phases/ImportantNetworkFlagPhase.java",
+      "line": 47,
+      "offset": 91,
+      "length": 18,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.diagnostics.phases.ImportantNetworkFlagPhase void run(org.infobip.noc.cr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/service/diagnostics/phases/ImportantNetworkFlagPhase.java",
+      "line": 54,
+      "offset": 87,
+      "length": 18,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.diagnostics.phases.ImportantNetworkFlagPhase void run(org.infobip.noc.cr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/service/diagnostics/phases/ImportantNetworkFlagPhase.java",
+      "line": 54,
+      "offset": 188,
+      "length": 14,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.diagnostics.phases.ImportantNetworkFlagPhase void run(org.infobip.noc.cr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/service/diagnostics/phases/ImportantNetworkFlagPhase.java",
+      "line": 57,
+      "offset": 75,
+      "length": 18,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.diagnostics.phases.ImportantNetworkFlagPhase void run(org.infobip.noc.cr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/service/diagnostics/phases/ImportantNetworkFlagPhase.java",
+      "line": 58,
+      "offset": 75,
+      "length": 18,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.diagnostics.phases.ImportantNetworkFlagPhase void run(org.infobip.noc.cr.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/service/diagnostics/phases/DeliveryForClientsUnderRiskPhase.java",
+      "line": 89,
+      "offset": 75,
+      "length": 18,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.diagnostics.phases.DeliveryForClientsUnderRiskPhase void updateClientsUnderRiskDeliveries(java.util.Map<java.lang.Integer,org.infobip.noc.common.models.alerting.data.ClientUnderRisk> clientUnderRisk, java.util.Map<org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlag> diagnosticFlags, java.util.Map<org.infobip.noc.common.models.alerting.data.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.diagnostics.DiagnosticFlag> flags, org.infobip.noc.cr.service.diagnostics.DiagnosticsRequest request, java.lang.Integer networkId, java.lang.Integer gatewayId)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/service/diagnostics/phases/DeliveryForClientsUnderRiskPhase.java",
+      "line": 89,
+      "offset": 154,
+      "length": 14,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.diagnostics.phases.DeliveryForClientsUnderRiskPhase void updateClientsUnderRiskDeliveries(java.util.Map<java.lang.Integer,org.infobip.noc.common.models.alerting.data.ClientUnderRisk> clientUnderRisk, java.util.Map<org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlag> diagnosticFlags, java.util.Map<org.infobip.noc.common.models.alerting.data.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.diagnostics.DiagnosticFlag> flags, org.infobip.noc.cr.service.diagnostics.DiagnosticsRequest request, java.lang.Integer networkId, java.lang.Integer gatewayId)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/service/diagnostics/phases/DeliveryForClientsUnderRiskPhase.java",
+      "line": 117,
+      "offset": 95,
+      "length": 18,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.diagnostics.phases.DeliveryForClientsUnderRiskPhase void updateClientsUnderRiskDeliveries(java.util.Map<java.lang.Integer,org.infobip.noc.common.models.alerting.data.ClientUnderRisk> clientUnderRisk, java.util.Map<org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlag> diagnosticFlags, java.util.Map<org.infobip.noc.common.models.alerting.data.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.diagnostics.DiagnosticFlag> flags, org.infobip.noc.cr.service.diagnostics.DiagnosticsRequest request, java.lang.Integer networkId, java.lang.Integer gatewayId)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/service/diagnostics/phases/DeliveryForClientsUnderRiskPhase.java",
+      "line": 117,
+      "offset": 197,
+      "length": 14,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.diagnostics.phases.DeliveryForClientsUnderRiskPhase void updateClientsUnderRiskDeliveries(java.util.Map<java.lang.Integer,org.infobip.noc.common.models.alerting.data.ClientUnderRisk> clientUnderRisk, java.util.Map<org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlag> diagnosticFlags, java.util.Map<org.infobip.noc.common.models.alerting.data.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.diagnostics.DiagnosticFlag> flags, org.infobip.noc.cr.service.diagnostics.DiagnosticsRequest request, java.lang.Integer networkId, java.lang.Integer gatewayId)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/service/diagnostics/phases/DeliveryForClientsUnderRiskPhase.java",
+      "line": 120,
+      "offset": 83,
+      "length": 18,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.diagnostics.phases.DeliveryForClientsUnderRiskPhase void updateClientsUnderRiskDeliveries(java.util.Map<java.lang.Integer,org.infobip.noc.common.models.alerting.data.ClientUnderRisk> clientUnderRisk, java.util.Map<org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlag> diagnosticFlags, java.util.Map<org.infobip.noc.common.models.alerting.data.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.diagnostics.DiagnosticFlag> flags, org.infobip.noc.cr.service.diagnostics.DiagnosticsRequest request, java.lang.Integer networkId, java.lang.Integer gatewayId)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/service/diagnostics/phases/DeliveryForClientsUnderRiskPhase.java",
+      "line": 121,
+      "offset": 83,
+      "length": 18,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.diagnostics.phases.DeliveryForClientsUnderRiskPhase void updateClientsUnderRiskDeliveries(java.util.Map<java.lang.Integer,org.infobip.noc.common.models.alerting.data.ClientUnderRisk> clientUnderRisk, java.util.Map<org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlag> diagnosticFlags, java.util.Map<org.infobip.noc.common.models.alerting.data.diagnostics.DiagnosticFlagType,org.infobip.noc.common.models.alerting.data.diagnostics.DiagnosticFlag> flags, org.infobip.noc.cr.service.diagnostics.DiagnosticsRequest request, java.lang.Integer networkId, java.lang.Integer gatewayId)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/service/diagnostics/phases/StatusReasonErrorCodeSmsCountsPhase.java",
+      "line": 103,
+      "offset": 77,
+      "length": 18,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.diagnostics.phases.StatusReasonErrorCodeSmsCountsPhase void setMissingDiagnosticsFlags(org.infobip.noc.common.models.alerting.data.cr.BaseCrAlertDiagnostic alertDiagnostic, java.util.List<org.infobip.noc.common.models.alerting.data.diagnostics.StatusReasonErrorCodeSmsCount> statusReasonErrorCodeSmsCounts, int undelivered)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/main/java/org/infobip/noc/cr/service/diagnostics/phases/StatusReasonErrorCodeSmsCountsPhase.java",
+      "line": 103,
+      "offset": 156,
+      "length": 14,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.diagnostics.phases.StatusReasonErrorCodeSmsCountsPhase void setMissingDiagnosticsFlags(org.infobip.noc.common.models.alerting.data.cr.BaseCrAlertDiagnostic alertDiagnostic, java.util.List<org.infobip.noc.common.models.alerting.data.diagnostics.StatusReasonErrorCodeSmsCount> statusReasonErrorCodeSmsCounts, int undelivered)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/test/java/org/infobip/noc/cr/service/RankingServiceTestDataGenerator.java",
+      "line": 67,
+      "offset": 33,
+      "length": 11,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.RankingServiceTestDataGenerator org.mongodb.morphia.Datastore getDatastore(java.lang.String username, java.lang.String password)"
+      },
+      "highlighted_element": "MongoClient",
+      "description": "'MongoClient(java.util.List<com.mongodb.ServerAddress>, java.util.List<com.mongodb.MongoCredential>)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-cr-service/src/test/java/org/infobip/noc/cr/service/RankingServiceTest.java",
+      "line": 73,
+      "offset": 35,
+      "length": 12,
+      "module": "infobip-noc-cr-service",
+      "package": "org.infobip.noc.cr.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.cr.service.RankingServiceTest void initMocks()"
+      },
+      "highlighted_element": "isAccessible",
+      "description": "'isAccessible()' is deprecated"
+    }
+  ]
+}

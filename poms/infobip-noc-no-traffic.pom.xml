@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.infobip</groupId>
+        <artifactId>infobip-master</artifactId>
+        <version>8.1.5</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.infobip.noc</groupId>
+    <artifactId>infobip-noc-no-traffic</artifactId>
+    <version>1.3.11-SNAPSHOT</version>
+
+    <properties>
+        <java.version>13</java.version>
+        <spring-boot.version>2.2.0.RELEASE</spring-boot.version>
+        <infobip-remoting.version>4.17.9</infobip-remoting.version>
+        <infobip-no-traffic-connector.version>1.3.3</infobip-no-traffic-connector.version>
+        <infobip-smoke-test-support.version>1.9.0</infobip-smoke-test-support.version>
+        <infobip-noc-common.version>4.8.42</infobip-noc-common.version>
+        <infobip-country-network-service-connector.version>1.12.0</infobip-country-network-service-connector.version>
+        <infobip-notificator.version>1.0.2</infobip-notificator.version>
+        <spring-boot-starter-data-mongodb.version>2.1.8.RELEASE</spring-boot-starter-data-mongodb.version>
+        <spring-boot-starter-amqp.version>2.1.8.RELEASE</spring-boot-starter-amqp.version>
+        <lombok.version>1.18.4</lombok.version>
+        <logback.version>1.1.8</logback.version>
+        <tuckey.version>4.0.4</tuckey.version>
+        <junit.version>4.12</junit.version>
+        <mockito.version>2.28.2</mockito.version>
+        <de.flapdoodle.embed.mongo.version>2.2.0</de.flapdoodle.embed.mongo.version>
+        <rabbitmq-testcontainer.version>1.12.1</rabbitmq-testcontainer.version>
+        <assertj.version>3.12.2</assertj.version>
+        <byte-buddy.version>1.9.13</byte-buddy.version>
+        <embedmongo-spring.version>1.3.1</embedmongo-spring.version>
+        <mail.version>1.4.7</mail.version>
+        <whisper.version>1.0.4</whisper.version>
+        <multirabbit.version>2.2.0</multirabbit.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>net.bytebuddy</groupId>
+                <artifactId>byte-buddy</artifactId>
+                <version>${byte-buddy.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>infobip-noc-no-traffic-service</module>
+        <module>infobip-noc-no-traffic-connector</module>
+        <module>infobip-noc-no-traffic-smoke-test</module>
+    </modules>
+    <scm>
+        <developerConnection>scm:git:ssh://git@git.ib-ci.com:7999/noc/infobip-noc-no-traffic.git
+        </developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+</project>

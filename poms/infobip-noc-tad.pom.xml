@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <groupId>com.infobip</groupId>
+    <artifactId>infobip-master</artifactId>
+    <version>8.1.5</version>
+  </parent>
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.infobip.noc</groupId>
+  <artifactId>infobip-noc-tad</artifactId>
+  <version>1.12.1-SNAPSHOT</version>
+
+  <properties>
+    <java.version>13</java.version>
+    <spring-boot.version>2.2.0.RELEASE</spring-boot.version>
+    <infobip-remoting.version>RELEASE</infobip-remoting.version>
+    <infobip-noc-common.version>5.0.5</infobip-noc-common.version>
+    <infobip-noc-core.version>2.15.2</infobip-noc-core.version>
+    <infobip-tad.version>2.1.0</infobip-tad.version>
+    <infobip-notificator.version>1.0.1</infobip-notificator.version>
+    <infobip-country-network-service.version>1.12.0</infobip-country-network-service.version>
+    <lombok.version>1.18.4</lombok.version>
+    <mail.version>1.4.7</mail.version>
+    <logback.version>1.1.8</logback.version>
+    <logback-gelf.version>0.12</logback-gelf.version>
+    <tuckey.version>4.0.4</tuckey.version>
+    <commons-collections4.version>4.3</commons-collections4.version>
+    <byte-buddy.version>1.9.13</byte-buddy.version>
+    <metrics.version>4.1.0</metrics.version>
+    <metrics-spring.version>3.1.3</metrics-spring.version>
+    <testcontainers.version>1.12.0</testcontainers.version>
+    <flapdoodle-embed-mongo.version>2.2.0</flapdoodle-embed-mongo.version>
+    <embedmongo-spring.version>1.3.1</embedmongo-spring.version>
+    <whisper.version>1.0.4</whisper.version>
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>net.bytebuddy</groupId>
+        <artifactId>byte-buddy</artifactId>
+        <version>${byte-buddy.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>infobip-noc-tad-service</module>
+    <module>infobip-noc-tad-connector</module>
+    <module>infobip-noc-tad-smoke-test</module>
+  </modules>
+
+  <scm>
+    <developerConnection>scm:git:ssh://git@git.ib-ci.com:7999/noc/infobip-noc-tad.git
+    </developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+</project>

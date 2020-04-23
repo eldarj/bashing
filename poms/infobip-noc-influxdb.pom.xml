@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>infobip-docker-master</artifactId>
+        <groupId>org.infobip.docker</groupId>
+        <version>1.1.0</version>
+    </parent>
+
+    <artifactId>infobip-noc-influxdb</artifactId>
+    <version>0.0.2-SNAPSHOT</version>
+
+    <scm>
+        <developerConnection>scm:git:ssh://git@git.ib-ci.com:7999/noc/infobip-noc-influxdb.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <properties>
+        <spotify.docker.plugin.version>0.4.9</spotify.docker.plugin.version>
+    </properties>
+</project>

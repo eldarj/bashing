@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <parent>
+        <groupId>com.infobip</groupId>
+        <artifactId>infobip-master</artifactId>
+        <version>3.0.6</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.infobip.noc.kafka2elastic</groupId>
+    <artifactId>infobip-noc-kafka2elastic</artifactId>
+    <version>2.2.2-SNAPSHOT</version>
+
+    <packaging>pom</packaging>
+
+    <properties>
+        <java-version>1.8</java-version>
+        <spring-boot.version>2.0.3.RELEASE</spring-boot.version>
+        <infobip-remoting.version>4.9.2</infobip-remoting.version>
+        <ib-kafka-clients.version>1.4.7</ib-kafka-clients.version>
+        <kafka-clients.version>1.1.0</kafka-clients.version>
+        <elasticsearch.version>7.6.2</elasticsearch.version>
+        <infobip-noc-traffic.version>1.0.0</infobip-noc-traffic.version>
+        <infobip-db-gateway-connector.version>1.15.3</infobip-db-gateway-connector.version>
+        <spring-kafka.version>2.1.6.RELEASE</spring-kafka.version>
+        <infobip-noc-common.version>4.4.23</infobip-noc-common.version>
+        <hazelcast.version>3.8.6</hazelcast.version>
+        <groovy.version>2.4.3</groovy.version>
+        <resilience4j.version>0.11.0</resilience4j.version>
+    </properties>
+
+    <scm>
+        <developerConnection>scm:git:ssh://git@git.ib-ci.com:7999/noc/infobip-noc-kafka2elastic.git
+        </developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <modules>
+        <module>infobip-noc-kafka2elastic-connector</module>
+        <module>infobip-noc-kafka2elastic-service</module>
+    </modules>
+</project>

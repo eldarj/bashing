@@ -1,0 +1,68 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.infobip.noc:infobip-noc-smpp-service:jar:3.1.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.version' for org.jetbrains:annotations:jar is either LATEST or RELEASE (both of them are being deprecated) @ org.infobip.noc:infobip-noc-smpp-service:[unknown-version], /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-smpp/infobip-noc-smpp-service/pom.xml, line 221, column 22
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] infobip-noc-smpp                                                   [pom]
+[INFO] infobip-noc-smpp-connector                                         [jar]
+[INFO] infobip-noc-smpp-service                                           [jar]
+[INFO] 
+[INFO] ------------------< org.infobip.noc:infobip-noc-smpp >------------------
+[INFO] Building infobip-noc-smpp 3.1.1-SNAPSHOT                           [1/3]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.1.60:compile (compile) @ infobip-noc-smpp ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (java-compile) @ infobip-noc-smpp ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] -------------< org.infobip.noc:infobip-noc-smpp-connector >-------------
+[INFO] Building infobip-noc-smpp-connector 3.1.1-SNAPSHOT                 [2/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ infobip-noc-smpp-connector ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-smpp/infobip-noc-smpp-connector/src/main/resources
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.1.60:compile (compile) @ infobip-noc-smpp-connector ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (java-compile) @ infobip-noc-smpp-connector ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --------------< org.infobip.noc:infobip-noc-smpp-service >--------------
+[INFO] Building infobip-noc-smpp-service 3.1.1-SNAPSHOT                   [3/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for com.google.guava:guava:jar:19.0.20150826 is missing, no dependency information available
+[WARNING] The POM for com.sun.xml.bind:jaxb-core:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.sun.xml.bind:jaxb-impl:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ infobip-noc-smpp-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 21 resources
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.1.60:compile (compile) @ infobip-noc-smpp-service ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (java-compile) @ infobip-noc-smpp-service ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for infobip-noc-smpp 3.1.1-SNAPSHOT:
+[INFO] 
+[INFO] infobip-noc-smpp ................................... SUCCESS [  0.878 s]
+[INFO] infobip-noc-smpp-connector ......................... SUCCESS [  0.324 s]
+[INFO] infobip-noc-smpp-service ........................... SUCCESS [  1.654 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.233 s
+[INFO] Finished at: 2020-04-23T14:20:20+02:00
+[INFO] ------------------------------------------------------------------------

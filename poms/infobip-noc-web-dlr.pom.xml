@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <parent>
+        <groupId>com.infobip</groupId>
+        <artifactId>infobip-master</artifactId>
+        <version>6.0.2</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.infobip.noc</groupId>
+    <artifactId>infobip-noc-web-dlr</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <properties>
+        <spring-boot.version>2.1.3.RELEASE</spring-boot.version>
+        <infobip-remoting.version>4.10.1</infobip-remoting.version>
+
+        <lombok.version>1.18.2</lombok.version>
+    </properties>
+    
+    <packaging>pom</packaging>
+      <modules>
+        <module>infobip-noc-web-dlr-service</module>
+        <module>infobip-noc-web-dlr-connector</module>
+      </modules>
+</project>

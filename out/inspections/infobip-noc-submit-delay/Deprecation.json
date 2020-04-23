@@ -1,0 +1,264 @@
+{
+  "problems": [
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-submit-delay-service/src/main/java/org/infobip/noc/submitdelay/configs/SubmitDelayServiceStatusProvider.java",
+      "line": 27,
+      "offset": 19,
+      "length": 5,
+      "module": "infobip-noc-submit-delay-service",
+      "package": "org.infobip.noc.submitdelay.configs",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.submitdelay.configs.SubmitDelayServiceStatusProvider boolean ready()"
+      },
+      "highlighted_element": "ready",
+      "description": "Overrides deprecated method in 'org.infobip.common.remoting.modules.servicestatus.ServiceStatusProvider'"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-submit-delay-service/src/main/java/org/infobip/noc/submitdelay/service/stages/publish/AlertPublish.java",
+      "line": 71,
+      "offset": 61,
+      "length": 12,
+      "module": "infobip-noc-submit-delay-service",
+      "package": "org.infobip.noc.submitdelay.service.stages.publish",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.submitdelay.service.stages.publish.AlertPublish void handleRequest(org.infobip.noc.submitdelay.service.stages.publish.AlertPublishRequest request)"
+      },
+      "highlighted_element": "publishAlert",
+      "description": "'publishAlert(java.lang.String, java.lang.Class<? extends org.infobip.noc.common.models.alerting.data.Alert>)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-submit-delay-service/src/main/java/org/infobip/noc/submitdelay/service/stages/publish/AlertPublish.java",
+      "line": 71,
+      "offset": 74,
+      "length": 15,
+      "module": "infobip-noc-submit-delay-service",
+      "package": "org.infobip.noc.submitdelay.service.stages.publish",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.submitdelay.service.stages.publish.AlertPublish void handleRequest(org.infobip.noc.submitdelay.service.stages.publish.AlertPublishRequest request)"
+      },
+      "highlighted_element": "AlertJsonMapper",
+      "description": "'org.infobip.noc.common.models.alerting.data.AlertJsonMapper' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-submit-delay-service/src/main/java/org/infobip/noc/submitdelay/service/diagnostics/phases/PossibleReasonFlagPhase.java",
+      "line": 52,
+      "offset": 90,
+      "length": 14,
+      "module": "infobip-noc-submit-delay-service",
+      "package": "org.infobip.noc.submitdelay.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.submitdelay.service.diagnostics.phases.PossibleReasonFlagPhase void run(org.infobip.noc.submitdelay.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "getAlertReason",
+      "description": "'getAlertReason()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-submit-delay-service/src/main/java/org/infobip/noc/submitdelay/service/diagnostics/phases/PossibleReasonFlagPhase.java",
+      "line": 65,
+      "offset": 92,
+      "length": 14,
+      "module": "infobip-noc-submit-delay-service",
+      "package": "org.infobip.noc.submitdelay.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.submitdelay.service.diagnostics.phases.PossibleReasonFlagPhase void run(org.infobip.noc.submitdelay.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.submitdelay.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-submit-delay-service/src/main/java/org/infobip/noc/submitdelay/service/diagnostics/phases/PossibleReasonFlagPhase.java",
+      "line": 66,
+      "offset": 104,
+      "length": 14,
+      "module": "infobip-noc-submit-delay-service",
+      "package": "org.infobip.noc.submitdelay.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.submitdelay.service.diagnostics.phases.PossibleReasonFlagPhase void run(org.infobip.noc.submitdelay.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.submitdelay.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-submit-delay-service/src/main/java/org/infobip/noc/submitdelay/service/diagnostics/phases/PossibleReasonFlagPhase.java",
+      "line": 66,
+      "offset": 196,
+      "length": 18,
+      "module": "infobip-noc-submit-delay-service",
+      "package": "org.infobip.noc.submitdelay.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.submitdelay.service.diagnostics.phases.PossibleReasonFlagPhase void run(org.infobip.noc.submitdelay.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.submitdelay.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-submit-delay-service/src/main/java/org/infobip/noc/submitdelay/service/diagnostics/phases/PossibleReasonFlagPhase.java",
+      "line": 66,
+      "offset": 325,
+      "length": 18,
+      "module": "infobip-noc-submit-delay-service",
+      "package": "org.infobip.noc.submitdelay.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.submitdelay.service.diagnostics.phases.PossibleReasonFlagPhase void run(org.infobip.noc.submitdelay.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.submitdelay.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-submit-delay-service/src/main/java/org/infobip/noc/submitdelay/service/diagnostics/phases/PossibleReasonFlagPhase.java",
+      "line": 67,
+      "offset": 133,
+      "length": 18,
+      "module": "infobip-noc-submit-delay-service",
+      "package": "org.infobip.noc.submitdelay.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.submitdelay.service.diagnostics.phases.PossibleReasonFlagPhase void run(org.infobip.noc.submitdelay.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.submitdelay.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-submit-delay-service/src/main/java/org/infobip/noc/submitdelay/service/NotificationService.java",
+      "line": 232,
+      "offset": 46,
+      "length": 8,
+      "module": "infobip-noc-submit-delay-service",
+      "package": "org.infobip.noc.submitdelay.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.submitdelay.service.NotificationService double getDelayedPercent(long delayed, long total)"
+      },
+      "highlighted_element": "setScale",
+      "description": "'setScale(int, int)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-submit-delay-service/src/main/java/org/infobip/noc/submitdelay/service/NotificationService.java",
+      "line": 232,
+      "offset": 69,
+      "length": 13,
+      "module": "infobip-noc-submit-delay-service",
+      "package": "org.infobip.noc.submitdelay.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.submitdelay.service.NotificationService double getDelayedPercent(long delayed, long total)"
+      },
+      "highlighted_element": "ROUND_HALF_UP",
+      "description": "'ROUND_HALF_UP' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-submit-delay-service/src/main/java/org/infobip/noc/submitdelay/service/NotificationService.java",
+      "line": 311,
+      "offset": 60,
+      "length": 14,
+      "module": "infobip-noc-submit-delay-service",
+      "package": "org.infobip.noc.submitdelay.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.submitdelay.service.NotificationService java.lang.String getReasons(org.infobip.noc.common.models.alerting.data.AlertResolution alertResolution)"
+      },
+      "highlighted_element": "getAlertReason",
+      "description": "'getAlertReason()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-submit-delay-service/src/main/java/org/infobip/noc/submitdelay/service/NotificationService.java",
+      "line": 327,
+      "offset": 80,
+      "length": 24,
+      "module": "infobip-noc-submit-delay-service",
+      "package": "org.infobip.noc.submitdelay.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.submitdelay.service.NotificationService java.lang.String getActions(org.infobip.noc.common.models.alerting.data.AlertResolution alertResolution)"
+      },
+      "highlighted_element": "getAlertResolutionAction",
+      "description": "'getAlertResolutionAction()' is deprecated"
+    }
+  ]
+}

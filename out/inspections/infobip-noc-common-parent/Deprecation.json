@@ -1,0 +1,984 @@
+{
+  "problems": [
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-utils/src/main/java/org/infobip/noc/common/utils/reflection/ClassTransformer.java",
+      "line": 36,
+      "offset": 43,
+      "length": 12,
+      "module": "infobip-noc-common-utils",
+      "package": "org.infobip.noc.common.utils.reflection",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.utils.reflection.ClassTransformer java.lang.Object getFieldValueRecursive(java.lang.Object obj, java.lang.String fieldPath)"
+      },
+      "highlighted_element": "isAccessible",
+      "description": "'isAccessible()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-utils/src/main/java/org/infobip/noc/common/utils/math/MathUtils.java",
+      "line": 17,
+      "offset": 46,
+      "length": 8,
+      "module": "infobip-noc-common-utils",
+      "package": "org.infobip.noc.common.utils.math",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.utils.math.MathUtils double percentage(int portion, int base)"
+      },
+      "highlighted_element": "setScale",
+      "description": "'setScale(int, int)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-utils/src/main/java/org/infobip/noc/common/utils/math/MathUtils.java",
+      "line": 17,
+      "offset": 69,
+      "length": 13,
+      "module": "infobip-noc-common-utils",
+      "package": "org.infobip.noc.common.utils.math",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.utils.math.MathUtils double percentage(int portion, int base)"
+      },
+      "highlighted_element": "ROUND_HALF_UP",
+      "description": "'ROUND_HALF_UP' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/cr/BaseCrAlertDiagnostic.java",
+      "line": 29,
+      "offset": 75,
+      "length": 18,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.cr",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.cr.BaseCrAlertDiagnostic diagnosticFlags"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/cr/BaseCrAlertDiagnostic.java",
+      "line": 29,
+      "offset": 154,
+      "length": 14,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.cr",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.cr.BaseCrAlertDiagnostic diagnosticFlags"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.cr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/cr/CrAlert.java",
+      "line": 134,
+      "offset": 24,
+      "length": 21,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.cr",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.cr.CrAlert org.infobip.noc.common.models.alerting.deduplication.DeduplicationMetadata getDeduplicationMetadata()"
+      },
+      "highlighted_element": "getDiagnosticsPerTime",
+      "description": "'getDiagnosticsPerTime()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/cr/CrAlert.java",
+      "line": 142,
+      "offset": 24,
+      "length": 21,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.cr",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.cr.CrAlert org.infobip.noc.common.models.alerting.deduplication.DeduplicationMetadata getDeduplicationMetadata()"
+      },
+      "highlighted_element": "getDiagnosticsPerTime",
+      "description": "'getDiagnosticsPerTime()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/cr/CrAlert.java",
+      "line": 166,
+      "offset": 16,
+      "length": 21,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.cr",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.cr.CrAlert org.infobip.noc.common.models.alerting.correlation.CorrelationMetadata getCorrelationMetadata()"
+      },
+      "highlighted_element": "getDiagnosticsPerTime",
+      "description": "'getDiagnosticsPerTime()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/dlr/BaseDlrAlertDiagnostic.java",
+      "line": 28,
+      "offset": 76,
+      "length": 18,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.dlr",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.dlr.BaseDlrAlertDiagnostic diagnosticFlags"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.dlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/dlr/BaseDlrAlertDiagnostic.java",
+      "line": 28,
+      "offset": 156,
+      "length": 14,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.dlr",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.dlr.BaseDlrAlertDiagnostic diagnosticFlags"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.dlr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/dlr/DlrAlert.java",
+      "line": 146,
+      "offset": 24,
+      "length": 21,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.dlr",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.dlr.DlrAlert org.infobip.noc.common.models.alerting.deduplication.DeduplicationMetadata getDeduplicationMetadata()"
+      },
+      "highlighted_element": "getDiagnosticsPerTime",
+      "description": "'getDiagnosticsPerTime()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/dlr/DlrAlert.java",
+      "line": 154,
+      "offset": 24,
+      "length": 21,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.dlr",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.dlr.DlrAlert org.infobip.noc.common.models.alerting.deduplication.DeduplicationMetadata getDeduplicationMetadata()"
+      },
+      "highlighted_element": "getDiagnosticsPerTime",
+      "description": "'getDiagnosticsPerTime()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/dlr/DlrAlert.java",
+      "line": 178,
+      "offset": 16,
+      "length": 21,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.dlr",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.dlr.DlrAlert org.infobip.noc.common.models.alerting.correlation.CorrelationMetadata getCorrelationMetadata()"
+      },
+      "highlighted_element": "getDiagnosticsPerTime",
+      "description": "'getDiagnosticsPerTime()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/hlr/PrefixGatewayAlert.java",
+      "line": 104,
+      "offset": 16,
+      "length": 21,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.hlr",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.hlr.PrefixGatewayAlert org.infobip.noc.common.models.alerting.correlation.CorrelationMetadata getCorrelationMetadata()"
+      },
+      "highlighted_element": "getDiagnosticsPerTime",
+      "description": "'getDiagnosticsPerTime()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/hlr/HlrAlert.java",
+      "line": 145,
+      "offset": 16,
+      "length": 21,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.hlr",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.hlr.HlrAlert org.infobip.noc.common.models.alerting.correlation.CorrelationMetadata getCorrelationMetadata()"
+      },
+      "highlighted_element": "getDiagnosticsPerTime",
+      "description": "'getDiagnosticsPerTime()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/hlr/NetworkFilteringAlert.java",
+      "line": 107,
+      "offset": 16,
+      "length": 21,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.hlr",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.hlr.NetworkFilteringAlert org.infobip.noc.common.models.alerting.correlation.CorrelationMetadata getCorrelationMetadata()"
+      },
+      "highlighted_element": "getDiagnosticsPerTime",
+      "description": "'getDiagnosticsPerTime()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/hlr/BaseHlrAlertDiagnostic.java",
+      "line": 32,
+      "offset": 76,
+      "length": 18,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.hlr",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.hlr.BaseHlrAlertDiagnostic diagnosticFlags"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/hlr/BaseHlrAlertDiagnostic.java",
+      "line": 32,
+      "offset": 156,
+      "length": 14,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.hlr",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.hlr.BaseHlrAlertDiagnostic diagnosticFlags"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.hlr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/nodr/NodrAlert.java",
+      "line": 82,
+      "offset": 16,
+      "length": 21,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.nodr",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.nodr.NodrAlert org.infobip.noc.common.models.alerting.correlation.CorrelationMetadata getCorrelationMetadata()"
+      },
+      "highlighted_element": "getDiagnosticsPerTime",
+      "description": "'getDiagnosticsPerTime()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/smpp/BaseSmppAlertDiagnostic.java",
+      "line": 23,
+      "offset": 77,
+      "length": 18,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.smpp",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.smpp.BaseSmppAlertDiagnostic diagnosticFlags"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.smpp.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/smpp/BaseSmppAlertDiagnostic.java",
+      "line": 23,
+      "offset": 158,
+      "length": 14,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.smpp",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.smpp.BaseSmppAlertDiagnostic diagnosticFlags"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.smpp.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/smpp/SmppAlert.java",
+      "line": 106,
+      "offset": 16,
+      "length": 21,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.smpp",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.smpp.SmppAlert org.infobip.noc.common.models.alerting.correlation.CorrelationMetadata getCorrelationMetadata()"
+      },
+      "highlighted_element": "getDiagnosticsPerTime",
+      "description": "'getDiagnosticsPerTime()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/voice/VoiceFailedCallsAlert.java",
+      "line": 76,
+      "offset": 24,
+      "length": 21,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.voice",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.voice.VoiceFailedCallsAlert org.infobip.noc.common.models.alerting.deduplication.DeduplicationMetadata getDeduplicationMetadata()"
+      },
+      "highlighted_element": "getDiagnosticsPerTime",
+      "description": "'getDiagnosticsPerTime()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/voice/VoiceFailedCallsAlert.java",
+      "line": 84,
+      "offset": 24,
+      "length": 21,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.voice",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.voice.VoiceFailedCallsAlert org.infobip.noc.common.models.alerting.deduplication.DeduplicationMetadata getDeduplicationMetadata()"
+      },
+      "highlighted_element": "getDiagnosticsPerTime",
+      "description": "'getDiagnosticsPerTime()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/voice/VoiceFailedCallsAlert.java",
+      "line": 109,
+      "offset": 16,
+      "length": 21,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.voice",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.voice.VoiceFailedCallsAlert org.infobip.noc.common.models.alerting.correlation.CorrelationMetadata getCorrelationMetadata()"
+      },
+      "highlighted_element": "getDiagnosticsPerTime",
+      "description": "'getDiagnosticsPerTime()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/voice/VoiceCongestionAlert.java",
+      "line": 78,
+      "offset": 24,
+      "length": 21,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.voice",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.voice.VoiceCongestionAlert org.infobip.noc.common.models.alerting.deduplication.DeduplicationMetadata getDeduplicationMetadata()"
+      },
+      "highlighted_element": "getDiagnosticsPerTime",
+      "description": "'getDiagnosticsPerTime()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/voice/VoiceCongestionAlert.java",
+      "line": 86,
+      "offset": 24,
+      "length": 21,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.voice",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.voice.VoiceCongestionAlert org.infobip.noc.common.models.alerting.deduplication.DeduplicationMetadata getDeduplicationMetadata()"
+      },
+      "highlighted_element": "getDiagnosticsPerTime",
+      "description": "'getDiagnosticsPerTime()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/voice/VoiceCongestionAlert.java",
+      "line": 112,
+      "offset": 16,
+      "length": 21,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.voice",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.voice.VoiceCongestionAlert org.infobip.noc.common.models.alerting.correlation.CorrelationMetadata getCorrelationMetadata()"
+      },
+      "highlighted_element": "getDiagnosticsPerTime",
+      "description": "'getDiagnosticsPerTime()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/voicedlr/BaseVoiceDlrAlertDiagnostic.java",
+      "line": 31,
+      "offset": 81,
+      "length": 18,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.voicedlr",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.voicedlr.BaseVoiceDlrAlertDiagnostic diagnosticFlags"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.voicedlr.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/voicedlr/BaseVoiceDlrAlertDiagnostic.java",
+      "line": 31,
+      "offset": 166,
+      "length": 14,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.voicedlr",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.voicedlr.BaseVoiceDlrAlertDiagnostic diagnosticFlags"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.voicedlr.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/voicedlr/VoiceDlrAlert.java",
+      "line": 147,
+      "offset": 24,
+      "length": 21,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.voicedlr",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.voicedlr.VoiceDlrAlert org.infobip.noc.common.models.alerting.deduplication.DeduplicationMetadata getDeduplicationMetadata()"
+      },
+      "highlighted_element": "getDiagnosticsPerTime",
+      "description": "'getDiagnosticsPerTime()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/voicedlr/VoiceDlrAlert.java",
+      "line": 155,
+      "offset": 24,
+      "length": 21,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.voicedlr",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.voicedlr.VoiceDlrAlert org.infobip.noc.common.models.alerting.deduplication.DeduplicationMetadata getDeduplicationMetadata()"
+      },
+      "highlighted_element": "getDiagnosticsPerTime",
+      "description": "'getDiagnosticsPerTime()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/voicedlr/VoiceDlrAlert.java",
+      "line": 179,
+      "offset": 16,
+      "length": 21,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.voicedlr",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.voicedlr.VoiceDlrAlert org.infobip.noc.common.models.alerting.correlation.CorrelationMetadata getCorrelationMetadata()"
+      },
+      "highlighted_element": "getDiagnosticsPerTime",
+      "description": "'getDiagnosticsPerTime()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/notraffic/NoTrafficBaseAlert.java",
+      "line": 22,
+      "offset": 17,
+      "length": 15,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.notraffic",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.notraffic.NoTrafficBaseAlert notificationLogs"
+      },
+      "highlighted_element": "NotificationLog",
+      "description": "'org.infobip.noc.common.models.alerting.data.notraffic.NotificationLog' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/notraffic/NoTrafficBaseAlert.java",
+      "line": 47,
+      "offset": 17,
+      "length": 15,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.notraffic",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.notraffic.NoTrafficBaseAlert NoTrafficBaseAlert(java.lang.String id, org.infobip.noc.common.models.alerting.data.AlertType alertType, java.time.Instant creationTime, java.time.Instant resolutionTime, java.lang.Long ticketId, int rank, java.lang.String claimer, org.infobip.noc.common.models.alerting.data.AlertResolution alertResolution, org.infobip.noc.common.models.alerting.data.AlertState alertState, java.util.Map<java.lang.Long,java.util.List<org.infobip.noc.common.models.alerting.data.AlertDiagnostic>> diagnosticsPerTime, java.util.Map<java.lang.Long,java.util.List<org.infobip.noc.common.models.alerting.data.AlertBasicInfo>> previousAlertsPerAnomalyId, java.util.List<java.lang.String> flaggedUsers, java.util.Map<java.lang.String,java.lang.Boolean> usersFlaggedMap, org.infobip.noc.common.models.alerting.data.CorrelationKey correlationKey, java.util.List<org.infobip.noc.common.models.alerting.linking.AlertLink> alertLinks, java.util.List<org.infobip.noc.common.models.alerting.data.AlertDiagnostic> diagnostics, org.infobip.noc.common.models.alerting.data.AlertType parentAlertType, int requestTypeId, java.lang.String monitoringNote, java.time.Instant lastTrafficTime, java.time.Instant continuedTrafficTime, int noTrafficConfigId, java.util.List<org.infobip.noc.common.models.alerting.data.notraffic.NotificationLog> notificationLogs)"
+      },
+      "highlighted_element": "NotificationLog",
+      "description": "'org.infobip.noc.common.models.alerting.data.notraffic.NotificationLog' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/notraffic/BaseNoTrafficAlertDiagnostic.java",
+      "line": 18,
+      "offset": 82,
+      "length": 18,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.notraffic",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.notraffic.BaseNoTrafficAlertDiagnostic diagnosticFlags"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.notraffic.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/notraffic/BaseNoTrafficAlertDiagnostic.java",
+      "line": 18,
+      "offset": 168,
+      "length": 14,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.notraffic",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.notraffic.BaseNoTrafficAlertDiagnostic diagnosticFlags"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.notraffic.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/notraffic/NoTrafficAlert.java",
+      "line": 48,
+      "offset": 17,
+      "length": 15,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.notraffic",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.notraffic.NoTrafficAlert NoTrafficAlert(java.lang.String id, org.infobip.noc.common.models.alerting.data.AlertType alertType, java.time.Instant creationTime, java.time.Instant resolutionTime, java.lang.Long ticketId, int rank, java.lang.String claimer, org.infobip.noc.common.models.alerting.data.AlertResolution alertResolution, org.infobip.noc.common.models.alerting.data.AlertState alertState, java.util.Map<java.lang.Long,java.util.List<org.infobip.noc.common.models.alerting.data.AlertDiagnostic>> diagnosticsPerTime, java.util.Map<java.lang.Long,java.util.List<org.infobip.noc.common.models.alerting.data.AlertBasicInfo>> previousAlertsPerAnomalyId, java.util.List<java.lang.String> flaggedUsers, java.util.Map<java.lang.String,java.lang.Boolean> usersFlaggedMap, org.infobip.noc.common.models.alerting.data.CorrelationKey correlationKey, java.util.List<org.infobip.noc.common.models.alerting.linking.AlertLink> alertLinks, java.util.List<org.infobip.noc.common.models.alerting.data.AlertDiagnostic> diagnostics, org.infobip.noc.common.models.alerting.data.AlertType parentAlertType, int requestTypeId, java.lang.String monitoringNote, java.time.Instant lastTrafficTime, java.time.Instant continuedTrafficTime, int noTrafficConfigId, java.util.List<org.infobip.noc.common.models.alerting.data.notraffic.NotificationLog> notificationLogs, org.infobip.noc.common.models.alerting.data.Client client, org.infobip.noc.common.models.alerting.data.notraffic.ClientType clientType)"
+      },
+      "highlighted_element": "NotificationLog",
+      "description": "'org.infobip.noc.common.models.alerting.data.notraffic.NotificationLog' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/notraffic/NoTrafficAlert.java",
+      "line": 79,
+      "offset": 16,
+      "length": 21,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.notraffic",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.notraffic.NoTrafficAlert org.infobip.noc.common.models.alerting.correlation.CorrelationMetadata getCorrelationMetadata()"
+      },
+      "highlighted_element": "getDiagnosticsPerTime",
+      "description": "'getDiagnosticsPerTime()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/notraffic/NoTrafficGatewayAlert.java",
+      "line": 43,
+      "offset": 17,
+      "length": 15,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.notraffic",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.notraffic.NoTrafficGatewayAlert NoTrafficGatewayAlert(java.lang.String id, org.infobip.noc.common.models.alerting.data.AlertType alertType, java.time.Instant creationTime, java.time.Instant resolutionTime, java.lang.Long ticketId, int rank, java.lang.String claimer, org.infobip.noc.common.models.alerting.data.AlertResolution alertResolution, org.infobip.noc.common.models.alerting.data.AlertState alertState, java.util.Map<java.lang.Long,java.util.List<org.infobip.noc.common.models.alerting.data.AlertDiagnostic>> diagnosticsPerTime, java.util.Map<java.lang.Long,java.util.List<org.infobip.noc.common.models.alerting.data.AlertBasicInfo>> previousAlertsPerAnomalyId, java.util.List<java.lang.String> flaggedUsers, java.util.Map<java.lang.String,java.lang.Boolean> usersFlaggedMap, org.infobip.noc.common.models.alerting.data.CorrelationKey correlationKey, java.util.List<org.infobip.noc.common.models.alerting.linking.AlertLink> alertLinks, java.util.List<org.infobip.noc.common.models.alerting.data.AlertDiagnostic> diagnostics, org.infobip.noc.common.models.alerting.data.AlertType parentAlertType, int requestTypeId, java.lang.String monitoringNote, java.time.Instant lastTrafficTime, java.time.Instant continuedTrafficTime, int noTrafficConfigId, java.util.List<org.infobip.noc.common.models.alerting.data.notraffic.NotificationLog> notificationLogs, org.infobip.noc.common.models.alerting.data.Gateway gateway)"
+      },
+      "highlighted_element": "NotificationLog",
+      "description": "'org.infobip.noc.common.models.alerting.data.notraffic.NotificationLog' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/notraffic/NoTrafficGatewayAlert.java",
+      "line": 72,
+      "offset": 16,
+      "length": 21,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.notraffic",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.notraffic.NoTrafficGatewayAlert org.infobip.noc.common.models.alerting.correlation.CorrelationMetadata getCorrelationMetadata()"
+      },
+      "highlighted_element": "getDiagnosticsPerTime",
+      "description": "'getDiagnosticsPerTime()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/notraffic/NoTrafficUSSDAlert.java",
+      "line": 49,
+      "offset": 17,
+      "length": 15,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.notraffic",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.notraffic.NoTrafficUSSDAlert NoTrafficUSSDAlert(java.lang.String id, org.infobip.noc.common.models.alerting.data.AlertType alertType, java.time.Instant creationTime, java.time.Instant resolutionTime, java.lang.Long ticketId, int rank, java.lang.String claimer, org.infobip.noc.common.models.alerting.data.AlertResolution alertResolution, org.infobip.noc.common.models.alerting.data.AlertState alertState, java.util.Map<java.lang.Long,java.util.List<org.infobip.noc.common.models.alerting.data.AlertDiagnostic>> diagnosticsPerTime, java.util.Map<java.lang.Long,java.util.List<org.infobip.noc.common.models.alerting.data.AlertBasicInfo>> previousAlertsPerAnomalyId, java.util.List<java.lang.String> flaggedUsers, java.util.Map<java.lang.String,java.lang.Boolean> usersFlaggedMap, org.infobip.noc.common.models.alerting.data.CorrelationKey correlationKey, java.util.List<org.infobip.noc.common.models.alerting.linking.AlertLink> alertLinks, java.util.List<org.infobip.noc.common.models.alerting.data.AlertDiagnostic> diagnostics, org.infobip.noc.common.models.alerting.data.AlertType parentAlertType, int requestTypeId, java.lang.String monitoringNote, java.time.Instant lastTrafficTime, java.time.Instant continuedTrafficTime, int noTrafficConfigId, java.util.List<org.infobip.noc.common.models.alerting.data.notraffic.NotificationLog> notificationLogs, org.infobip.noc.common.models.alerting.data.Client client, org.infobip.noc.common.models.alerting.data.notraffic.ClientType clientType, org.infobip.noc.common.models.alerting.data.Gateway gateway)"
+      },
+      "highlighted_element": "NotificationLog",
+      "description": "'org.infobip.noc.common.models.alerting.data.notraffic.NotificationLog' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/notraffic/NoTrafficUSSDAlert.java",
+      "line": 84,
+      "offset": 16,
+      "length": 21,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.notraffic",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.notraffic.NoTrafficUSSDAlert org.infobip.noc.common.models.alerting.correlation.CorrelationMetadata getCorrelationMetadata()"
+      },
+      "highlighted_element": "getDiagnosticsPerTime",
+      "description": "'getDiagnosticsPerTime()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/notraffic/NoTrafficVoiceAlert.java",
+      "line": 50,
+      "offset": 17,
+      "length": 15,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.notraffic",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.notraffic.NoTrafficVoiceAlert NoTrafficVoiceAlert(java.lang.String id, org.infobip.noc.common.models.alerting.data.AlertType alertType, java.time.Instant creationTime, java.time.Instant resolutionTime, java.lang.Long ticketId, int rank, java.lang.String claimer, org.infobip.noc.common.models.alerting.data.AlertResolution alertResolution, org.infobip.noc.common.models.alerting.data.AlertState alertState, java.util.Map<java.lang.Long,java.util.List<org.infobip.noc.common.models.alerting.data.AlertDiagnostic>> diagnosticsPerTime, java.util.Map<java.lang.Long,java.util.List<org.infobip.noc.common.models.alerting.data.AlertBasicInfo>> previousAlertsPerAnomalyId, java.util.List<java.lang.String> flaggedUsers, java.util.Map<java.lang.String,java.lang.Boolean> usersFlaggedMap, org.infobip.noc.common.models.alerting.data.CorrelationKey correlationKey, java.util.List<org.infobip.noc.common.models.alerting.linking.AlertLink> alertLinks, java.util.List<org.infobip.noc.common.models.alerting.data.AlertDiagnostic> diagnostics, org.infobip.noc.common.models.alerting.data.AlertType parentAlertType, int requestTypeId, java.lang.String monitoringNote, java.time.Instant lastTrafficTime, java.time.Instant continuedTrafficTime, int noTrafficConfigId, java.util.List<org.infobip.noc.common.models.alerting.data.notraffic.NotificationLog> notificationLogs, org.infobip.noc.common.models.alerting.data.Client client, org.infobip.noc.common.models.alerting.data.notraffic.ClientType clientType, org.infobip.noc.common.models.alerting.data.Gateway gateway, java.lang.String didNumber)"
+      },
+      "highlighted_element": "NotificationLog",
+      "description": "'org.infobip.noc.common.models.alerting.data.notraffic.NotificationLog' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/notraffic/NoTrafficVoiceAlert.java",
+      "line": 87,
+      "offset": 16,
+      "length": 21,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.notraffic",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.notraffic.NoTrafficVoiceAlert org.infobip.noc.common.models.alerting.correlation.CorrelationMetadata getCorrelationMetadata()"
+      },
+      "highlighted_element": "getDiagnosticsPerTime",
+      "description": "'getDiagnosticsPerTime()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/submitdelay/BaseSubmitDelayAlertDiagnostic.java",
+      "line": 28,
+      "offset": 84,
+      "length": 18,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.submitdelay",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.submitdelay.BaseSubmitDelayAlertDiagnostic diagnosticFlags"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.submitdelay.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/submitdelay/BaseSubmitDelayAlertDiagnostic.java",
+      "line": 28,
+      "offset": 172,
+      "length": 14,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.submitdelay",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.submitdelay.BaseSubmitDelayAlertDiagnostic diagnosticFlags"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.submitdelay.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/submitdelay/SubmitDelayAlert.java",
+      "line": 121,
+      "offset": 16,
+      "length": 21,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.submitdelay",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.submitdelay.SubmitDelayAlert org.infobip.noc.common.models.alerting.correlation.CorrelationMetadata getCorrelationMetadata()"
+      },
+      "highlighted_element": "getDiagnosticsPerTime",
+      "description": "'getDiagnosticsPerTime()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/gwconnectivity/GwConnectivityAlert.java",
+      "line": 82,
+      "offset": 16,
+      "length": 21,
+      "module": "infobip-noc-common-models",
+      "package": "org.infobip.noc.common.models.alerting.data.gwconnectivity",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.common.models.alerting.data.gwconnectivity.GwConnectivityAlert org.infobip.noc.common.models.alerting.correlation.CorrelationMetadata getCorrelationMetadata()"
+      },
+      "highlighted_element": "getDiagnosticsPerTime",
+      "description": "'getDiagnosticsPerTime()' is deprecated"
+    }
+  ]
+}

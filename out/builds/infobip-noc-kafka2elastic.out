@@ -1,0 +1,56 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] infobip-noc-kafka2elastic                                          [pom]
+[INFO] infobip-noc-kafka2elastic-connector                                [jar]
+[INFO] infobip-noc-kafka2elastic-service                                  [jar]
+[INFO] 
+[INFO] ------< org.infobip.noc.kafka2elastic:infobip-noc-kafka2elastic >-------
+[INFO] Building infobip-noc-kafka2elastic 2.2.2-SNAPSHOT                  [1/3]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.1.3-2:compile (compile) @ infobip-noc-kafka2elastic ---
+[INFO] Kotlin version 1.1.3-2 (JRE 14.0.1+7)
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (java-compile) @ infobip-noc-kafka2elastic ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --< org.infobip.noc.kafka2elastic:infobip-noc-kafka2elastic-connector >--
+[INFO] Building infobip-noc-kafka2elastic-connector 2.2.2-SNAPSHOT        [2/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ infobip-noc-kafka2elastic-connector ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-kafka2elastic/infobip-noc-kafka2elastic-connector/src/main/resources
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.1.3-2:compile (compile) @ infobip-noc-kafka2elastic-connector ---
+[INFO] Kotlin version 1.1.3-2 (JRE 14.0.1+7)
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (java-compile) @ infobip-noc-kafka2elastic-connector ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-kafka2elastic/infobip-noc-kafka2elastic-connector/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for infobip-noc-kafka2elastic 2.2.2-SNAPSHOT:
+[INFO] 
+[INFO] infobip-noc-kafka2elastic .......................... SUCCESS [  0.985 s]
+[INFO] infobip-noc-kafka2elastic-connector ................ FAILURE [  0.914 s]
+[INFO] infobip-noc-kafka2elastic-service .................. SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.256 s
+[INFO] Finished at: 2020-04-23T14:20:07+02:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.6.0:compile (java-compile) on project infobip-noc-kafka2elastic-connector: Fatal error compiling: java.lang.ExceptionInInitializerError: com.sun.tools.javac.code.TypeTags -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :infobip-noc-kafka2elastic-connector

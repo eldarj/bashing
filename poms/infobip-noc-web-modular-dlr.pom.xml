@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <parent>
+        <groupId>com.infobip</groupId>
+        <artifactId>infobip-master</artifactId>
+        <version>6.0.2</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.infobip.noc</groupId>
+    <artifactId>infobip-noc-web-modular-dlr</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <scm>
+        <developerConnection>scm:git:ssh://git@git.ib-ci.com:7999/noc/infobip-noc-web.git</developerConnection>
+        <tag>infobip-noc-web-2.41.0</tag>
+    </scm>
+
+    <name>Infobip NOC Web</name>
+    <description>UI application for Infobip Network Operations Center</description>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <spring-boot.version>2.1.3.RELEASE</spring-boot.version>
+        <node.version>v10.6.0</node.version>
+        <npm.version>6.1.0</npm.version>
+        <frontend-maven-plugin.version>1.3</frontend-maven-plugin.version>
+        <npm.installCommand>install --force</npm.installCommand>
+        <npm.buildProdCommand>run build:prod</npm.buildProdCommand>
+        <infobip-remoting.version>4.10.1</infobip-remoting.version>
+        <infobip-security-center-connector.version>3.78.0</infobip-security-center-connector.version>
+        <infobip-common-web-security.version>1.7.1</infobip-common-web-security.version>
+        <infobip-noc-core-connector.version>1.15.3</infobip-noc-core-connector.version>
+        <infobip-noc-common-models.version>4.5.3</infobip-noc-common-models.version>
+        <infobip-noc-common-utils.version>4.5.3</infobip-noc-common-utils.version>
+        <infobip-noc-common-connector.version>4.5.3</infobip-noc-common-connector.version>
+        <infobip-db-gateway-connector.version>1.15.3</infobip-db-gateway-connector.version>
+        <infobip-account-management-connector.version>1.40.0</infobip-account-management-connector.version>
+        <infobip-deployment-manager-connector.version>4.63.6</infobip-deployment-manager-connector.version>
+        <infobip-noc-dlr-connector.version>2.12.0</infobip-noc-dlr-connector.version>
+        <infobip-noc-cr-connector.version>2.7.0</infobip-noc-cr-connector.version>
+        <infobip-noc-traffic-connector.version>2.6.1</infobip-noc-traffic-connector.version>
+        <infobip-noc-submit-delay-connector.version>2.8.0</infobip-noc-submit-delay-connector.version>
+        <infobip-noc-action-log-connector.version>1.6.0</infobip-noc-action-log-connector.version>
+        <infobip-noc-voicedlr-connector.version>2.9.0</infobip-noc-voicedlr-connector.version>
+        <infobip-noc-hlr-connector.version>2.7.0</infobip-noc-hlr-connector.version>
+        <infobip-noc-smpp-connector.version>2.5.0</infobip-noc-smpp-connector.version>
+        <infobip-noc-nodr-connector.version>2.6.0</infobip-noc-nodr-connector.version>
+        <infobip-noc-voicesbc-connector.version>1.2.1</infobip-noc-voicesbc-connector.version>
+        <infobip-noc-voice-connector.version>1.1.1</infobip-noc-voice-connector.version>
+
+        <okhttp.version>3.5.0</okhttp.version>
+        <morphia.version>1.3.2</morphia.version>
+        <hazelcast.version>3.8.6</hazelcast.version>
+        <metrics-spring.version>3.1.3</metrics-spring.version>
+        <metrics.version>4.0.2</metrics.version>
+
+        <junit.version>4.12</junit.version>
+        <mockito.version>1.10.19</mockito.version>
+        <assertj.version>3.8.0</assertj.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <!-- SPRING BOOT -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <exclusions>
+                <exclusion>
+                    <artifactId>spring-boot-starter-tomcat</artifactId>
+                    <groupId>org.springframework.boot</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-commons</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-websocket</artifactId>
+        </dependency>
+
+        <!-- SPRING BOOT METRICS -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+        <!-- Spring Framework Caching Support -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-cache</artifactId>
+        </dependency>
+
+        <!-- caching provider -->
+        <dependency>
+            <groupId>com.github.ben-manes.caffeine</groupId>
+            <artifactId>caffeine</artifactId>
+        </dependency>
+
+        <!-- SPRING BOOT INFOBIP -->
+        <dependency>
+            <groupId>org.infobip.common.remoting</groupId>
+            <artifactId>infobip-remoting-spring-boot-starter</artifactId>
+            <version>${infobip-remoting.version}</version>
+        </dependency>
+
+        <!-- OAUTH LIBRARIES -->
+        <dependency>
+            <groupId>org.springframework.security.oauth.boot</groupId>
+            <artifactId>spring-security-oauth2-autoconfigure</artifactId>
+            <version>2.0.5.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.security.oauth</groupId>
+            <artifactId>spring-security-oauth2</artifactId>
+            <version>2.2.2.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-jwt</artifactId>
+            <version>1.0.0.RELEASE</version>
+        </dependency>
+
+        <!-- INFOBIP LIBRARIES -->
+        <dependency>
+            <groupId>org.infobip.remoting.serialization</groupId>
+            <artifactId>infobip-remoting-serialization</artifactId>
+            <version>1.0.9</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.infobip.security</groupId>
+            <artifactId>infobip-security-center-connector</artifactId>
+            <version>${infobip-security-center-connector.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.infobip.noc</groupId>
+            <artifactId>infobip-noc-core-connector</artifactId>
+            <version>${infobip-noc-core-connector.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.infobip.noc</groupId>
+            <artifactId>infobip-noc-common-models</artifactId>
+            <version>${infobip-noc-common-models.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.projectlombok</groupId>
+                    <artifactId>lombok</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.infobip.noc</groupId>
+            <artifactId>infobip-noc-common-utils</artifactId>
+            <version>${infobip-noc-common-utils.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.infobip.noc</groupId>
+            <artifactId>infobip-noc-common-connector</artifactId>
+            <version>${infobip-noc-common-connector.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.infobip.db.gateway</groupId>
+            <artifactId>infobip-db-gateway-connector</artifactId>
+            <version>${infobip-db-gateway-connector.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.infobip.common.remoting</groupId>
+                    <artifactId>infobip-remoting-api</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.infobip.common.remoting</groupId>
+            <artifactId>infobip-remoting-api</artifactId>
+            <version>4.10.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.infobip.internal.tools</groupId>
+            <artifactId>infobip-deployment-manager-connector</artifactId>
+            <version>${infobip-deployment-manager-connector.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.infobip.frontend.tools</groupId>
+                    <artifactId>infobip-data-model</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.infobip.security.management</groupId>
+            <artifactId>infobip-account-management-connector</artifactId>
+            <version>${infobip-account-management-connector.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.infobip.noc</groupId>
+            <artifactId>infobip-noc-dlr-connector</artifactId>
+            <version>${infobip-noc-dlr-connector.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.infobip.noc</groupId>
+            <artifactId>infobip-noc-cr-connector</artifactId>
+            <version>${infobip-noc-cr-connector.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.infobip.noc</groupId>
+            <artifactId>infobip-noc-traffic-connector</artifactId>
+            <version>${infobip-noc-traffic-connector.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.infobip.noc</groupId>
+            <artifactId>infobip-noc-submit-delay-connector</artifactId>
+            <version>${infobip-noc-submit-delay-connector.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.infobip.noc</groupId>
+            <artifactId>infobip-noc-action-log-connector</artifactId>
+            <version>${infobip-noc-action-log-connector.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.infobip.noc</groupId>
+            <artifactId>infobip-noc-voicedlr-connector</artifactId>
+            <version>${infobip-noc-voicedlr-connector.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.infobip.noc</groupId>
+            <artifactId>infobip-noc-hlr-connector</artifactId>
+            <version>${infobip-noc-hlr-connector.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.infobip.noc</groupId>
+            <artifactId>infobip-noc-smpp-connector</artifactId>
+            <version>${infobip-noc-smpp-connector.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.infobip.noc</groupId>
+            <artifactId>infobip-noc-nodr-connector</artifactId>
+            <version>${infobip-noc-nodr-connector.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.infobip.noc</groupId>
+            <artifactId>infobip-noc-voicesbc-connector</artifactId>
+            <version>${infobip-noc-voicesbc-connector.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.infobip.noc</groupId>
+            <artifactId>infobip-noc-voice-connector</artifactId>
+            <version>${infobip-noc-voice-connector.version}</version>
+        </dependency>
+
+        <!-- STANDARD LIBRARIES -->
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>${okhttp.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mongodb.morphia</groupId>
+            <artifactId>morphia</artifactId>
+            <version>${morphia.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy</artifactId>
+            <version>2.4.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>mail</artifactId>
+            <version>1.4.7</version>
+        </dependency>
+
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.1.8</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-core</artifactId>
+            <version>1.1.8</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>me.moocar</groupId>
+            <artifactId>logback-gelf</artifactId>
+            <version>0.12</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.eclecticlogic</groupId>
+            <artifactId>whisper</artifactId>
+            <version>1.0.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.glassfish.jaxb</groupId>
+            <artifactId>jaxb-runtime</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.module</groupId>
+            <artifactId>jackson-module-parameter-names</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.datatype</groupId>
+            <artifactId>jackson-datatype-jdk8</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.datatype</groupId>
+            <artifactId>jackson-datatype-jsr310</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>3.17</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.17</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.hazelcast</groupId>
+            <artifactId>hazelcast</artifactId>
+            <version>${hazelcast.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.hazelcast</groupId>
+            <artifactId>hazelcast-spring</artifactId>
+            <version>3.11.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ryantenney.metrics</groupId>
+            <artifactId>metrics-spring</artifactId>
+            <version>${metrics-spring.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>io.dropwizard.metrics</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>io.dropwizard.metrics</groupId>
+            <artifactId>metrics-core</artifactId>
+            <version>${metrics.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.dropwizard.metrics</groupId>
+            <artifactId>metrics-healthchecks</artifactId>
+            <version>${metrics.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.dropwizard.metrics</groupId>
+            <artifactId>metrics-annotation</artifactId>
+            <version>${metrics.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.dropwizard.metrics</groupId>
+            <artifactId>metrics-jvm</artifactId>
+            <version>${metrics.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.dropwizard.metrics</groupId>
+            <artifactId>metrics-jmx</artifactId>
+            <version>${metrics.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-registry-prometheus</artifactId>
+            <version>1.0.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.2</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- TESTING -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>${mockito.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>${assertj.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+
+        <resources>
+            <resource>
+                <directory>target/www</directory>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${spring-boot.version}</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.17</version>
+                <configuration>
+                    <includes>
+                        <include>**/*Test.java</include>
+                    </includes>
+                    <excludes>
+                        <exclude>**/it/**</exclude>
+                    </excludes>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-clean-plugin</artifactId>
+                <configuration>
+                    <filesets>
+                        <fileset>
+                            <directory>target/</directory>
+                        </fileset>
+                    </filesets>
+                </configuration>
+            </plugin>
+
+
+            <plugin>
+                <groupId>com.github.eirslett</groupId>
+                <artifactId>frontend-maven-plugin</artifactId>
+                <version>${frontend-maven-plugin.version}</version>
+                <executions>
+
+                    <execution>
+                        <id>install node and npm</id>
+                        <goals>
+                            <goal>install-node-and-npm</goal>
+                        </goals>
+                        <configuration>
+                            <nodeVersion>${node.version}</nodeVersion>
+                            <npmVersion>${npm.version}</npmVersion>
+                        </configuration>
+                    </execution>
+
+                    <execution>
+                        <id>npm install</id>
+                        <goals>
+                            <goal>npm</goal>
+                        </goals>
+                        <configuration>
+                            <arguments>${npm.installCommand}</arguments>
+                        </configuration>
+                    </execution>
+
+                    <execution>
+                        <id>webpack build prod</id>
+                        <phase>generate-resources</phase>
+                        <goals>
+                            <goal>npm</goal>
+                        </goals>
+                        <configuration>
+                            <arguments>${npm.buildProdCommand}</arguments>
+                        </configuration>
+                    </execution>
+
+                </executions>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>2.2</version>
+                <executions>
+                    <execution>
+                        <id>make-production-conf-assembly</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                        <configuration>
+                            <finalName>${project.artifactId}-${project.version}</finalName>
+                            <appendAssemblyId>true</appendAssemblyId>
+                            <descriptors>
+                                <descriptor>assembly-production-conf.xml</descriptor>
+                            </descriptors>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>make-production-zip-assembly</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                        <configuration>
+                            <appendAssemblyId>false</appendAssemblyId>
+                            <descriptors>
+                                <descriptor>assembly-production-zip.xml</descriptor>
+                            </descriptors>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+        </plugins>
+
+    </build>
+
+</project>

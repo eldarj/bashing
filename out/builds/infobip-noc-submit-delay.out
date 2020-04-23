@@ -1,0 +1,70 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.infobip.noc:infobip-noc-submit-delay-service:jar:3.0.2-SNAPSHOT
+[WARNING] 'dependencies.dependency.version' for org.jetbrains:annotations:jar is either LATEST or RELEASE (both of them are being deprecated) @ org.infobip.noc:infobip-noc-submit-delay-service:[unknown-version], /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-submit-delay/infobip-noc-submit-delay-service/pom.xml, line 151, column 22
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.infobip.noc:infobip-noc-submit-delay-connector:jar:3.0.2-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.infobip.noc:infobip-noc-submit-delay-connector:[unknown-version], /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-submit-delay/infobip-noc-submit-delay-connector/pom.xml, line 33, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] infobip-noc-submit-delay                                           [pom]
+[INFO] infobip-noc-submit-delay-connector                                 [jar]
+[INFO] infobip-noc-submit-delay-service                                   [jar]
+[INFO] 
+[INFO] --------------< org.infobip.noc:infobip-noc-submit-delay >--------------
+[INFO] Building infobip-noc-submit-delay 3.0.2-SNAPSHOT                   [1/3]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.3.31:compile (compile) @ infobip-noc-submit-delay ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (java-compile) @ infobip-noc-submit-delay ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] ---------< org.infobip.noc:infobip-noc-submit-delay-connector >---------
+[INFO] Building infobip-noc-submit-delay-connector 3.0.2-SNAPSHOT         [2/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ infobip-noc-submit-delay-connector ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-submit-delay/infobip-noc-submit-delay-connector/src/main/resources
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.3.31:compile (compile) @ infobip-noc-submit-delay-connector ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (java-compile) @ infobip-noc-submit-delay-connector ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] ----------< org.infobip.noc:infobip-noc-submit-delay-service >----------
+[INFO] Building infobip-noc-submit-delay-service 3.0.2-SNAPSHOT           [3/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for com.sun.xml.bind:jaxb-core:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.sun.xml.bind:jaxb-impl:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ infobip-noc-submit-delay-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 38 resources
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.3.31:compile (compile) @ infobip-noc-submit-delay-service ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (java-compile) @ infobip-noc-submit-delay-service ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for infobip-noc-submit-delay 3.0.2-SNAPSHOT:
+[INFO] 
+[INFO] infobip-noc-submit-delay ........................... SUCCESS [  0.982 s]
+[INFO] infobip-noc-submit-delay-connector ................. SUCCESS [  0.323 s]
+[INFO] infobip-noc-submit-delay-service ................... SUCCESS [  1.269 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.001 s
+[INFO] Finished at: 2020-04-23T14:20:30+02:00
+[INFO] ------------------------------------------------------------------------

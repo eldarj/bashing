@@ -1,0 +1,424 @@
+{
+  "problems": [
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voicesbc-service/src/main/java/org/infobip/noc/voicesbc/config/ElasticsearchConfigurationProperties.java",
+      "line": 18,
+      "offset": 5,
+      "length": 8,
+      "module": "infobip-noc-voicesbc-service",
+      "package": "org.infobip.noc.voicesbc.config",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.voicesbc.config.ElasticsearchConfigurationProperties clusterName"
+      },
+      "highlighted_element": "NotEmpty",
+      "description": "'org.hibernate.validator.constraints.NotEmpty' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voicesbc-service/src/main/java/org/infobip/noc/voicesbc/config/ElasticsearchConfigurationProperties.java",
+      "line": 22,
+      "offset": 5,
+      "length": 8,
+      "module": "infobip-noc-voicesbc-service",
+      "package": "org.infobip.noc.voicesbc.config",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "field",
+        "FQNAME": "org.infobip.noc.voicesbc.config.ElasticsearchConfigurationProperties clusterNodes"
+      },
+      "highlighted_element": "NotEmpty",
+      "description": "'org.hibernate.validator.constraints.NotEmpty' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voicesbc-service/src/main/java/org/infobip/noc/voicesbc/service/diagnostics/phases/PossibleReasonFlagPhase.java",
+      "line": 51,
+      "offset": 90,
+      "length": 14,
+      "module": "infobip-noc-voicesbc-service",
+      "package": "org.infobip.noc.voicesbc.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voicesbc.service.diagnostics.phases.PossibleReasonFlagPhase void run(org.infobip.noc.voicesbc.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "getAlertReason",
+      "description": "'getAlertReason()' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voicesbc-service/src/main/java/org/infobip/noc/voicesbc/service/diagnostics/phases/PossibleReasonFlagPhase.java",
+      "line": 64,
+      "offset": 90,
+      "length": 14,
+      "module": "infobip-noc-voicesbc-service",
+      "package": "org.infobip.noc.voicesbc.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voicesbc.service.diagnostics.phases.PossibleReasonFlagPhase void run(org.infobip.noc.voicesbc.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.notraffic.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voicesbc-service/src/main/java/org/infobip/noc/voicesbc/service/diagnostics/phases/PossibleReasonFlagPhase.java",
+      "line": 64,
+      "offset": 192,
+      "length": 14,
+      "module": "infobip-noc-voicesbc-service",
+      "package": "org.infobip.noc.voicesbc.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voicesbc.service.diagnostics.phases.PossibleReasonFlagPhase void run(org.infobip.noc.voicesbc.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlag",
+      "description": "'org.infobip.noc.common.models.alerting.data.notraffic.diagnostics.DiagnosticFlag' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voicesbc-service/src/main/java/org/infobip/noc/voicesbc/service/diagnostics/phases/PossibleReasonFlagPhase.java",
+      "line": 66,
+      "offset": 98,
+      "length": 18,
+      "module": "infobip-noc-voicesbc-service",
+      "package": "org.infobip.noc.voicesbc.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voicesbc.service.diagnostics.phases.PossibleReasonFlagPhase void run(org.infobip.noc.voicesbc.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.notraffic.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voicesbc-service/src/main/java/org/infobip/noc/voicesbc/service/diagnostics/phases/PossibleReasonFlagPhase.java",
+      "line": 67,
+      "offset": 98,
+      "length": 18,
+      "module": "infobip-noc-voicesbc-service",
+      "package": "org.infobip.noc.voicesbc.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voicesbc.service.diagnostics.phases.PossibleReasonFlagPhase void run(org.infobip.noc.voicesbc.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.notraffic.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voicesbc-service/src/main/java/org/infobip/noc/voicesbc/service/diagnostics/phases/PossibleReasonFlagPhase.java",
+      "line": 69,
+      "offset": 131,
+      "length": 18,
+      "module": "infobip-noc-voicesbc-service",
+      "package": "org.infobip.noc.voicesbc.service.diagnostics.phases",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voicesbc.service.diagnostics.phases.PossibleReasonFlagPhase void run(org.infobip.noc.voicesbc.service.diagnostics.DiagnosticsRequest request)"
+      },
+      "highlighted_element": "DiagnosticFlagType",
+      "description": "'org.infobip.noc.common.models.alerting.data.notraffic.diagnostics.DiagnosticFlagType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voicesbc-service/src/main/java/org/infobip/noc/voicesbc/service/NotificationService.java",
+      "line": 27,
+      "offset": 68,
+      "length": 16,
+      "module": "infobip-noc-voicesbc-service",
+      "package": "org.infobip.noc.voicesbc.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "file",
+        "FQNAME": "file://$PROJECT_DIR$/infobip-noc-voicesbc-service/src/main/java/org/infobip/noc/voicesbc/service/NotificationService.java"
+      },
+      "highlighted_element": "NotificationType",
+      "description": "'org.infobip.noc.common.models.alerting.data.notraffic.NotificationType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voicesbc-service/src/main/java/org/infobip/noc/voicesbc/service/NotificationService.java",
+      "line": 28,
+      "offset": 68,
+      "length": 16,
+      "module": "infobip-noc-voicesbc-service",
+      "package": "org.infobip.noc.voicesbc.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "file",
+        "FQNAME": "file://$PROJECT_DIR$/infobip-noc-voicesbc-service/src/main/java/org/infobip/noc/voicesbc/service/NotificationService.java"
+      },
+      "highlighted_element": "NotificationType",
+      "description": "'org.infobip.noc.common.models.alerting.data.notraffic.NotificationType' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voicesbc-service/src/main/java/org/infobip/noc/voicesbc/service/NotificationService.java",
+      "line": 82,
+      "offset": 36,
+      "length": 15,
+      "module": "infobip-noc-voicesbc-service",
+      "package": "org.infobip.noc.voicesbc.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voicesbc.service.NotificationService$1 void onResult(org.infobip.ip.remoting.context.AddToQueueResult o)"
+      },
+      "highlighted_element": "NotificationLog",
+      "description": "'org.infobip.noc.common.models.alerting.data.notraffic.NotificationLog' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voicesbc-service/src/main/java/org/infobip/noc/voicesbc/service/NotificationService.java",
+      "line": 82,
+      "offset": 74,
+      "length": 15,
+      "module": "infobip-noc-voicesbc-service",
+      "package": "org.infobip.noc.voicesbc.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voicesbc.service.NotificationService$1 void onResult(org.infobip.ip.remoting.context.AddToQueueResult o)"
+      },
+      "highlighted_element": "NotificationLog",
+      "description": "'org.infobip.noc.common.models.alerting.data.notraffic.NotificationLog' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voicesbc-service/src/main/java/org/infobip/noc/voicesbc/service/NotificationService.java",
+      "line": 123,
+      "offset": 17,
+      "length": 15,
+      "module": "infobip-noc-voicesbc-service",
+      "package": "org.infobip.noc.voicesbc.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voicesbc.service.NotificationService void sendEmailNotification(java.lang.String alertId, org.infobip.noc.voicesbc.model.NoTrafficConfigInternal noTrafficConfigInternal, java.lang.String message)"
+      },
+      "highlighted_element": "NotificationLog",
+      "description": "'org.infobip.noc.common.models.alerting.data.notraffic.NotificationLog' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voicesbc-service/src/main/java/org/infobip/noc/voicesbc/service/NotificationService.java",
+      "line": 123,
+      "offset": 86,
+      "length": 15,
+      "module": "infobip-noc-voicesbc-service",
+      "package": "org.infobip.noc.voicesbc.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voicesbc.service.NotificationService void sendEmailNotification(java.lang.String alertId, org.infobip.noc.voicesbc.model.NoTrafficConfigInternal noTrafficConfigInternal, java.lang.String message)"
+      },
+      "highlighted_element": "NotificationLog",
+      "description": "'org.infobip.noc.common.models.alerting.data.notraffic.NotificationLog' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voicesbc-service/src/main/java/org/infobip/noc/voicesbc/service/AlertHelperService.java",
+      "line": 88,
+      "offset": 55,
+      "length": 12,
+      "module": "infobip-noc-voicesbc-service",
+      "package": "org.infobip.noc.voicesbc.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voicesbc.service.AlertHelperService java.lang.String publishAlert(org.infobip.noc.voicesbc.model.NoTrafficAnomaly noTrafficAnomaly, org.infobip.noc.voicesbc.model.NoTrafficConfigInternal noTrafficConfigInternal)"
+      },
+      "highlighted_element": "publishAlert",
+      "description": "'publishAlert(java.lang.String, java.lang.Class<? extends org.infobip.noc.common.models.alerting.data.Alert>)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voicesbc-service/src/main/java/org/infobip/noc/voicesbc/service/AlertHelperService.java",
+      "line": 88,
+      "offset": 68,
+      "length": 15,
+      "module": "infobip-noc-voicesbc-service",
+      "package": "org.infobip.noc.voicesbc.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voicesbc.service.AlertHelperService java.lang.String publishAlert(org.infobip.noc.voicesbc.model.NoTrafficAnomaly noTrafficAnomaly, org.infobip.noc.voicesbc.model.NoTrafficConfigInternal noTrafficConfigInternal)"
+      },
+      "highlighted_element": "AlertJsonMapper",
+      "description": "'org.infobip.noc.common.models.alerting.data.AlertJsonMapper' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voicesbc-service/src/main/java/org/infobip/noc/voicesbc/scheduled/RunTask.java",
+      "line": 60,
+      "offset": 46,
+      "length": 12,
+      "module": "infobip-noc-voicesbc-service",
+      "package": "org.infobip.noc.voicesbc.scheduled",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voicesbc.scheduled.RunTask void run()"
+      },
+      "highlighted_element": "publishAlert",
+      "description": "'publishAlert(java.lang.String, java.lang.Class<? extends org.infobip.noc.common.models.alerting.data.Alert>)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voicesbc-service/src/main/java/org/infobip/noc/voicesbc/service/NoTrafficConfigDataServiceInternal.java",
+      "line": 59,
+      "offset": 20,
+      "length": 11,
+      "module": "infobip-noc-voicesbc-service",
+      "package": "org.infobip.noc.voicesbc.service",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voicesbc.service.NoTrafficConfigDataServiceInternal org.infobip.noc.common.models.paging.Page<org.infobip.noc.voicesbc.model.NoTrafficConfig> getPageByFilter(org.infobip.noc.voicesbc.model.NoTrafficConfigFilter noTrafficConfigFilter)"
+      },
+      "highlighted_element": "PageRequest",
+      "description": "'PageRequest(int, int)' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voicesbc-service/src/main/java/org/infobip/noc/voicesbc/persistence/mongo/AlertRepository.java",
+      "line": 21,
+      "offset": 57,
+      "length": 15,
+      "module": "infobip-noc-voicesbc-service",
+      "package": "org.infobip.noc.voicesbc.persistence.mongo",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voicesbc.persistence.mongo.AlertRepository void updateAlertWithNotificationLogs(java.lang.String id, java.util.List<org.infobip.noc.common.models.alerting.data.notraffic.NotificationLog> notificationLog)"
+      },
+      "highlighted_element": "NotificationLog",
+      "description": "'org.infobip.noc.common.models.alerting.data.notraffic.NotificationLog' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voicesbc-service/src/main/java/org/infobip/noc/voicesbc/persistence/mongo/impl/AlertRepositoryImpl.java",
+      "line": 75,
+      "offset": 64,
+      "length": 15,
+      "module": "infobip-noc-voicesbc-service",
+      "package": "org.infobip.noc.voicesbc.persistence.mongo.impl",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "method",
+        "FQNAME": "org.infobip.noc.voicesbc.persistence.mongo.impl.AlertRepositoryImpl void updateAlertWithNotificationLogs(java.lang.String id, java.util.List<org.infobip.noc.common.models.alerting.data.notraffic.NotificationLog> notificationLogs)"
+      },
+      "highlighted_element": "NotificationLog",
+      "description": "'org.infobip.noc.common.models.alerting.data.notraffic.NotificationLog' is deprecated"
+    },
+    {
+      "file": "file://$PROJECT_DIR$/infobip-noc-voicesbc-service/src/test/java/org/infobip/noc/voicesbc/scheduled/RunTaskTest.java",
+      "line": 26,
+      "offset": 9,
+      "length": 18,
+      "module": "infobip-noc-voicesbc-service",
+      "package": "org.infobip.noc.voicesbc.scheduled",
+      "problem_class": {
+        "name": "Deprecated API usage",
+        "id": "Deprecation",
+        "severity": "WARNING",
+        "attribute_key": "DEPRECATED_ATTRIBUTES"
+      },
+      "entry_point": {
+        "TYPE": "class",
+        "FQNAME": "org.infobip.noc.voicesbc.scheduled.RunTaskTest"
+      },
+      "highlighted_element": "MockitoJUnitRunner",
+      "description": "'org.mockito.runners.MockitoJUnitRunner' is deprecated"
+    }
+  ]
+}

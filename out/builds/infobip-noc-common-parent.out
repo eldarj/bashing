@@ -1,0 +1,138 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.infobip.noc:infobip-noc-common-connector:jar:5.0.6-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.springframework.boot:spring-boot-maven-plugin is missing. @ org.infobip.noc:infobip-noc-common-connector:[unknown-version], /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-common-parent/infobip-noc-common-connector/pom.xml, line 24, column 21
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.infobip.noc:infobip-noc-common-service:jar:5.0.6-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.springframework.boot:spring-boot-maven-plugin is missing. @ org.infobip.noc:infobip-noc-common-service:[unknown-version], /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-common-parent/infobip-noc-common-service/pom.xml, line 302, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] infobip-noc-common-parent                                          [pom]
+[INFO] infobip-noc-common-algorithms                                      [jar]
+[INFO] infobip-noc-common-models                                          [jar]
+[INFO] infobip-noc-common-utils                                           [jar]
+[INFO] infobip-noc-common-connector                                       [jar]
+[INFO] infobip-noc-common-service                                         [jar]
+[INFO] 
+[INFO] -------------< org.infobip.noc:infobip-noc-common-parent >--------------
+[INFO] Building infobip-noc-common-parent 5.0.6-SNAPSHOT                  [1/6]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.3.30:compile (compile) @ infobip-noc-common-parent ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (java-compile) @ infobip-noc-common-parent ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] -----------< org.infobip.noc:infobip-noc-common-algorithms >------------
+[INFO] Building infobip-noc-common-algorithms 5.0.6-SNAPSHOT              [2/6]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ infobip-noc-common-algorithms ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-common-parent/infobip-noc-common-algorithms/src/main/resources
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.3.30:compile (compile) @ infobip-noc-common-algorithms ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (java-compile) @ infobip-noc-common-algorithms ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 17 source files to /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-common-parent/infobip-noc-common-algorithms/target/classes
+[INFO] /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-common-parent/infobip-noc-common-algorithms/src/main/java/org/infobip/noc/common/algorithms/correlation/filter/UnionFilter.java: /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-common-parent/infobip-noc-common-algorithms/src/main/java/org/infobip/noc/common/algorithms/correlation/filter/UnionFilter.java uses unchecked or unsafe operations.
+[INFO] /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-common-parent/infobip-noc-common-algorithms/src/main/java/org/infobip/noc/common/algorithms/correlation/filter/UnionFilter.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] -------------< org.infobip.noc:infobip-noc-common-models >--------------
+[INFO] Building infobip-noc-common-models 5.0.6-SNAPSHOT                  [3/6]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ infobip-noc-common-models ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-common-parent/infobip-noc-common-models/src/main/resources
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.3.30:compile (compile) @ infobip-noc-common-models ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (java-compile) @ infobip-noc-common-models ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 316 source files to /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-common-parent/infobip-noc-common-models/target/classes
+[INFO] /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-common-parent/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/submitdelay/diagnostics/AlertTargetStats.java: Some input files use or override a deprecated API.
+[INFO] /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-common-parent/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/data/submitdelay/diagnostics/AlertTargetStats.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-common-parent/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/correlation/CorrelationUtils.java: /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-common-parent/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/correlation/CorrelationUtils.java uses unchecked or unsafe operations.
+[INFO] /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-common-parent/infobip-noc-common-models/src/main/java/org/infobip/noc/common/models/alerting/correlation/CorrelationUtils.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --------------< org.infobip.noc:infobip-noc-common-utils >--------------
+[INFO] Building infobip-noc-common-utils 5.0.6-SNAPSHOT                   [4/6]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ infobip-noc-common-utils ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-common-parent/infobip-noc-common-utils/src/main/resources
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.3.30:compile (compile) @ infobip-noc-common-utils ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (java-compile) @ infobip-noc-common-utils ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] ------------< org.infobip.noc:infobip-noc-common-connector >------------
+[INFO] Building infobip-noc-common-connector 5.0.6-SNAPSHOT               [5/6]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://artifactory.ib-ci.com/artifactory/plugins-release/org/springframework/boot/spring-boot-maven-plugin/maven-metadata.xml
+[INFO] Downloading from snapshots: https://artifactory.ib-ci.com/artifactory/plugins-release/org/springframework/boot/spring-boot-maven-plugin/maven-metadata.xml
+[INFO] Downloaded from central: https://artifactory.ib-ci.com/artifactory/plugins-release/org/springframework/boot/spring-boot-maven-plugin/maven-metadata.xml (6.0 kB at 1.5 kB/s)
+[INFO] Downloaded from snapshots: https://artifactory.ib-ci.com/artifactory/plugins-release/org/springframework/boot/spring-boot-maven-plugin/maven-metadata.xml (6.0 kB at 1.5 kB/s)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ infobip-noc-common-connector ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-common-parent/infobip-noc-common-connector/src/main/resources
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.3.30:compile (compile) @ infobip-noc-common-connector ---
+[INFO] Applied plugin: 'spring'
+[WARNING] Using experimental Kotlin incremental compilation
+[INFO] Compiled 0 Kotlin files using incremental compiler
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (java-compile) @ infobip-noc-common-connector ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] -------------< org.infobip.noc:infobip-noc-common-service >-------------
+[INFO] Building infobip-noc-common-service 5.0.6-SNAPSHOT                 [6/6]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://artifactory.ib-ci.com/artifactory/libs-release/com/cloudhopper/ch-commons-util/maven-metadata.xml
+[INFO] Downloading from snapshots: https://artifactory.ib-ci.com/artifactory/libs-snapshot/com/cloudhopper/ch-commons-util/maven-metadata.xml
+[INFO] Downloaded from central: https://artifactory.ib-ci.com/artifactory/libs-release/com/cloudhopper/ch-commons-util/maven-metadata.xml (488 B at 740 B/s)
+[INFO] Downloaded from snapshots: https://artifactory.ib-ci.com/artifactory/libs-snapshot/com/cloudhopper/ch-commons-util/maven-metadata.xml (488 B at 627 B/s)
+[WARNING] The POM for com.sun.xml.bind:jaxb-core:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.sun.xml.bind:jaxb-impl:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ infobip-noc-common-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.3.30:compile (compile) @ infobip-noc-common-service ---
+[INFO] Applied plugin: 'spring'
+[WARNING] Using experimental Kotlin incremental compilation
+[INFO] Compiled 0 Kotlin files using incremental compiler
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (java-compile) @ infobip-noc-common-service ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for infobip-noc-common-parent 5.0.6-SNAPSHOT:
+[INFO] 
+[INFO] infobip-noc-common-parent .......................... SUCCESS [  1.004 s]
+[INFO] infobip-noc-common-algorithms ...................... SUCCESS [  2.203 s]
+[INFO] infobip-noc-common-models .......................... SUCCESS [  7.055 s]
+[INFO] infobip-noc-common-utils ........................... SUCCESS [  0.090 s]
+[INFO] infobip-noc-common-connector ....................... SUCCESS [  5.372 s]
+[INFO] infobip-noc-common-service ......................... SUCCESS [  1.903 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  17.958 s
+[INFO] Finished at: 2020-04-23T14:19:34+02:00
+[INFO] ------------------------------------------------------------------------

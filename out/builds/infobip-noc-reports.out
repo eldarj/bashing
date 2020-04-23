@@ -1,0 +1,18 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< org.infobip.noc:infobip-noc-reports >-----------------
+[INFO] Building infobip-noc-reports 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ infobip-noc-reports ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 7 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ infobip-noc-reports ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.468 s
+[INFO] Finished at: 2020-04-23T14:20:15+02:00
+[INFO] ------------------------------------------------------------------------

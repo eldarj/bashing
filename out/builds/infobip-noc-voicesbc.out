@@ -1,0 +1,58 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] infobip-noc-voicesbc                                               [pom]
+[INFO] infobip-noc-voicesbc-connector                                     [jar]
+[INFO] infobip-noc-voicesbc-service                                       [jar]
+[INFO] 
+[INFO] ----------------< org.infobip.noc:infobip-noc-voicesbc >----------------
+[INFO] Building infobip-noc-voicesbc 1.4.5-SNAPSHOT                       [1/3]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.1.60:compile (compile) @ infobip-noc-voicesbc ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (java-compile) @ infobip-noc-voicesbc ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] -----------< org.infobip.noc:infobip-noc-voicesbc-connector >-----------
+[INFO] Building infobip-noc-voicesbc-connector 1.4.5-SNAPSHOT             [2/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ infobip-noc-voicesbc-connector ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ejahijagic/projects/argusTeam/all-temp/projects/infobip-noc-voicesbc/infobip-noc-voicesbc-connector/src/main/resources
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.1.60:compile (compile) @ infobip-noc-voicesbc-connector ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (java-compile) @ infobip-noc-voicesbc-connector ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] ------------< org.infobip.noc:infobip-noc-voicesbc-service >------------
+[INFO] Building infobip-noc-voicesbc-service 1.4.5-SNAPSHOT               [3/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for com.google.guava:guava:jar:19.0.20150826 is missing, no dependency information available
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ infobip-noc-voicesbc-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 17 resources
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.1.60:compile (compile) @ infobip-noc-voicesbc-service ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (java-compile) @ infobip-noc-voicesbc-service ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for infobip-noc-voicesbc 1.4.5-SNAPSHOT:
+[INFO] 
+[INFO] infobip-noc-voicesbc ............................... SUCCESS [  0.885 s]
+[INFO] infobip-noc-voicesbc-connector ..................... SUCCESS [  0.326 s]
+[INFO] infobip-noc-voicesbc-service ....................... SUCCESS [  1.959 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.532 s
+[INFO] Finished at: 2020-04-23T14:20:53+02:00
+[INFO] ------------------------------------------------------------------------
